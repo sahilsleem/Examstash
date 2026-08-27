@@ -96,7 +96,7 @@ def make_paper_page(board, cls, subject, year, pdf_link):
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{board_name} {class_name} {subject_name} Question Paper {year} PDF Download | ExamStash</title>
   <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year} PDF for free. Annual examination paper. No login required." />
-  <style>
+  <>
     * {{ margin: 0; padding: 0; box-sizing: border-box; }}
     body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }}
     header {{
@@ -171,7 +171,19 @@ def make_paper_page(board, cls, subject, year, pdf_link):
       padding: 32px 24px; text-align: center; font-size: 13px; color: #aaa; margin-top: 32px;
     }}
     footer a {{ color: #aaa; text-decoration: none; margin: 0 10px; }}
-    footer a:hover {{ color: #2563eb; }}
+        footer a:hover {{ color: #2563eb; }}
+    @media (max-width: 600px) {{
+      header {{ padding: 12px 16px; }}
+      nav {{ display: none; }}
+      .container {{ padding: 0 12px 40px; }}
+      .paper-hero {{ flex-direction: column; padding: 20px; gap: 16px; }}
+      .paper-thumb {{ width: 60px; height: 80px; font-size: 28px; }}
+      .paper-info h1 {{ font-size: 17px; }}
+      .download-btn {{ width: 100%; justify-content: center; padding: 14px; font-size: 14px; }}
+      .details td {{ font-size: 13px; padding: 10px 14px; }}
+      .related-grid {{ grid-template-columns: 1fr; }}
+      .breadcrumb {{ padding: 0 12px; font-size: 12px; }}
+    }}
   </style>
 </head>
 <body>
