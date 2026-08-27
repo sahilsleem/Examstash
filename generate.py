@@ -6,26 +6,31 @@ import os
 # For pdf_link put "#" for now, we'll replace with real links later
 # ============================================================
 papers = [
-    ("jkbose", "class-10", "maths",          "2023", "#"),
-    ("jkbose", "class-10", "maths",          "2022", "#"),
-    ("jkbose", "class-10", "maths",          "2021", "#"),
-    ("jkbose", "class-10", "maths",          "2020", "#"),
-    ("jkbose", "class-10", "science",        "2023", "#"),
-    ("jkbose", "class-10", "science",        "2022", "#"),
-    ("jkbose", "class-10", "science",        "2021", "#"),
-    ("jkbose", "class-10", "english",        "2023", "#"),
-    ("jkbose", "class-10", "english",        "2022", "#"),
-    ("jkbose", "class-10", "social-science", "2023", "#"),
-    ("jkbose", "class-10", "social-science", "2022", "#"),
-    ("jkbose", "class-12", "physics",        "2023", "#"),
-    ("jkbose", "class-12", "physics",        "2022", "#"),
-    ("jkbose", "class-12", "physics",        "2021", "#"),
-    ("jkbose", "class-12", "maths",          "2023", "#"),
-    ("jkbose", "class-12", "maths",          "2022", "#"),
-    ("jkbose", "class-12", "chemistry",      "2023", "#"),
-    ("jkbose", "class-12", "chemistry",      "2022", "#"),
-    ("jkbose", "class-12", "biology",        "2023", "#"),
-    ("jkbose", "class-12", "biology",        "2022", "#"),
+    # Format: (board, class, subject, year, series, pdf_link)
+    # series can be "a", "b", "c" or None if no series
+    ("jkbose", "class-10", "maths",          "2023", None,  "https://drive.google.com/uc?export=download&id=17Qal9EEBuNvwWv67AtFT0dqjHMMClrXh"),
+    ("jkbose", "class-10", "maths",          "2026", "a",   "#"),
+    ("jkbose", "class-10", "maths",          "2026", "b",   "#"),
+    ("jkbose", "class-10", "maths",          "2026", "c",   "#"),
+    ("jkbose", "class-10", "maths",          "2022", None,  "#"),
+    ("jkbose", "class-10", "maths",          "2021", None,  "#"),
+    ("jkbose", "class-10", "maths",          "2020", None,  "#"),
+    ("jkbose", "class-10", "science",        "2023", None,  "#"),
+    ("jkbose", "class-10", "science",        "2022", None,  "#"),
+    ("jkbose", "class-10", "science",        "2021", None,  "#"),
+    ("jkbose", "class-10", "english",        "2023", None,  "#"),
+    ("jkbose", "class-10", "english",        "2022", None,  "#"),
+    ("jkbose", "class-10", "social-science", "2023", None,  "#"),
+    ("jkbose", "class-10", "social-science", "2022", None,  "#"),
+    ("jkbose", "class-12", "physics",        "2023", None,  "#"),
+    ("jkbose", "class-12", "physics",        "2022", None,  "#"),
+    ("jkbose", "class-12", "physics",        "2021", None,  "#"),
+    ("jkbose", "class-12", "maths",          "2023", None,  "#"),
+    ("jkbose", "class-12", "maths",          "2022", None,  "#"),
+    ("jkbose", "class-12", "chemistry",      "2023", None,  "#"),
+    ("jkbose", "class-12", "chemistry",      "2022", None,  "#"),
+    ("jkbose", "class-12", "biology",        "2023", None,  "#"),
+    ("jkbose", "class-12", "biology",        "2022", None,  "#"),
 ]
 
 # ============================================================
@@ -69,14 +74,16 @@ subject_icons = {
 # ============================================================
 # HTML TEMPLATE — this is what every paper page looks like
 # ============================================================
-def make_paper_page(board, cls, subject, year, pdf_link):
+def make_paper_page(board, cls, subject, year, series, pdf_link):
     board_name   = board_names.get(board, board.upper())
     class_name   = class_names.get(cls, cls)
     subject_name = subject_names.get(subject, subject.title())
     icon         = subject_icons.get(subject, "📄")
+    series_label = f" Series {series.upper()}" if series else ""
+    series_pill  = f'<span class="pill pill-green">Series {series.upper()}</span>' if series else ""
 
-    # Find related papers from same subject, different years
-    related_years = ["2023", "2022", "2021", "2020"]
+    # Related papers
+    related_years = ["2026", "2023", "2022", "2021", "2020"]
     related_html  = ""
     for ry in related_years:
         if ry != year:
@@ -94,9 +101,9 @@ def make_paper_page(board, cls, subject, year, pdf_link):
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{board_name} {class_name} {subject_name} Question Paper {year} PDF Download | ExamStash</title>
-  <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year} PDF for free. Annual examination paper. No login required." />
-  <>
+  <title>{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download | ExamStash</title>
+  <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF for free. Annual examination paper. No login required." />
+  <style>
     * {{ margin: 0; padding: 0; box-sizing: border-box; }}
     body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }}
     header {{
@@ -166,12 +173,6 @@ def make_paper_page(board, cls, subject, year, pdf_link):
     }}
     .related-card h4 {{ font-size: 13px; font-weight: 600; margin-bottom: 3px; }}
     .related-card p {{ font-size: 12px; color: #999; }}
-    footer {{
-      background: #fafafa; border-top: 1px solid #f0f0f0;
-      padding: 32px 24px; text-align: center; font-size: 13px; color: #aaa; margin-top: 32px;
-    }}
-    footer a {{ color: #aaa; text-decoration: none; margin: 0 10px; }}
-        footer a:hover {{ color: #2563eb; }}
     @media (max-width: 600px) {{
       header {{ padding: 12px 16px; }}
       nav {{ display: none; }}
@@ -184,6 +185,12 @@ def make_paper_page(board, cls, subject, year, pdf_link):
       .related-grid {{ grid-template-columns: 1fr; }}
       .breadcrumb {{ padding: 0 12px; font-size: 12px; }}
     }}
+    footer {{
+      background: #fafafa; border-top: 1px solid #f0f0f0;
+      padding: 32px 24px; text-align: center; font-size: 13px; color: #aaa; margin-top: 32px;
+    }}
+    footer a {{ color: #aaa; text-decoration: none; margin: 0 10px; }}
+    footer a:hover {{ color: #2563eb; }}
   </style>
 </head>
 <body>
@@ -203,19 +210,20 @@ def make_paper_page(board, cls, subject, year, pdf_link):
   <a href="/{board}/">{board_name}</a><span>›</span>
   <a href="/{board}/{cls}/">{class_name}</a><span>›</span>
   <a href="/{board}/{cls}/{subject}/">{subject_name}</a><span>›</span>
-  {year}
+  {year}{series_label}
 </div>
 
 <div class="container">
   <div class="paper-hero">
     <div class="paper-thumb">{icon}</div>
     <div class="paper-info">
-      <h1>{board_name} {class_name} {subject_name} Question Paper {year}</h1>
+      <h1>{board_name} {class_name} {subject_name} Question Paper {year}{series_label}</h1>
       <div class="meta-row">
         <span class="pill pill-blue">{board_name}</span>
         <span class="pill pill-green">{class_name}</span>
         <span class="pill pill-orange">{subject_name}</span>
         <span class="pill pill-purple">{year}</span>
+        {series_pill}
         <span class="pill pill-green">Annual Exam</span>
       </div>
       <a href="{pdf_link}" class="download-btn" target="_blank">⬇️ Download PDF — Free</a>
@@ -231,6 +239,7 @@ def make_paper_page(board, cls, subject, year, pdf_link):
       <tr><td>Class</td><td>{class_name}</td></tr>
       <tr><td>Subject</td><td>{subject_name}</td></tr>
       <tr><td>Year</td><td>{year}</td></tr>
+      <tr><td>Series</td><td>{series.upper() if series else "N/A"}</td></tr>
       <tr><td>Exam Type</td><td>Annual Examination</td></tr>
       <tr><td>File Format</td><td>PDF</td></tr>
       <tr><td>Download</td><td>Free — No login required</td></tr>
@@ -263,21 +272,28 @@ def make_paper_page(board, cls, subject, year, pdf_link):
 # ============================================================
 # RUN — generates all folders and files automatically
 # ============================================================
+# ============================================================
+# RUN — generates all folders and files automatically
+# ============================================================
 generated = 0
 skipped   = 0
 
-for board, cls, subject, year, pdf_link in papers:
-    folder = os.path.join(board, cls, subject, year)
+for board, cls, subject, year, series, pdf_link in papers:
+    # Build folder path — add series subfolder if series exists
+    if series:
+        folder = os.path.join(board, cls, subject, year, f"series-{series}")
+    else:
+        folder = os.path.join(board, cls, subject, year)
+
     filepath = os.path.join(folder, "index.html")
 
-    # Skip if the file already exists so we don't overwrite manual edits
     if os.path.exists(filepath):
         print(f"  SKIP (exists): {filepath}")
         skipped += 1
         continue
 
     os.makedirs(folder, exist_ok=True)
-    html = make_paper_page(board, cls, subject, year, pdf_link)
+    html = make_paper_page(board, cls, subject, year, series, pdf_link)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(html)
