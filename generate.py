@@ -9,9 +9,9 @@ papers = [
     # Format: (board, class, subject, year, series, pdf_link)
     # series can be "a", "b", "c" or None if no series
     ("jkbose", "class-10", "maths",          "2023", None,  "https://drive.google.com/uc?export=download&id=17Qal9EEBuNvwWv67AtFT0dqjHMMClrXh"),
-    ("jkbose", "class-10", "maths",          "2026", "a",   "#"),
-    ("jkbose", "class-10", "maths",          "2026", "b",   "#"),
-    ("jkbose", "class-10", "maths",          "2026", "c",   "#"),
+        ("jkbose", "class-10", "maths",          "2026", "a",   "https://drive.google.com/uc?export=download&id=1qNOaPNBuYvWbEV0ZTC61uzPCgMiDCBYQ"),
+    ("jkbose", "class-10", "maths",          "2026", "b",   "https://drive.google.com/uc?export=download&id=1bawVt7btvOm36zbTPTXwdqZJuYyq62-S"),
+    ("jkbose", "class-10", "maths",          "2026", "c",   "https://drive.google.com/uc?export=download&id=1J8rS3GcbXl3ffZF4V124fvRIniHcWibk"),
     ("jkbose", "class-10", "maths",          "2022", None,  "#"),
     ("jkbose", "class-10", "maths",          "2021", None,  "#"),
     ("jkbose", "class-10", "maths",          "2020", None,  "#"),
