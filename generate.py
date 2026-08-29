@@ -70,25 +70,77 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
     series_label = f" Series {series.upper()}" if series else ""
     series_pill  = f'<span class="pill pill-green">Series {series.upper()}</span>' if series else ""
 
-    # Related papers - only link to real available papers
-    same_subject = [(b, c, s, y, se, l) for b, c, s, y, se, l in papers 
-                    if b == board and c == cls and s == subject and y != year and l and l != "#"]
-    related_years_set = sorted(set(y for _, _, _, y, _, _ in same_subject), reverse=True)
+    # Canonical path & ID for bookmarks
+    if series:
+        canonical_path = f"/{board}/{cls}/{subject}/{year}/series-{series}/"
+        paper_id = f"{board}-{cls}-{subject}-{year}-series-{series}"
+    else:
+        canonical_path = f"/{board}/{cls}/{subject}/{year}/"
+        paper_id = f"{board}-{cls}-{subject}-{year}"
+
+    # Preview iframe URL (extract google drive id if available)
+    if "id=" in pdf_link:
+        drive_id = pdf_link.split("id=")[-1].split("&")[0]
+        preview_url = f"https://drive.google.com/file/d/{drive_id}/preview"
+    else:
+        preview_url = pdf_link
+
+    # Related papers - comprehensive recommendations:
+    related_cards = []
+    
+    # 1. Other series for same subject & year
+    if series:
+        other_series = [(b, c, s, y, se, l) for b, c, s, y, se, l in papers
+                        if b == board and c == cls and s == subject and y == year and se != series and l and l != "#"]
+        for _, _, _, _, se, _ in other_series:
+            related_cards.append((
+                f"/{board}/{cls}/{subject}/{year}/series-{se}/",
+                f"{board_name} {class_name} {subject_name}",
+                f"{year} Series {se.upper()}"
+            ))
+
+    # 2. Other years for same subject
+    other_years = [(b, c, s, y, se, l) for b, c, s, y, se, l in papers
+                   if b == board and c == cls and s == subject and y != year and l and l != "#"]
+    for _, _, _, y, se, _ in other_years:
+        se_label = f" (Series {se.upper()})" if se else ""
+        se_path = f"series-{se}/" if se else ""
+        related_cards.append((
+            f"/{board}/{cls}/{subject}/{y}/{se_path}",
+            f"{board_name} {class_name} {subject_name}",
+            f"Annual Exam {y}{se_label}"
+        ))
+
+    # 3. Other subjects for same class
+    other_subjects = [(b, c, s, y, se, l) for b, c, s, y, se, l in papers
+                      if b == board and c == cls and s != subject and l and l != "#"]
+    seen_subs = set()
+    for _, _, s, y, se, _ in other_subjects:
+        if s not in seen_subs and len(related_cards) < 6:
+            seen_subs.add(s)
+            s_name = subject_names.get(s, s.title())
+            se_path = f"series-{se}/" if se else ""
+            related_cards.append((
+                f"/{board}/{cls}/{s}/{y}/{se_path}",
+                f"{board_name} {class_name} {s_name}",
+                f"{y} Question Paper"
+            ))
+
     related_html = ""
-    for ry in related_years_set:
+    for rurl, rtitle, rsub in related_cards[:6]:
         related_html += f"""
-    <a href="/{board}/{cls}/{subject}/{ry}/" class="related-card">
+    <a href="{rurl}" class="related-card">
       <div class="related-icon">📄</div>
       <div>
-        <h4>{board_name} {class_name} {subject_name}</h4>
-        <p>Annual Exam {ry}</p>
+        <h4>{rtitle}</h4>
+        <p>{rsub}</p>
       </div>
     </a>"""
 
     if related_html:
         related_section = f"""
   <div class="related">
-    <h2>Related Papers</h2>
+    <h2>Recommended Papers</h2>
     <div class="related-grid">{related_html}</div>
   </div>"""
     else:
@@ -98,8 +150,6 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
     <p style="color:#666; font-size:14px; margin-top:8px;">Looking for other subjects? <a href="/{board}/{cls}/" style="color:#0d9488; font-weight:600; text-decoration:none;">Browse all {board_name} {class_name} papers →</a></p>
   </div>"""
 
-    # Download action button handling - MUST be a real link
-    download_action = f"""<a href="{pdf_link}" class="download-btn" target="_blank" rel="noopener">⬇️ Download PDF — Free</a>"""
     download_status = "Free — Instant PDF Download"
 
     return f"""<!DOCTYPE html>
@@ -109,6 +159,60 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download | ExamStash</title>
   <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF for free. Annual examination paper. No login required." />
+  <link rel="canonical" href="https://examstash.com{canonical_path}" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="ExamStash" />
+  <meta property="og:title" content="{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download" />
+  <meta property="og:description" content="Download free {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF. Annual examination paper." />
+  <meta property="og:url" content="https://examstash.com{canonical_path}" />
+  <meta property="og:image" content="https://examstash.com/assets/images/og-preview.svg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download" />
+  <meta name="twitter:description" content="Download free {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF." />
+  <meta name="twitter:image" content="https://examstash.com/assets/images/og-preview.svg" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@graph": [
+      {{
+        "@type": "LearningResource",
+        "name": "{board_name} {class_name} {subject_name} Question Paper {year}{series_label}",
+        "description": "Download free {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF.",
+        "learningResourceType": "Question Paper",
+        "educationalLevel": "{class_name}",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "url": "https://examstash.com{canonical_path}",
+        "provider": {{
+          "@type": "Organization",
+          "name": "ExamStash",
+          "url": "https://examstash.com"
+        }}
+      }},
+      {{
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examstash.com/" }},
+          {{ "@type": "ListItem", "position": 2, "name": "{board_name}", "item": "https://examstash.com/{board}/" }},
+          {{ "@type": "ListItem", "position": 3, "name": "{class_name}", "item": "https://examstash.com/{board}/{cls}/" }},
+          {{ "@type": "ListItem", "position": 4, "name": "{subject_name}", "item": "https://examstash.com/{board}/{cls}/{subject}/" }},
+          {{ "@type": "ListItem", "position": 5, "name": "{year}{series_label}", "item": "https://examstash.com{canonical_path}" }}
+        ]
+      }}
+    ]
+  }}
+  </script>
+
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d9488" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
   <style>
     * {{ margin: 0; padding: 0; box-sizing: border-box; }}
     body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }}
@@ -188,7 +292,7 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
       .paper-info h1 {{ font-size: 18px; }}
       .meta-row {{ gap: 6px; }}
       .pill {{ font-size: 11px; padding: 3px 8px; }}
-      .download-btn {{ width: 100%; justify-content: center; padding: 14px; font-size: 14px; }}
+      .download-btn, .btn-secondary, .bookmark-btn {{ width: 100%; justify-content: center; padding: 12px; font-size: 14px; }}
       .details td {{ font-size: 13px; padding: 10px 14px; }}
       .related-grid {{ grid-template-columns: 1fr; }}
       .ad-slot {{ height: 80px; }}
@@ -203,7 +307,7 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
       .paper-thumb {{ width: 52px; height: 70px; font-size: 24px; }}
       .paper-info h1 {{ font-size: 16px; }}
       .pill {{ font-size: 10px; padding: 2px 7px; }}
-      .download-btn {{ padding: 12px; font-size: 13px; }}
+      .download-btn, .btn-secondary, .bookmark-btn {{ padding: 10px; font-size: 13px; }}
       .details td {{ font-size: 12px; padding: 8px 12px; }}
       .related-card {{ padding: 12px 14px; }}
       .related-card h4 {{ font-size: 12px; }}
@@ -216,11 +320,23 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
     footer a {{ color: #aaa; text-decoration: none; margin: 0 10px; }}
     footer a:hover {{ color: #0d9488; }}
   </style>
+  <link rel="stylesheet" href="/assets/css/global.css" />
 </head>
 <body>
 
 <header>
-  <a class="logo" href="/">Exam<span>Stash</span></a>
+  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 860px; margin: 0 auto;">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
+    <div class="header-actions">
+      <button type="button" class="btn-request-header open-paper-request-btn" data-board="{board_name}" data-class="{class_name}">
+        📩 <span>Request Paper</span>
+      </button>
+      <button class="header-btn bookmarks-open-btn" title="Saved Papers" aria-label="Saved Papers">
+        🔖
+        <span class="badge-count bookmark-badge-count">0</span>
+      </button>
+    </div>
+  </div>
 </header>
 
 <div class="breadcrumb">
@@ -244,7 +360,32 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
         {series_pill}
         <span class="pill pill-green">Annual Exam</span>
       </div>
-      {download_action}
+      <div class="btn-group">
+        <a href="{pdf_link}" class="download-btn" target="_blank" rel="noopener">⬇️ Download PDF</a>
+        <button type="button" class="btn-secondary" id="preview-pdf-btn">👁️ Preview Online</button>
+        <button type="button" class="bookmark-btn bookmark-toggle-trigger" data-id="{paper_id}" data-title="{board_name} {class_name} {subject_name} {year}{series_label}" data-url="{canonical_path}" data-category="{board_name} {class_name}" data-year="{year}">☆ Save Paper</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Share with Classmates -->
+  <div class="share-box">
+    <div class="share-info">
+      <h3>📲 Share with Classmates</h3>
+      <p>Send this question paper to your study group or class WhatsApp group.</p>
+    </div>
+    <div class="share-actions">
+      <a href="https://api.whatsapp.com/send?text=Download%20{board_name}%20{class_name}%20{subject_name}%20Question%20Paper%20{year}{series_label}%20PDF%20for%20free%20on%20ExamStash:%20https://examstash.com{canonical_path}" target="_blank" rel="noopener" class="btn-share btn-share-wa">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        WhatsApp
+      </a>
+      <a href="https://t.me/share/url?url=https://examstash.com{canonical_path}&text=Download%20{board_name}%20{class_name}%20{subject_name}%20Question%20Paper%20{year}{series_label}%20PDF%20for%20free%20on%20ExamStash" target="_blank" rel="noopener" class="btn-share btn-share-tg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+        Telegram
+      </a>
+      <button type="button" class="btn-share btn-share-copy" onclick="if(navigator.clipboard){{navigator.clipboard.writeText(window.location.href); alert('✅ Paper link copied to clipboard!');}}">
+        📋 Copy Link
+      </button>
     </div>
   </div>
 
@@ -269,6 +410,22 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   {related_section}
 </div>
 
+<!-- PDF Preview Modal -->
+<div id="pdf-preview-modal" class="pdf-modal">
+  <div class="pdf-modal-container">
+    <div class="pdf-modal-header">
+      <div class="pdf-modal-title">{board_name} {class_name} {subject_name} ({year}{series_label})</div>
+      <div class="pdf-modal-controls">
+        <a href="{pdf_link}" class="pdf-btn pdf-btn-primary" target="_blank" rel="noopener">⬇️ Download</a>
+        <button type="button" class="pdf-btn" id="close-preview-modal">✕ Close</button>
+      </div>
+    </div>
+    <div class="pdf-modal-body">
+      <iframe src="{preview_url}" class="pdf-modal-iframe" allow="autoplay"></iframe>
+    </div>
+  </div>
+</div>
+
 <footer>
   <div style="margin-bottom: 14px;">
     <strong>ExamStash</strong> &nbsp;|&nbsp;
@@ -290,6 +447,35 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   </div>
   <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
 </footer>
+
+<script>
+  const previewModal = document.getElementById('pdf-preview-modal');
+  const previewBtn = document.getElementById('preview-pdf-btn');
+  const closePreviewBtn = document.getElementById('close-preview-modal');
+  if (previewBtn && previewModal) {{
+    previewBtn.addEventListener('click', () => {{
+      previewModal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }});
+    closePreviewBtn.addEventListener('click', () => {{
+      previewModal.classList.remove('open');
+      document.body.style.overflow = '';
+    }});
+    previewModal.addEventListener('click', (e) => {{
+      if (e.target === previewModal) {{
+        previewModal.classList.remove('open');
+        document.body.style.overflow = '';
+      }}
+    }});
+  }}
+</script>
+
+<script src="/assets/js/search-index.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/bookmarks.js"></script>
+<script src="/assets/js/pwa.js"></script>
+<script src="/assets/js/request-paper.js"></script>
+<script src="/assets/js/analytics.js"></script>
 
 </body>
 </html>"""

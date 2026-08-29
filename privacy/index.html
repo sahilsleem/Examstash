@@ -126,11 +126,27 @@
             .footer-links { gap: 1rem; flex-direction: column; }
         }
     </style>
+    <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d9488" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
+  <link rel="stylesheet" href="/assets/css/global.css" />
 </head>
 <body>
     <header>
-        <a class="logo" href="/">Exam<span>Stash</span></a>
-    </header>
+  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 960px; margin: 0 auto;">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
+        <div class="header-actions">
+      <button type="button" class="btn-request-header open-paper-request-btn">
+        📩 <span>Request Paper</span>
+      </button>
+      <button class="header-btn bookmarks-open-btn" title="Saved Papers" aria-label="Saved Papers">
+        🔖
+        <span class="badge-count bookmark-badge-count">0</span>
+      </button>
+    </div>
+  </div>
+</header>
 
     <div class="container">
         <div class="breadcrumb">
@@ -164,5 +180,11 @@
   </div>
   <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
 </footer>
+<script src="/assets/js/search-index.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/bookmarks.js"></script>
+<script src="/assets/js/pwa.js"></script>
+<script src="/assets/js/request-paper.js"></script>
+<script src="/assets/js/analytics.js"></script>
 </body>
 </html>

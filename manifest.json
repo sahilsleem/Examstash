@@ -1,0 +1,20 @@
+{
+  "name": "ExamStash — Free Question Papers & Syllabus",
+  "short_name": "ExamStash",
+  "description": "Download free past question papers for JKBOSE, CBSE, Kashmir University, Islamia College and competitive entrance exams.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/assets/icons/icon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "reference"]
+}

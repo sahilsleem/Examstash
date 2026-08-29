@@ -1,0 +1,986 @@
+/* ============================================================
+   ExamStash Global Styles — UX Components (Search, PDF Modal, Bookmarks)
+   ============================================================ */
+
+/* Header Action Buttons */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1.5px solid #e2e8f0;
+  background: #ffffff;
+  color: #475569;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  position: relative;
+  text-decoration: none;
+}
+
+.header-btn:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+  transform: translateY(-1px);
+}
+
+.badge-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #0d9488;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  border: 2px solid #ffffff;
+}
+
+/* Secondary & Bookmark Buttons */
+.btn-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #e2e8f0;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+.bookmark-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1.5px solid #e2e8f0;
+  background: #ffffff;
+  color: #475569;
+  transition: all 0.2s;
+}
+
+.bookmark-btn:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+.bookmark-btn.saved {
+  background: #f0fdfa;
+  color: #0d9488;
+  border-color: #0d9488;
+}
+
+/* Share with Classmates Box */
+.share-box {
+  border: 1.5px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #ffffff;
+}
+
+.share-info h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f0f0f;
+  margin-bottom: 3px;
+}
+
+.share-info p {
+  font-size: 13px;
+  color: #666666;
+}
+
+.share-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.btn-share-wa {
+  background: #25D366;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-share-wa:hover {
+  background: #20bd5a;
+  color: #ffffff;
+}
+
+.btn-share-tg {
+  background: #0088cc;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-share-tg:hover {
+  background: #0077b5;
+  color: #ffffff;
+}
+
+.btn-share-copy {
+  background: #ffffff;
+  color: #475569;
+  border: 1.5px solid #e2e8f0;
+}
+
+.btn-share-copy:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+@media (max-width: 768px) {
+  .share-box {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px 18px;
+  }
+  .share-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .btn-share-copy {
+    grid-column: span 2;
+  }
+}
+
+/* ============================================================
+   SEARCH AUTOCOMPLETE DROPDOWN
+   ============================================================ */
+.search-wrapper-relative {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-height: 380px;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+  text-align: left;
+}
+
+.search-dropdown.active {
+  display: block;
+}
+
+.search-category-group {
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.search-category-group:last-child {
+  border-bottom: none;
+}
+
+.search-category-header {
+  padding: 6px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #64748b;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #0f172a;
+  transition: background 0.15s ease;
+  cursor: pointer;
+}
+
+.search-item:hover, .search-item.focused {
+  background: #f0fdfa;
+  color: #0d9488;
+}
+
+.search-item-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.search-item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-item-title {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-item-subtitle {
+  font-size: 12px;
+  color: #64748b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-no-results {
+  padding: 24px;
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+}
+
+/* ============================================================
+   BOOKMARKS / SAVED PAPERS DRAWER
+   ============================================================ */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.5);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.drawer-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-panel {
+  position: fixed;
+  top: 0;
+  right: -420px;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-panel.open {
+  right: 0;
+}
+
+.drawer-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.drawer-close {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+
+.drawer-close:hover {
+  color: #0d9488;
+}
+
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.bookmark-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  margin-bottom: 10px;
+  gap: 12px;
+  transition: border-color 0.2s;
+}
+
+.bookmark-card:hover {
+  border-color: #0d9488;
+}
+
+.bookmark-card a {
+  text-decoration: none;
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.bookmark-remove-btn {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  transition: color 0.15s;
+}
+
+.bookmark-remove-btn:hover {
+  color: #ef4444;
+}
+
+.bookmarks-empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: #64748b;
+}
+
+.bookmarks-empty-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.drawer-footer {
+  padding: 16px 24px;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-clear-all {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-clear-all:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   IN-BROWSER PDF PREVIEW MODAL
+   ============================================================ */
+.pdf-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 10000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pdf-modal.open {
+  display: flex;
+}
+
+.pdf-modal-container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 960px;
+  height: 90vh;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: modalScaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modalScaleIn {
+  from { transform: scale(0.96); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.pdf-modal-header {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8fafc;
+}
+
+.pdf-modal-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f172a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60%;
+}
+
+.pdf-modal-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #0f172a;
+  transition: all 0.15s ease;
+}
+
+.pdf-btn-primary {
+  background: #0d9488;
+  color: white;
+  border-color: #0d9488;
+}
+
+.pdf-btn-primary:hover {
+  background: #0f766e;
+}
+
+.pdf-btn:hover {
+  border-color: #0d9488;
+}
+
+.pdf-modal-body {
+  flex: 1;
+  position: relative;
+  background: #2b2b2b;
+}
+
+.pdf-modal-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ============================================================
+   MOBILE STICKY BOTTOM NAVIGATION BAR
+   ============================================================ */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #e2e8f0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.04);
+  z-index: 9990;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 4px;
+}
+
+.mobile-nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: #64748b;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px 0;
+  font-size: 11px;
+  font-weight: 600;
+  transition: color 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-nav-item:hover, .mobile-nav-item.active {
+  color: #0d9488;
+}
+
+.mobile-nav-icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.mobile-nav-label {
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+  .mobile-bottom-nav {
+    display: flex;
+  }
+  body {
+    padding-bottom: 68px !important;
+  }
+}
+
+/* ============================================================
+   PWA INSTALL PROMPT BANNER
+   ============================================================ */
+.pwa-install-banner {
+  position: fixed;
+  bottom: 70px;
+  left: 16px;
+  right: 16px;
+  max-width: 440px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1.5px solid #0d9488;
+  border-radius: 14px;
+  padding: 12px 16px;
+  box-shadow: 0 10px 25px rgba(13, 148, 136, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 9995;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.pwa-banner-icon {
+  flex-shrink: 0;
+}
+
+.pwa-banner-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pwa-banner-text strong {
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.pwa-banner-text span {
+  font-size: 11px;
+  color: #64748b;
+  line-height: 1.3;
+}
+
+.pwa-banner-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-pwa-install {
+  background: #0d9488;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-pwa-install:hover {
+  background: #0f766e;
+}
+
+.btn-pwa-dismiss {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 2px 6px;
+  line-height: 1;
+}
+
+.btn-pwa-dismiss:hover {
+  color: #475569;
+}
+
+/* ============================================================
+   REQUEST A PAPER MODAL (ExamStash Native Theme)
+   ============================================================ */
+.request-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(5px);
+  z-index: 10001;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.request-modal.open {
+  display: flex;
+}
+
+.request-modal-container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+  border: 1.5px solid #f0f0f0;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  animation: modalScaleIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.request-modal-header {
+  padding: 24px 28px 18px;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.req-tag {
+  display: inline-block;
+  background: #f0fdfa;
+  color: #0d9488;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  letter-spacing: 0.04em;
+}
+
+.req-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f0f0f;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.req-title span {
+  color: #0d9488;
+}
+
+.req-desc {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.request-modal-close {
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: all 0.15s;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.request-modal-close:hover {
+  background: #f0fdfa;
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+.request-modal-body {
+  padding: 22px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow-y: auto;
+  max-height: 75vh;
+  background: #ffffff;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.required-star {
+  color: #ea580c;
+  font-weight: 700;
+}
+
+.form-group input, .form-group textarea {
+  background: #f5f5f5;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #1a1a1a;
+  padding: 10px 14px;
+  outline: none;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #0d9488;
+  background: #ffffff;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+  color: #999;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+@media (max-width: 480px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.request-contrib-tip {
+  background: #f0fdfa;
+  border: 1.5px solid #ccfbf1;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 12px;
+  color: #0d9488;
+  line-height: 1.5;
+}
+
+.request-contrib-tip strong {
+  color: #0f766e;
+}
+
+.request-modal-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.btn-dispatch-telegram {
+  flex: 1.2;
+  min-width: 150px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #0088cc;
+  color: #ffffff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: inherit;
+}
+
+.btn-dispatch-telegram:hover {
+  background: #0077b5;
+}
+
+.btn-dispatch-email {
+  flex: 1.2;
+  min-width: 140px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #0d9488;
+  color: #ffffff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: inherit;
+}
+
+.btn-dispatch-email:hover {
+  background: #0f766e;
+}
+
+.btn-dispatch-copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #ffffff;
+  color: #555555;
+  border: 1.5px solid #e8e8e8;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.btn-dispatch-copy:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+.request-feedback {
+  display: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  padding: 6px 0;
+}
+
+/* Header button for request */
+.btn-request-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1.5px solid #e8e8e8;
+  background: #ffffff;
+  color: #0d9488;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.btn-request-header:hover {
+  border-color: #0d9488;
+  background: #f0fdfa;
+  color: #0d9488;
+}
+
+@media (max-width: 480px) {
+  .btn-request-header span {
+    display: none;
+  }
+  .btn-request-header {
+    padding: 8px 10px;
+  }
+}
+
+
+

@@ -3,8 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ExamStash — Free Indian Exam Papers</title>
-  <meta name="description" content="Download free past question papers for JKBOSE, CBSE, Kashmir University, Islamia College and more. Free PDF downloads for Indian students." />
+  <title>ExamStash — Free Indian Exam Papers & Syllabus</title>
+  <meta name="description" content="Download free past question papers for JKBOSE, CBSE, Kashmir University, Islamia College and competitive entrance exams. Free PDF downloads for Indian students." />
+  <link rel="canonical" href="https://examstash.com/" />
+  <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_CODE" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ExamStash" />
+  <meta property="og:title" content="ExamStash — Free Indian Exam Papers & Syllabus" />
+  <meta property="og:description" content="Download free past question papers for JKBOSE, CBSE, Kashmir University, Islamia College and entrance exams." />
+  <meta property="og:url" content="https://examstash.com/" />
+  <meta property="og:image" content="https://examstash.com/assets/images/og-preview.svg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ExamStash — Free Indian Exam Papers & Syllabus" />
+  <meta name="twitter:description" content="Free question papers for JKBOSE, CBSE, Kashmir University, Islamia College, NEET & JEE." />
+  <meta name="twitter:image" content="https://examstash.com/assets/images/og-preview.svg" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "ExamStash",
+        "url": "https://examstash.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://examstash.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "EducationalOrganization",
+        "name": "ExamStash",
+        "url": "https://examstash.com/",
+        "logo": "https://examstash.com/assets/icons/icon.svg",
+        "description": "Free educational platform providing past question papers and syllabus for Indian school boards, universities, and competitive exams."
+      }
+    ]
+  }
+  </script>
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }
@@ -162,12 +205,28 @@
       footer { padding: 20px 12px; font-size: 12px; }
     }
   </style>
+    <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d9488" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
+  <link rel="stylesheet" href="/assets/css/global.css" />
 </head>
 <body>
 
 <!-- HEADER -->
 <header>
-  <a class="logo" href="/">Exam<span>Stash</span></a>
+  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto;">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
+    <div class="header-actions">
+      <button type="button" class="btn-request-header open-paper-request-btn">
+        📩 <span>Request Paper</span>
+      </button>
+      <button class="header-btn bookmarks-open-btn" title="Saved Papers" aria-label="Saved Papers">
+        🔖
+        <span class="badge-count bookmark-badge-count">0</span>
+      </button>
+    </div>
+  </div>
 </header>
 
 <!-- HERO -->
@@ -359,5 +418,12 @@
   });
 </script>
 
+<script src="/assets/js/search-index.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/bookmarks.js"></script>
+
+<script src="/assets/js/pwa.js"></script>
+<script src="/assets/js/request-paper.js"></script>
+<script src="/assets/js/analytics.js"></script>
 </body>
 </html>
