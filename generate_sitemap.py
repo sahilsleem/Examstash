@@ -11,7 +11,7 @@ for root, dirs, files in os.walk("."):
     for file in files:
         if file == "index.html":
             # Convert file path to URL
-            path = root.replace("\\", "/").replace("./", "/")
+            path = root.replace("\\", "/").replace("./", "/").lower()
             if path == ".":
                 path = "/"
             elif not path.startswith("/"):
@@ -19,7 +19,8 @@ for root, dirs, files in os.walk("."):
             # Make sure path ends with /
             if not path.endswith("/"):
                 path += "/"
-            urls.append(path)
+            if path not in urls:
+                urls.append(path)
 
 # Sort URLs so sitemap is clean
 urls.sort()

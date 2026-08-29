@@ -14,19 +14,19 @@
       position: sticky; top: 0; background: #fff; z-index: 100;
     }
     .logo { font-size: 20px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.5px; }
-    .logo span { color: #2563eb; }
+    .logo span { color: #0d9488; }
     nav a { font-size: 14px; color: #555; text-decoration: none; margin-left: 16px; }
-    nav a:hover { color: #2563eb; }
+    nav a:hover { color: #0d9488; }
 
     .breadcrumb { max-width: 960px; margin: 16px auto; padding: 0 16px; font-size: 13px; color: #999; }
     .breadcrumb a { color: #999; text-decoration: none; }
-    .breadcrumb a:hover { color: #2563eb; }
+    .breadcrumb a:hover { color: #0d9488; }
     .breadcrumb span { margin: 0 6px; }
 
     .container { max-width: 960px; margin: 0 auto; padding: 0 16px 60px; }
 
     .page-header {
-      background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+      background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
       border-radius: 16px; padding: 28px 24px; margin-bottom: 28px;
       color: white;
     }
@@ -39,7 +39,7 @@
 
     .section-title {
       font-size: 16px; font-weight: 700; margin-bottom: 14px;
-      border-left: 4px solid #2563eb; padding-left: 10px;
+      border-left: 4px solid #0d9488; padding-left: 10px;
     }
 
     .course-grid {
@@ -52,19 +52,19 @@
       padding: 18px 16px; text-decoration: none;
       color: #1a1a1a; transition: all 0.2s; display: block;
     }
-    .course-card:hover { border-color: #2563eb; box-shadow: 0 4px 20px rgba(37,99,235,0.08); transform: translateY(-2px); }
-    .course-card.featured { border-color: #2563eb; background: #eff6ff; }
+    .course-card:hover { border-color: #0d9488; box-shadow: 0 4px 20px rgba(13,148,136,0.08); transform: translateY(-2px); }
+    .course-card.featured { border-color: #0d9488; background: #f0fdfa; }
     .course-icon { font-size: 28px; margin-bottom: 10px; }
     .course-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
     .course-card p { font-size: 12px; color: #888; line-height: 1.4; }
     .course-meta { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
     .pill { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 20px; }
-    .pill-blue { background: #eff6ff; color: #2563eb; }
+    .pill-blue { background: #f0fdfa; color: #0d9488; }
     .pill-green { background: #f0fdf4; color: #16a34a; }
     .pill-orange { background: #fff7ed; color: #ea580c; }
 
     .share-box {
-      background: #f8faff; border: 1.5px solid #dbeafe;
+      background: #f0fdfa; border: 1.5px solid #ccfbf1;
       border-radius: 14px; padding: 20px 16px; margin-bottom: 28px;
       display: flex; align-items: center; gap: 14px;
     }
@@ -73,7 +73,7 @@
     .share-box p { font-size: 13px; color: #666; line-height: 1.5; }
     .share-btn {
       display: inline-flex; align-items: center; gap: 6px;
-      background: #2563eb; color: white; padding: 10px 16px;
+      background: #0d9488; color: white; padding: 10px 16px;
       border-radius: 10px; font-size: 13px; font-weight: 600;
       text-decoration: none; margin-top: 10px; white-space: nowrap;
     }
@@ -90,7 +90,39 @@
       padding: 24px 16px; text-align: center; font-size: 13px; color: #aaa;
     }
     footer a { color: #aaa; text-decoration: none; margin: 0 8px; }
-    footer a:hover { color: #2563eb; }
+    footer a:hover { color: #0d9488; }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      header { padding: 12px 16px; }
+      nav { display: none; }
+      .breadcrumb { padding: 0 16px; margin: 12px auto; }
+      .container { padding: 0 16px 40px; }
+      .page-header { padding: 22px 18px; border-radius: 14px; }
+      .page-header h1 { font-size: 20px; }
+      .page-header p { font-size: 13px; }
+      .header-stats { gap: 16px; }
+      .header-stat strong { font-size: 16px; }
+      .section-title { font-size: 15px; }
+      .course-grid { grid-template-columns: 1fr; gap: 10px; }
+      .course-card { padding: 16px 14px; }
+      .course-card h3 { font-size: 14px; }
+      .share-box { flex-direction: column; text-align: center; gap: 10px; padding: 18px 16px; }
+      .share-icon { font-size: 28px; }
+      .ad-slot { height: 80px; }
+      footer { padding: 20px 16px; }
+      footer a { margin: 0 6px; }
+    }
+    @media (max-width: 360px) {
+      header { padding: 10px 12px; }
+      .breadcrumb { padding: 0 12px; font-size: 12px; }
+      .container { padding: 0 12px 36px; }
+      .page-header { padding: 18px 14px; }
+      .page-header h1 { font-size: 18px; }
+      .header-stats { gap: 12px; flex-wrap: wrap; }
+      .course-card { padding: 14px 12px; }
+      footer { padding: 18px 12px; font-size: 12px; }
+    }
   </style>
 </head>
 <body>
@@ -167,13 +199,13 @@
       </div>
     </a>
 
-    <a href="/islamia-college/ba/" class="course-card">
+    <a href="/islamia-college/ba/" class="course-card featured">
       <div class="course-icon">📚</div>
-      <h3>BA</h3>
-      <p>Bachelor of Arts</p>
+      <h3>BA & English Honours</h3>
+      <p>Bachelor of Arts & English Literature Honours</p>
       <div class="course-meta">
         <span class="pill pill-blue">6 Semesters</span>
-        <span class="pill pill-orange">Coming Soon</span>
+        <span class="pill pill-green">Sem 6 Papers + Syllabus</span>
       </div>
     </a>
 
@@ -203,13 +235,25 @@
 </div>
 
 <footer>
-  <p style="margin-bottom:8px;">
+  <div style="margin-bottom: 14px;">
     <strong>ExamStash</strong> &nbsp;|&nbsp;
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
     <a href="/privacy/">Privacy Policy</a>
-  </p>
-  <p>Free past papers for Islamia College students. Always free.</p>
+    <a href="/dmca/">DMCA</a>
+  </div>
+  <div style="margin-bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 12px;">
+    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+    </a>
+    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" aria-label="Telegram" title="Telegram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+    </a>
+    <a href="mailto:examstash1@gmail.com" aria-label="Email" title="Email" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </a>
+  </div>
+  <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
 </footer>
 
 </body>

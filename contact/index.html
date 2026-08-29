@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — ExamStash</title>
+  <meta name="description" content="Get in touch with ExamStash via Telegram, Instagram, or Email. Share past question papers and syllabi or ask questions." />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f9fbfb; color: #1a1a1a; min-height: 100vh; display: flex; flex-direction: column; }
+    header {
+      padding: 14px 20px; border-bottom: 1px solid #f0f0f0;
+      display: flex; align-items: center; justify-content: center;
+      position: sticky; top: 0; background: #fff; z-index: 100;
+    }
+    .logo { font-size: 22px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.5px; }
+    .logo span { color: #0d9488; }
+    .breadcrumb { padding: 14px 20px; font-size: 13px; color: #999; max-width: 760px; margin: 0 auto; width: 100%; }
+    .breadcrumb a { color: #999; text-decoration: none; }
+    .breadcrumb a:hover { color: #0d9488; }
+    .container { padding: 0 20px 60px; max-width: 760px; margin: 0 auto; width: 100%; flex: 1; }
+    .page-header {
+      background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
+      border-radius: 16px; padding: 28px 24px; margin-bottom: 24px; color: white;
+    }
+    .tagline-badge {
+      display: inline-block; font-size: 12px; font-weight: 600;
+      background: rgba(255,255,255,0.2); padding: 3px 12px; border-radius: 20px;
+      margin-bottom: 10px;
+    }
+    .page-header h1 { font-size: 26px; font-weight: 800; margin-bottom: 6px; }
+    .page-header p { font-size: 14px; opacity: 0.9; line-height: 1.5; }
+    .contact-grid { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
+    .contact-card {
+      background: #fff; border: 1.5px solid #e5e7eb; border-radius: 14px;
+      padding: 18px 20px; display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; text-decoration: none; color: #1a1a1a; transition: all 0.2s;
+    }
+    .contact-card:hover { border-color: #0d9488; box-shadow: 0 4px 16px rgba(13,148,136,0.08); transform: translateY(-2px); }
+    .contact-icon {
+      width: 44px; height: 44px; background: #f0fdfa; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0;
+    }
+    .contact-info { flex: 1; min-width: 0; }
+    .contact-info h3 { font-size: 16px; font-weight: 700; margin-bottom: 2px; }
+    .contact-info p { font-size: 13px; color: #666; word-break: break-all; }
+    .contact-action {
+      background: #0d9488; color: white; padding: 8px 16px; border-radius: 8px;
+      font-size: 13px; font-weight: 600; flex-shrink: 0;
+    }
+    .contact-card:hover .contact-action { background: #0f766e; }
+    .info-card {
+      background: #fff; border: 1.5px solid #f0f0f0; border-radius: 14px; padding: 20px;
+      margin-bottom: 24px; font-size: 14px; color: #555; line-height: 1.6;
+    }
+    .info-card strong { color: #1a1a1a; }
+    footer {
+      background: #fafafa; border-top: 1px solid #f0f0f0;
+      padding: 28px 16px; text-align: center; font-size: 13px; color: #666; margin-top: auto;
+    }
+    footer a { color: #666; text-decoration: none; margin: 0 6px; }
+    footer a:hover { color: #0d9488; }
+    @media (max-width: 600px) {
+      .contact-card { flex-direction: column; align-items: flex-start; }
+      .contact-action { width: 100%; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">Exam<span>Stash</span></a>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  Contact Us
+</div>
+
+<div class="container">
+
+  <div class="page-header">
+    <span class="tagline-badge">Built for students</span>
+    <h1>Contact ExamStash</h1>
+    <p>Have questions, want to request a paper, or want to share study materials? Reach out directly through any of our official channels below.</p>
+  </div>
+
+  <div class="contact-grid">
+
+    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" class="contact-card">
+      <div class="contact-icon">✈️</div>
+      <div class="contact-info">
+        <h3>Telegram</h3>
+        <p>@sahilsleem — Fastest response for paper requests & uploads</p>
+      </div>
+      <span class="contact-action">Message on Telegram →</span>
+    </a>
+
+    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" class="contact-card">
+      <div class="contact-icon">📸</div>
+      <div class="contact-info">
+        <h3>Instagram</h3>
+        <p>@sahilsleem — Connect & send direct messages</p>
+      </div>
+      <span class="contact-action">Open Instagram →</span>
+    </a>
+
+    <a href="mailto:examstash1@gmail.com" class="contact-card">
+      <div class="contact-icon">✉️</div>
+      <div class="contact-info">
+        <h3>Email</h3>
+        <p>examstash1@gmail.com — Official inquiries & document sharing</p>
+      </div>
+      <span class="contact-action">Send Email →</span>
+    </a>
+
+  </div>
+
+  <div class="info-card">
+    <strong>📤 Sharing a Past Paper or Syllabus?</strong><br/>
+    Send clear photos or PDF files to our Telegram or Email. We verify and upload papers within 24 hours to help students across India access free study materials.
+  </div>
+
+</div>
+
+<footer>
+  <div style="margin-bottom: 14px;">
+    <strong>ExamStash</strong> &nbsp;|&nbsp;
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/dmca/">DMCA</a>
+  </div>
+  <div style="margin-bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 12px;">
+    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+    </a>
+    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" aria-label="Telegram" title="Telegram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+    </a>
+    <a href="mailto:examstash1@gmail.com" aria-label="Email" title="Email" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </a>
+  </div>
+  <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
+</footer>
+
+</body>
+</html>

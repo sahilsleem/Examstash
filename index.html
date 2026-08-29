@@ -17,7 +17,7 @@
       position: sticky; top: 0; background: #fff; z-index: 100;
     }
     .logo { font-size: 22px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.5px; }
-    .logo span { color: #2563eb; }
+    .logo span { color: #0d9488; }
 
     /* HERO */
     .hero {
@@ -26,7 +26,7 @@
       background: #fff;
     }
     .hero-tag {
-      display: inline-block; background: #eff6ff; color: #2563eb;
+      display: inline-block; background: #f0fdfa; color: #0d9488;
       font-size: 12px; font-weight: 600; padding: 4px 14px;
       border-radius: 20px; margin-bottom: 18px; letter-spacing: 0.04em;
     }
@@ -34,7 +34,7 @@
       font-size: 52px; font-weight: 800; color: #0f0f0f;
       letter-spacing: -1.5px; line-height: 1.1; margin-bottom: 14px;
     }
-    .hero h1 span { color: #2563eb; }
+    .hero h1 span { color: #0d9488; }
     .hero p { font-size: 18px; color: #666; margin-bottom: 32px; line-height: 1.5; }
     .search-wrap {
       display: flex; max-width: 620px; margin: 0 auto;
@@ -42,17 +42,17 @@
       padding: 6px 6px 6px 18px; align-items: center;
       border: 1.5px solid #e8e8e8; transition: border-color 0.2s;
     }
-    .search-wrap:focus-within { border-color: #2563eb; background: #fff; }
+    .search-wrap:focus-within { border-color: #0d9488; background: #fff; }
     .search-wrap input {
       flex: 1; border: none; background: transparent;
       font-size: 15px; color: #1a1a1a; outline: none; padding: 8px 0;
     }
     .search-wrap button {
-      background: #2563eb; color: white; border: none;
+      background: #0d9488; color: white; border: none;
       padding: 12px 22px; border-radius: 8px; font-size: 15px;
       font-weight: 600; cursor: pointer; white-space: nowrap;
     }
-    .search-wrap button:hover { background: #1d4ed8; }
+    .search-wrap button:hover { background: #0f766e; }
 
     /* DIVIDER */
     .divider { border: none; border-top: 1px solid #f0f0f0; }
@@ -71,8 +71,8 @@
       font-weight: 500; cursor: pointer; border: 1.5px solid #e8e8e8;
       background: #fff; color: #555; transition: all 0.15s; white-space: nowrap;
     }
-    .tab:hover { border-color: #2563eb; color: #2563eb; }
-    .tab.active { background: #2563eb; color: white; border-color: #2563eb; }
+    .tab:hover { border-color: #0d9488; color: #0d9488; }
+    .tab.active { background: #0d9488; color: white; border-color: #0d9488; }
 
     /* CATEGORY GRID */
     .cat-grid {
@@ -85,13 +85,13 @@
       padding: 24px 20px; text-decoration: none;
       color: #1a1a1a; background: #fff; transition: all 0.2s; display: block;
     }
-    .cat-card:hover { border-color: #2563eb; box-shadow: 0 6px 24px rgba(37,99,235,0.09); transform: translateY(-3px); }
+    .cat-card:hover { border-color: #0d9488; box-shadow: 0 6px 24px rgba(13,148,136,0.09); transform: translateY(-3px); }
     .cat-icon { font-size: 32px; margin-bottom: 12px; }
     .cat-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
     .cat-card p { font-size: 13px; color: #888; line-height: 1.5; }
     .cat-count {
       display: inline-block; margin-top: 12px; font-size: 11px;
-      font-weight: 600; color: #2563eb; background: #eff6ff;
+      font-weight: 600; color: #0d9488; background: #f0fdfa;
       padding: 3px 10px; border-radius: 20px;
     }
     .cat-count.soon { color: #ea580c; background: #fff7ed; }
@@ -110,27 +110,56 @@
       padding: 32px 64px; text-align: center; font-size: 13px; color: #aaa;
     }
     footer a { color: #aaa; text-decoration: none; margin: 0 10px; }
-    footer a:hover { color: #2563eb; }
+    footer a:hover { color: #0d9488; }
+
+    /* TABLET */
+    @media (max-width: 1024px) {
+      .hero { padding: 48px 32px 40px; }
+      .section { padding: 36px 32px 48px; }
+      .cat-grid { grid-template-columns: repeat(3, 1fr); }
+    }
 
     /* MOBILE */
     @media (max-width: 768px) {
-      .hero { padding: 36px 16px 32px; }
+      header { padding: 12px 16px; }
+      .hero { padding: 32px 16px 28px; }
       .hero h1 { font-size: 28px; letter-spacing: -0.5px; }
       .hero p { font-size: 15px; margin-bottom: 20px; }
-      .search-wrap { padding: 6px 6px 6px 14px; }
+      .search-wrap { padding: 5px 5px 5px 14px; }
       .search-wrap input { font-size: 14px; }
       .search-wrap button { padding: 10px 14px; font-size: 14px; }
-      .section { padding: 28px 16px 40px; }
+      .section { padding: 24px 16px 36px; }
       .section-header h2 { font-size: 20px; }
       .tab { padding: 8px 14px; font-size: 13px; }
       .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-      .cat-card { padding: 16px 12px; border-radius: 12px; }
+      .cat-card { padding: 16px 14px; border-radius: 12px; }
       .cat-icon { font-size: 24px; margin-bottom: 8px; }
-      .cat-card h3 { font-size: 13px; }
-      .cat-card p { font-size: 11px; }
+      .cat-card h3 { font-size: 14px; }
+      .cat-card p { font-size: 12px; }
       .cat-count { font-size: 10px; margin-top: 8px; }
       .ad-slot { margin-top: 24px; height: 90px; }
       footer { padding: 24px 16px; }
+      footer a { margin: 0 6px; }
+    }
+
+    /* SMALL MOBILE */
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 24px; }
+      .hero p { font-size: 14px; }
+      .cat-grid { grid-template-columns: 1fr; gap: 10px; }
+      .tab { padding: 7px 12px; font-size: 12px; }
+      .tabs { gap: 6px; }
+    }
+
+    /* VERY SMALL MOBILE */
+    @media (max-width: 360px) {
+      .hero { padding: 24px 12px 24px; }
+      .hero h1 { font-size: 22px; }
+      .section { padding: 20px 12px 32px; }
+      header { padding: 10px 12px; }
+      .search-wrap input { font-size: 13px; }
+      .search-wrap button { padding: 9px 12px; font-size: 13px; }
+      footer { padding: 20px 12px; font-size: 12px; }
     }
   </style>
 </head>
@@ -200,7 +229,7 @@
     <a href="/islamia-college/" class="cat-card">
       <div class="cat-icon">🏛️</div>
       <h3>Islamia College</h3>
-      <p>BSc IT, BCA, BCom, BBA papers & syllabus</p>
+      <p>BSc IT, BA English (Hons), BCA, BCom, BBA papers & syllabus</p>
       <span class="cat-count">Papers + Syllabus</span>
     </a>
     <a href="/kashmir-university/" class="cat-card">
@@ -233,9 +262,9 @@
     </a>
     <a href="/neet/" class="cat-card">
       <div class="cat-icon">🏥</div>
-      <h3>NEET</h3>
-      <p>Medical entrance exam past papers</p>
-      <span class="cat-count soon">Coming Soon</span>
+      <h3>NEET UG</h3>
+      <p>Medical entrance exam past papers with answer keys</p>
+      <span class="cat-count">2025, 2024, 2023 Papers</span>
     </a>
     <a href="/jee/" class="cat-card">
       <div class="cat-icon">⚙️</div>
@@ -258,14 +287,25 @@
 <hr class="divider" />
 
 <footer>
-  <p style="margin-bottom:8px;">
+  <div style="margin-bottom: 14px;">
     <strong>ExamStash</strong> &nbsp;|&nbsp;
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
     <a href="/privacy/">Privacy Policy</a>
     <a href="/dmca/">DMCA</a>
-  </p>
-  <p>Free past exam papers for Indian students. No registration required.</p>
+  </div>
+  <div style="margin-bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 12px;">
+    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+    </a>
+    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" aria-label="Telegram" title="Telegram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
+    </a>
+    <a href="mailto:examstash1@gmail.com" aria-label="Email" title="Email" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </a>
+  </div>
+  <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
 </footer>
 
 <script>
@@ -277,6 +317,46 @@
     document.getElementById('tab-' + index).style.display = 'grid';
     document.querySelectorAll('.tab')[index].classList.add('active');
   }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.querySelector(".search-wrap input");
+    const searchBtn = document.querySelector(".search-wrap button");
+    const cards = document.querySelectorAll(".cat-card");
+    const tabsContainer = document.querySelector(".tabs");
+    const tabGrids = document.querySelectorAll(".cat-grid");
+
+    function doSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) {
+        tabsContainer.style.display = "flex";
+        cards.forEach(c => c.style.display = "block");
+        const activeIdx = Array.from(document.querySelectorAll(".tab")).findIndex(t => t.classList.contains("active"));
+        showTab(activeIdx >= 0 ? activeIdx : 0);
+        return;
+      }
+      
+      tabsContainer.style.display = "none";
+      tabGrids.forEach(g => g.style.display = "grid");
+      
+      cards.forEach(card => {
+        const title = card.querySelector("h3")?.textContent.toLowerCase() || "";
+        const desc = card.querySelector("p")?.textContent.toLowerCase() || "";
+        if (title.includes(query) || desc.includes(query)) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    }
+
+    searchBtn.addEventListener("click", doSearch);
+    searchInput.addEventListener("keyup", (e) => {
+      if (e.key === "Enter") doSearch();
+    });
+    searchInput.addEventListener("input", () => {
+      if (!searchInput.value.trim()) doSearch();
+    });
+  });
 </script>
 
 </body>
