@@ -84,10 +84,21 @@ This ensures students never waste time clicking on empty pages.
 
 ---
 
-<!-- 
 ## Screenshots
-[Add real UI screenshots here when ready (Homepage, JKBOSE paper view, Islamia College, Mobile PWA view)]
--->
+
+### Homepage
+![Homepage](assets/screenshots/Screenshot%202026-08-30%20025811.png)
+
+### JKBOSE Board & Streams
+![JKBOSE Streams](assets/screenshots/Screenshot%202026-08-30%20025945.png)
+
+### Islamia College Portal
+![Islamia College Portal](assets/screenshots/Screenshot%202026-08-30%20025841.png)
+
+### Mobile View
+<p align="center">
+  <img src="assets/screenshots/6095680078164465033_121.jpg" alt="Mobile View" width="360" />
+</p>
 
 ---
 
