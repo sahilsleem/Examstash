@@ -160,6 +160,7 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   <title>{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download | ExamStash</title>
   <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF for free. Annual examination paper. No login required." />
   <link rel="canonical" href="https://examstash.pages.dev{canonical_path}" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article" />
