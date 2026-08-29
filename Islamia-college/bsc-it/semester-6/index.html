@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSc IT Semester 6 Papers & Syllabus — Islamia College Srinagar | ExamStash</title>
+  <meta name="description" content="Download free BSc IT Semester 6 past papers and syllabus for Islamia College Srinagar. DBMS, Computer Networks, Machine Learning, Full Stack." />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }
+
+    header {
+      padding: 14px 20px; border-bottom: 1px solid #f0f0f0;
+      display: flex; align-items: center; justify-content: center;
+      position: sticky; top: 0; background: #fff; z-index: 100;
+    }
+    .logo { font-size: 22px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.5px; }
+    .logo span { color: #2563eb; }
+
+    .breadcrumb { padding: 14px 20px; font-size: 13px; color: #999; }
+    .breadcrumb a { color: #999; text-decoration: none; }
+    .breadcrumb a:hover { color: #2563eb; }
+    .breadcrumb span { margin: 0 6px; }
+
+    .container { padding: 0 20px 60px; }
+
+    .page-header {
+      background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+      border-radius: 16px; padding: 24px 20px; margin-bottom: 28px; color: white;
+    }
+    .college-tag {
+      font-size: 11px; font-weight: 600; background: rgba(255,255,255,0.2);
+      display: inline-block; padding: 3px 10px; border-radius: 20px;
+      margin-bottom: 10px; letter-spacing: 0.05em;
+    }
+    .page-header h1 { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
+    .page-header p { font-size: 14px; opacity: 0.85; line-height: 1.5; }
+
+    /* SUBJECT TYPE LABEL */
+    .type-label {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: #999; margin: 28px 0 12px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .type-label::after {
+      content: ''; flex: 1; height: 1px; background: #f0f0f0;
+    }
+
+    /* SUBJECT CARDS */
+    .subject-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 8px; }
+    .subject-card {
+      border: 1.5px solid #f0f0f0; border-radius: 14px;
+      padding: 16px; display: flex; align-items: center;
+      gap: 14px; text-decoration: none; color: #1a1a1a;
+      transition: all 0.2s;
+    }
+    .subject-card:hover { border-color: #2563eb; box-shadow: 0 4px 16px rgba(37,99,235,0.08); }
+    .subject-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; flex-shrink: 0;
+    }
+    .subject-info { flex: 1; min-width: 0; }
+    .subject-info h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+    .subject-info p { font-size: 12px; color: #888; }
+    .subject-actions { display: flex; gap: 8px; flex-shrink: 0; }
+    .action-btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 7px 12px; border-radius: 8px; font-size: 12px;
+      font-weight: 600; text-decoration: none; white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .btn-paper { background: #2563eb; color: white; }
+    .btn-paper:hover { background: #1d4ed8; }
+    .btn-syllabus { background: #f0fdf4; color: #16a34a; border: 1.5px solid #bbf7d0; }
+    .btn-syllabus:hover { background: #dcfce7; }
+    .btn-na {
+      background: #f5f5f5; color: #bbb;
+      border: 1.5px solid #e8e8e8; cursor: default;
+    }
+
+    /* SHARE BOX */
+    .share-box {
+      background: #f8faff; border: 1.5px solid #dbeafe;
+      border-radius: 14px; padding: 18px 16px; margin-top: 32px; margin-bottom: 24px;
+    }
+    .share-box h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+    .share-box p { font-size: 13px; color: #666; line-height: 1.5; margin-bottom: 12px; }
+    .share-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: #2563eb; color: white; padding: 10px 16px;
+      border-radius: 10px; font-size: 13px; font-weight: 600;
+      text-decoration: none;
+    }
+
+    .ad-slot {
+      background: #f9f9f9; border: 1.5px dashed #e0e0e0;
+      border-radius: 12px; height: 90px; display: flex;
+      align-items: center; justify-content: center;
+      color: #bbb; font-size: 13px; margin: 24px 0;
+    }
+
+    footer {
+      background: #fafafa; border-top: 1px solid #f0f0f0;
+      padding: 24px 16px; text-align: center; font-size: 13px; color: #aaa;
+    }
+    footer a { color: #aaa; text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: #2563eb; }
+
+    @media (min-width: 768px) {
+      .container { padding: 0 64px 60px; }
+      .page-header { padding: 32px 40px; }
+      .page-header h1 { font-size: 28px; }
+      .subject-card { padding: 18px 20px; }
+      .subject-info h3 { font-size: 16px; }
+      .action-btn { padding: 8px 16px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">Exam<span>Stash</span></a>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  <a href="/islamia-college/">Islamia College</a><span>›</span>
+  <a href="/islamia-college/bsc-it/">BSc IT</a><span>›</span>
+  Semester 6
+</div>
+
+<div class="container">
+
+  <div class="page-header">
+    <span class="college-tag">💻 BSC IT · SEMESTER 6</span>
+    <h1>Past Papers & Syllabus</h1>
+    <p>Islamia College of Science & Commerce, Srinagar. Free download — no login required.</p>
+  </div>
+
+  <div class="ad-slot">Advertisement</div>
+
+  <!-- MAJOR SUBJECTS -->
+  <div class="type-label">📌 Major Subjects</div>
+  <div class="subject-list">
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#eff6ff;">🗄️</div>
+      <div class="subject-info">
+        <h3>Database Management Systems</h3>
+        <p>DBMS · Major Subject</p>
+      </div>
+      <div class="subject-actions">
+        <a href="/islamia-college/bsc-it/semester-6/dbms/" class="action-btn btn-paper">📄 Paper</a>
+        <a href="/islamia-college/bsc-it/semester-6/dbms/syllabus/" class="action-btn btn-na">📋 Syllabus</a>
+      </div>
+    </div>
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#f0fdf4;">🌐</div>
+      <div class="subject-info">
+        <h3>Computer Networks</h3>
+        <p>CN · Major Subject</p>
+      </div>
+      <div class="subject-actions">
+        <a href="/islamia-college/bsc-it/semester-6/computer-networks/" class="action-btn btn-paper">📄 Paper</a>
+        <a href="/islamia-college/bsc-it/semester-6/computer-networks/syllabus/" class="action-btn btn-na">📋 Syllabus</a>
+      </div>
+    </div>
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#faf5ff;">🤖</div>
+      <div class="subject-info">
+        <h3>Machine Learning</h3>
+        <p>ML · Major Subject</p>
+      </div>
+      <div class="subject-actions">
+        <a href="/islamia-college/bsc-it/semester-6/machine-learning/" class="action-btn btn-paper">📄 Paper</a>
+        <a href="/islamia-college/bsc-it/semester-6/machine-learning/syllabus/" class="action-btn btn-na">📋 Syllabus</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MINOR SUBJECTS -->
+  <div class="type-label">🔀 Minor Subject (Your Choice)</div>
+  <div class="subject-list">
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#fff7ed;">🖥️</div>
+      <div class="subject-info">
+        <h3>Full Stack Development</h3>
+        <p>Minor · Web Development Track</p>
+      </div>
+      <div class="subject-actions">
+        <a href="/islamia-college/bsc-it/semester-6/full-stack/" class="action-btn btn-paper">📄 Paper</a>
+        <a href="/islamia-college/bsc-it/semester-6/full-stack/syllabus/" class="action-btn btn-na">📋 Syllabus</a>
+      </div>
+    </div>
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#fdf2f8;">📐</div>
+      <div class="subject-info">
+        <h3>Mathematics</h3>
+        <p>Minor · Maths Track</p>
+      </div>
+      <div class="subject-actions">
+        <span class="action-btn btn-na">📄 Not Available</span>
+        <a href="https://t.me/sahilsleem" target="_blank" class="action-btn btn-syllabus">📤 Share</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- NOT AVAILABLE NOTE -->
+  <div class="type-label">📋 Syllabus</div>
+  <div class="subject-list">
+
+    <div class="subject-card">
+      <div class="subject-icon" style="background:#f0fdf4;">📋</div>
+      <div class="subject-info">
+        <h3>BSc IT Semester 6 Syllabus</h3>
+        <p>Complete syllabus for all subjects</p>
+      </div>
+      <div class="subject-actions">
+        <a href="/islamia-college/bsc-it/semester-6/syllabus/" class="action-btn btn-syllabus">📋 View Syllabus</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SHARE BOX -->
+  <div class="share-box">
+    <h3>📤 Have a paper we don't have?</h3>
+    <p>Send it to us on Telegram and we'll upload it within 24 hours — free for everyone at Islamia College.</p>
+    <a href="https://t.me/sahilsleem" target="_blank" class="share-btn">📩 Share on Telegram</a>
+  </div>
+
+  <div class="ad-slot">Advertisement</div>
+
+</div>
+
+<footer>
+  <p style="margin-bottom:8px;">
+    <strong>ExamStash</strong> &nbsp;|&nbsp;
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  <p>Free past papers for Islamia College students. Always free.</p>
+</footer>
+
+</body>
+</html>
