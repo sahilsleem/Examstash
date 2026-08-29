@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://examstash.com/sitemap.xml
+Sitemap: https://examstash.pages.dev/sitemap.xml
