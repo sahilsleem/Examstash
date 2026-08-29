@@ -1,4 +1,4 @@
-const CACHE_NAME = 'examstash-v3';
+const CACHE_NAME = 'examstash-v4';
 const STATIC_ASSETS = [
   '/',
   '/assets/css/global.css',
@@ -7,6 +7,7 @@ const STATIC_ASSETS = [
   '/assets/js/bookmarks.js',
   '/assets/js/pwa.js',
   '/assets/js/request-paper.js',
+  '/assets/js/analytics.js',
   '/assets/icons/icon.svg',
   '/manifest.json'
 ];

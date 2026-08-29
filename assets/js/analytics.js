@@ -4,8 +4,8 @@
  */
 
 (function () {
-  // Enter your Google Analytics 4 Measurement ID here when ready (e.g. 'G-XXXXXXXXXX')
-  const GA_MEASUREMENT_ID = '';
+  // Google Analytics 4 Measurement ID
+  const GA_MEASUREMENT_ID = 'G-TXYTNH3J3L';
 
   // 1. Initialize GA4 if ID is provided
   if (GA_MEASUREMENT_ID) {
