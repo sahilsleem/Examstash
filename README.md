@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://examstash.pages.dev/"><img src="https://img.shields.io/badge/Live%20Demo-examstash.pages.dev-0d9488?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Live Demo" /></a>
+  <a href="https://github.com/sahilsleem/Examstash/actions/workflows/deploy.yml"><img src="https://github.com/sahilsleem/Examstash/actions/workflows/deploy.yml/badge.svg" alt="CI Status" /></a>
   <a href="https://github.com/sahilsleem/Examstash/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-0d9488?style=for-the-badge&logo=github" alt="v1.0.0" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" /></a>
   <img src="https://img.shields.io/badge/PWA-Ready-10b981?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA Ready" />

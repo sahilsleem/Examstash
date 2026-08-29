@@ -1,25 +1,17 @@
-name: Deploy ExamStash to GitHub Pages
+name: ExamStash CI & Integrity Check
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build-and-validate:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  validate:
+    name: Site Health & Link Integrity Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -34,18 +26,6 @@ jobs:
         run: |
           python validate_site.py
 
-      - name: Generate Sitemap
+      - name: Verify Sitemap Generation
         run: |
           python generate_sitemap.py
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
