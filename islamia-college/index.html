@@ -173,13 +173,16 @@
     .section-title {
       font-size: 16px;
       font-weight: 700;
-      margin-bottom: 16px;
+      margin: 28px 0 14px;
       border-left: 4px solid #0d9488;
       padding-left: 10px;
       color: #1a1a1a;
       display: flex;
       align-items: center;
       justify-content: space-between;
+    }
+    .section-title:first-of-type {
+      margin-top: 0;
     }
     .section-meta {
       font-size: 12px;
@@ -192,7 +195,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 14px;
-      margin-bottom: 36px;
+      margin-bottom: 24px;
     }
     .course-card {
       border: 1.5px solid #f0f0f0;
@@ -253,7 +256,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 12px;
+      margin-top: 24px;
     }
     .share-label {
       font-size: 13px;
@@ -360,90 +363,131 @@
     </div>
   </div>
 
+  <!-- Computer Applications & IT -->
   <div class="section-title">
-    <span>Undergraduate Programs</span>
-    <span class="section-meta">6 Semesters</span>
+    <span>Computer Applications & IT</span>
+    <span class="section-meta">Semesters 1–6</span>
   </div>
-
   <div class="course-grid">
-    <!-- BCA -->
     <a href="/bca/" class="course-card featured">
       <div class="course-top">
         <span class="course-icon-wrap">💻</span>
         <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>BCA</h3>
-      <p>Bachelor of Computer Applications · Programming, Data Structures, Web Technologies & Database Systems.</p>
+      <p>Bachelor of Computer Applications</p>
     </a>
-
-    <!-- B.Sc. IT -->
     <a href="/bsc-it/" class="course-card featured">
       <div class="course-top">
         <span class="course-icon-wrap">🖥️</span>
         <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>B.Sc. IT</h3>
-      <p>B.Sc Information Technology · Software Engineering, Networking, Cyber Security & Algorithms.</p>
+      <p>B.Sc Information Technology</p>
     </a>
+  </div>
 
-    <!-- BBA -->
+  <!-- Business & Commerce -->
+  <div class="section-title">
+    <span>Business & Commerce</span>
+    <span class="section-meta">Semesters 1–6</span>
+  </div>
+  <div class="course-grid">
     <a href="/bba/" class="course-card">
       <div class="course-top">
         <span class="course-icon-wrap">💼</span>
         <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>BBA</h3>
-      <p>Bachelor of Business Administration · Management Principles, Financial Accounting & Marketing.</p>
+      <p>Bachelor of Business Administration</p>
     </a>
-
-    <!-- B.Com -->
     <a href="/bcom/" class="course-card">
       <div class="course-top">
         <span class="course-icon-wrap">📊</span>
         <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>B.Com</h3>
-      <p>Bachelor of Commerce (General & Honours) · Corporate Accounting, Taxation, Business Law & Auditing.</p>
+      <p>Bachelor of Commerce (General & Honours)</p>
     </a>
+  </div>
 
-    <!-- B.A. -->
+  <!-- Arts & Humanities -->
+  <div class="section-title">
+    <span>Arts & Humanities</span>
+    <span class="section-meta">Semesters 1–6</span>
+  </div>
+  <div class="course-grid">
     <a href="/ba/" class="course-card">
       <div class="course-top">
         <span class="course-icon-wrap">📖</span>
         <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>B.A.</h3>
-      <p>Bachelor of Arts · English Literature, Political Science, Economics, History & Kashmiri.</p>
+      <p>Bachelor of Arts</p>
     </a>
+  </div>
 
-    <!-- B.Sc. Non-Medical -->
-    <a href="/bsc-non-medical/" class="course-card">
+  <!-- Science Programs -->
+  <div class="section-title">
+    <span>Science Programs (B.Sc. Disciplines)</span>
+    <span class="section-meta">Semesters 1–6</span>
+  </div>
+  <div class="course-grid">
+    <a href="/bsc-physics/" class="course-card">
+      <div class="course-top">
+        <span class="course-icon-wrap">⚛️</span>
+        <span class="course-badge">Semesters 1–6</span>
+      </div>
+      <h3>B.Sc. Physics</h3>
+      <p>Department of Physics</p>
+    </a>
+    <a href="/bsc-chemistry/" class="course-card">
+      <div class="course-top">
+        <span class="course-icon-wrap">🧪</span>
+        <span class="course-badge">Semesters 1–6</span>
+      </div>
+      <h3>B.Sc. Chemistry</h3>
+      <p>Department of Chemistry</p>
+    </a>
+    <a href="/bsc-mathematics/" class="course-card">
       <div class="course-top">
         <span class="course-icon-wrap">📐</span>
-        <span class="course-badge">Non-Medical</span>
+        <span class="course-badge">Semesters 1–6</span>
       </div>
-      <h3>B.Sc. Non-Medical</h3>
-      <p>Physical & Mathematical Sciences · Physics, Mathematics, Chemistry & Electronics.</p>
+      <h3>B.Sc. Mathematics</h3>
+      <p>Department of Mathematics</p>
     </a>
-
-    <!-- B.Sc. Medical -->
-    <a href="/bsc-medical/" class="course-card">
+    <a href="/bsc-botany/" class="course-card">
       <div class="course-top">
-        <span class="course-icon-wrap">🔬</span>
-        <span class="course-badge">Medical</span>
+        <span class="course-icon-wrap">🌿</span>
+        <span class="course-badge">Semesters 1–6</span>
       </div>
-      <h3>B.Sc. Medical</h3>
-      <p>Life Sciences · Botany, Zoology, Organic Chemistry & Environmental Science.</p>
+      <h3>B.Sc. Botany</h3>
+      <p>Department of Botany</p>
     </a>
-
-    <!-- B.Sc. Biotechnology & Biochemistry -->
+    <a href="/bsc-zoology/" class="course-card">
+      <div class="course-top">
+        <span class="course-icon-wrap">🦁</span>
+        <span class="course-badge">Semesters 1–6</span>
+      </div>
+      <h3>B.Sc. Zoology</h3>
+      <p>Department of Zoology</p>
+    </a>
     <a href="/bsc-biotechnology/" class="course-card">
       <div class="course-top">
         <span class="course-icon-wrap">🧬</span>
-        <span class="course-badge">Biotech & Biochem</span>
+        <span class="course-badge">Semesters 1–6</span>
       </div>
       <h3>B.Sc. Biotechnology</h3>
-      <p>Applied Sciences · Microbiology, Genetic Engineering, Molecular Biology & Biochemistry.</p>
+      <p>Department of Biotechnology</p>
+    </a>
+    <a href="/bsc-biochemistry/" class="course-card">
+      <div class="course-top">
+        <span class="course-icon-wrap">🔬</span>
+        <span class="course-badge">Semesters 1–6</span>
+      </div>
+      <h3>B.Sc. Biochemistry</h3>
+      <p>Department of Biochemistry</p>
     </a>
   </div>
 
@@ -467,9 +511,9 @@
   <p>© 2026 Islamia College of Science and Commerce, Srinagar</p>
 </footer>
 
-<script src="/assets/js/search-index.js?v=3"></script>
-<script src="/assets/js/search.js?v=3"></script>
-<script src="/assets/js/pwa.js?v=3"></script>
+<script src="/assets/js/search-index.js?v=4"></script>
+<script src="/assets/js/search.js?v=4"></script>
+<script src="/assets/js/pwa.js?v=4"></script>
 <script src="/assets/js/analytics.js"></script>
 
 </body>
