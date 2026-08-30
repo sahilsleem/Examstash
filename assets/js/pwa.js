@@ -1,26 +1,31 @@
 /**
- * Islamia College Portal — PWA Service Worker Registration
+ * Islamia College Portal — Clean PWA & Cache Clearer
  */
 
 (function () {
-  // 1. Service Worker Registration
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
-        .then(reg => {
-          // Registered
-        })
-        .catch(err => {
-          console.warn('SW registration failed:', err);
-        });
+  // Prevent any browser install prompts or popups
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    return false;
+  });
+
+  // Auto-clear stale caches from previous site versions
+  if ('caches' in window) {
+    caches.keys().then((names) => {
+      names.forEach((name) => {
+        if (name.includes('examstash')) {
+          caches.delete(name);
+        }
+      });
     });
   }
 
-  // 2. Install App Prompt Banner (Unobtrusive)
-  let deferredPrompt = null;
-
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-  });
+  // Remove any legacy service worker if present to prevent caching stale pages
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.update();
+      }
+    });
+  }
 })();

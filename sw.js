@@ -1,23 +1,7 @@
-const CACHE_NAME = 'examstash-v4';
-const STATIC_ASSETS = [
-  '/',
-  '/assets/css/global.css',
-  '/assets/js/search-index.js',
-  '/assets/js/search.js',
-  '/assets/js/bookmarks.js',
-  '/assets/js/pwa.js',
-  '/assets/js/request-paper.js',
-  '/assets/js/analytics.js',
-  '/assets/icons/icon.svg',
-  '/manifest.json'
-];
+const CACHE_NAME = 'icsc-portal-v3';
 
 self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(STATIC_ASSETS);
-    }).then(() => self.skipWaiting())
-  );
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
@@ -25,9 +9,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(keys => {
       return Promise.all(
         keys.map(key => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
+          return caches.delete(key);
         })
       );
     }).then(() => self.clients.claim())
@@ -35,36 +17,6 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  const url = new URL(event.request.url);
-
-  // Network-first with cache fallback for HTML pages
-  if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request).then(response => {
-        if (response.status === 200) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-        }
-        return response;
-      }).catch(() => {
-        return caches.match(event.request).then(cached => {
-          return cached || caches.match('/');
-        });
-      })
-    );
-    return;
-  }
-
-  // Network-first for static updates with cache fallback
-  event.respondWith(
-    fetch(event.request).then(response => {
-      if (response.status === 200) {
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-      }
-      return response;
-    }).catch(() => {
-      return caches.match(event.request);
-    })
-  );
+  // Always fetch fresh from network
+  event.respondWith(fetch(event.request));
 });

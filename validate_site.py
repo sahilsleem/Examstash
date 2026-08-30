@@ -46,7 +46,8 @@ def validate_site():
         assets = re.findall(r'(?:href|src)=["\'](/assets/[^"\']+)["\']', content)
         for asset in assets:
             checked_assets += 1
-            local_asset_path = os.path.join(WORKSPACE, asset.lstrip("/"))
+            clean_asset = asset.split("?")[0].split("#")[0]
+            local_asset_path = os.path.join(WORKSPACE, clean_asset.lstrip("/"))
             if not os.path.exists(local_asset_path):
                 errors.append(f"[BROKEN ASSET] {rel_file} -> {asset} does not exist!")
 
