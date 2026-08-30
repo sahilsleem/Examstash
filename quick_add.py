@@ -322,18 +322,18 @@ def add_paper(parsed, drive_id):
     with open(sem_index, "r", encoding="utf-8") as f:
         sem_content = f.read()
 
+    action_class = "item-action-syl" if is_syllabus else "item-action-paper"
     btn_text = "View Syllabus →" if is_syllabus else "View & Download →"
-    btn_class = "btn-syl" if is_syllabus else "btn-paper"
 
-    item_card = f"""    <div class="item-card">
+    item_card = f"""    <a href="/{course_slug}/semester-{sem_num}/{paper_slug}/" class="item-card">
       <div class="item-info">
         <h3>{subject_title}</h3>
         <p>{course_name} · Semester {sem_num} {item_type}</p>
       </div>
-      <div class="btn-wrap">
-        <a href="/{course_slug}/semester-{sem_num}/{paper_slug}/" class="btn {btn_class}">{btn_text}</a>
+      <div class="item-action {action_class}">
+        <span>{btn_text}</span>
       </div>
-    </div>\n"""
+    </a>\n"""
 
     if "notice-card" in sem_content:
         section_label = "📋 Official Syllabus" if is_syllabus else "📄 Question Papers"

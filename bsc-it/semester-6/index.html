@@ -53,6 +53,29 @@
       padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;
       gap: 16px; background: #fff; transition: all 0.15s;
     }
+    
+    .item-card {
+      border: 1.5px solid #f0f0f0; border-radius: 12px;
+      padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; background: #fff; transition: all 0.2s ease;
+      text-decoration: none; color: #1a1a1a; cursor: pointer;
+    }
+    .item-card:hover {
+      border-color: #0d9488; box-shadow: 0 4px 16px rgba(13, 148, 136, 0.1);
+      transform: translateY(-2px);
+    }
+    .item-info h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; color: #1a1a1a; }
+    .item-info p { font-size: 13px; color: #666; }
+    .item-action {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 8px 14px; border-radius: 8px; font-size: 13px;
+      font-weight: 600; white-space: nowrap; transition: all 0.15s;
+    }
+    .item-action-paper { background: #f0fdfa; color: #0d9488; border: 1px solid #ccfbf1; }
+    .item-card:hover .item-action-paper { background: #0d9488; color: white; border-color: #0d9488; }
+    .item-action-syl { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+    .item-card:hover .item-action-syl { background: #16a34a; color: white; border-color: #16a34a; }
+
     .item-card:hover { border-color: #0d9488; box-shadow: 0 3px 12px rgba(13,148,136,0.06); }
     .item-info h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; color: #1a1a1a; }
     .item-info p { font-size: 13px; color: #666; }
@@ -102,24 +125,24 @@
   <!-- OFFICIAL SYLLABUS -->
   <div class="type-label">📋 Official Syllabus</div>
   <div class="item-list">
-    <div class="item-card">
+    <a href="/bsc-it/semester-6/database-management-system-syllabus/" class="item-card">
       <div class="item-info">
         <h3>Database Management System</h3>
         <p>B.Sc. IT · Semester 6 Syllabus</p>
       </div>
-      <div class="btn-wrap">
-        <a href="/bsc-it/semester-6/database-management-system-syllabus/" class="btn btn-syl">View Syllabus →</a>
+      <div class="item-action item-action-syl">
+        <span>View Syllabus →</span>
       </div>
-    </div>
-    <div class="item-card">
+    </a>
+    <a href="/bsc-it/semester-6/computer-networks-syllabus/" class="item-card">
       <div class="item-info">
         <h3>Computer Networks</h3>
         <p>B.Sc. IT · Semester 6 Syllabus</p>
       </div>
-      <div class="btn-wrap">
-        <a href="/bsc-it/semester-6/computer-networks-syllabus/" class="btn btn-syl">View Syllabus →</a>
+      <div class="item-action item-action-syl">
+        <span>View Syllabus →</span>
       </div>
-    </div>
+    </a>
   </div>
 
   <!-- Monetization Placeholder -->
