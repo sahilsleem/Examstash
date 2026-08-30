@@ -12,98 +12,98 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "url": "/ba/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english"
+    "keywords": "ba arts kashmiri literature elt english postcolonial"
   },
   {
     "title": "B.A. Past Papers & Syllabus",
     "url": "/islamia-college/ba/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english"
+    "keywords": "ba arts kashmiri literature elt english postcolonial"
   },
   {
     "title": "B.A. Semester 1 Past Papers & Syllabus",
     "url": "/ba/semester-1/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.A. Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-1/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.A. Semester 2 Past Papers & Syllabus",
     "url": "/ba/semester-2/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.A. Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-2/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.A. Semester 3 Past Papers & Syllabus",
     "url": "/ba/semester-3/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.A. Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-3/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.A. Semester 4 Past Papers & Syllabus",
     "url": "/ba/semester-4/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.A. Semester 4 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-4/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.A. Semester 5 Past Papers & Syllabus",
     "url": "/ba/semester-5/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.A. Semester 5 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-5/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/ba/semester-6/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-6/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Com Past Papers & Syllabus",
@@ -614,98 +614,98 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "url": "/bsc-it/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis"
   },
   {
     "title": "B.Sc. IT Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis"
   },
   {
     "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
     "url": "/bsc-it/semester-1/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-1/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
     "url": "/bsc-it/semester-2/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-2/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
     "url": "/bsc-it/semester-3/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-3/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
     "url": "/bsc-it/semester-4/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-4/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
     "url": "/bsc-it/semester-5/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-5/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
     "url": "/bsc-it/semester-6/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-6/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Sc. Mathematics Past Papers & Syllabus",
@@ -1226,6 +1226,62 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": "bca computer applications sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
+    "title": "British Literature",
+    "url": "/ba/semester-6/british-literature-syllabus/",
+    "category": "B.A.",
+    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "British Literature",
+    "url": "/islamia-college/ba/semester-6/british-literature-syllabus/",
+    "category": "B.A.",
+    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "British Literature: 20th Century",
+    "url": "/ba/semester-6/british-literature-20th-century/",
+    "category": "B.A.",
+    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "British Literature: 20th Century",
+    "url": "/islamia-college/ba/semester-6/british-literature-20th-century/",
+    "category": "B.A.",
+    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Computer Networks",
+    "url": "/bsc-it/semester-6/computer-networks-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Computer Networks",
+    "url": "/islamia-college/bsc-it/semester-6/computer-networks-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Computer Organisation and Architecture",
+    "url": "/bsc-it/semester-4/computer-organisation-and-architecture/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Organisation and Architecture Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Computer Organisation and Architecture",
+    "url": "/islamia-college/bsc-it/semester-4/computer-organisation-and-architecture/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Organisation and Architecture Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
     "title": "Contact Us",
     "url": "/contact/",
     "category": "Islamia College",
@@ -1240,6 +1296,48 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": ""
   },
   {
+    "title": "Database Management System",
+    "url": "/bsc-it/semester-6/database-management-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Database Management System",
+    "url": "/islamia-college/bsc-it/semester-6/database-management-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "English Language Teaching (ELT)",
+    "url": "/ba/semester-6/english-language-teaching-elt/",
+    "category": "B.A.",
+    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "English Language Teaching (ELT)",
+    "url": "/islamia-college/ba/semester-6/english-language-teaching-elt/",
+    "category": "B.A.",
+    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Functional English Language Teaching",
+    "url": "/ba/semester-6/functional-english-language-teaching-syllabus/",
+    "category": "B.A.",
+    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Functional English Language Teaching",
+    "url": "/islamia-college/ba/semester-6/functional-english-language-teaching-syllabus/",
+    "category": "B.A.",
+    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
     "title": "Islamia College of Science and Commerce",
     "url": "/islamia-college/",
     "category": "Islamia College",
@@ -1247,10 +1345,94 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": ""
   },
   {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/ba/semester-6/kashmiri-literature-in-translation/",
+    "category": "B.A.",
+    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
+    "category": "B.A.",
+    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation/",
+    "category": "B.A.",
+    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
+    "category": "B.A.",
+    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Operating System",
+    "url": "/bsc-it/semester-4/operating-system/",
+    "category": "B.Sc. IT",
+    "description": "Download Operating System Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Operating System",
+    "url": "/bsc-it/semester-4/operating-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Operating System Syllabus for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Operating System",
+    "url": "/islamia-college/bsc-it/semester-4/operating-system/",
+    "category": "B.Sc. IT",
+    "description": "Download Operating System Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Operating System",
+    "url": "/islamia-college/bsc-it/semester-4/operating-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Operating System Syllabus for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Postcolonial Literature: African & Caribbean",
+    "url": "/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
+    "category": "B.A.",
+    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Postcolonial Literature: African & Caribbean",
+    "url": "/islamia-college/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
+    "category": "B.A.",
+    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
     "title": "Privacy Policy",
     "url": "/privacy/",
     "category": "Islamia College",
     "description": "",
     "keywords": ""
+  },
+  {
+    "title": "Real Analysis (Minor Subject)",
+    "url": "/bsc-it/semester-4/real-analysis-minor/",
+    "category": "B.Sc. IT",
+    "description": "Download Real Analysis (Minor Subject) Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Real Analysis (Minor Subject)",
+    "url": "/islamia-college/bsc-it/semester-4/real-analysis-minor/",
+    "category": "B.Sc. IT",
+    "description": "Download Real Analysis (Minor Subject) Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   }
 ];
