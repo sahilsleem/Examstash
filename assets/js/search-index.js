@@ -10,49 +10,49 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "BA & English Honours Past Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours (Bachelor of Arts & English Literature Honours) past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science"
   },
   {
     "title": "BA & English Honours Semester 1 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-1/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 1 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "BA & English Honours Semester 2 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-2/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 2 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "BA & English Honours Semester 3 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-3/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 3 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "BA & English Honours Semester 4 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-4/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 4 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "BA & English Honours Semester 5 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-5/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 5 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "BA & English Honours Semester 6 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/ba/semester-6/",
-    "category": "B.A",
+    "category": "B.A.",
     "description": "Download free BA & English Honours Semester 6 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "ba arts humanities social science sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
@@ -206,49 +206,49 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "BSc IT Past Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT (Bachelor of Science in Information Technology) past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems"
   },
   {
     "title": "BSc IT Semester 1 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-1/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 1 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "BSc IT Semester 2 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-2/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 2 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "BSc IT Semester 3 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-3/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 3 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "BSc IT Semester 4 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-4/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 4 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "BSc IT Semester 5 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-5/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 5 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "BSc IT Semester 6 Papers & Syllabus \u2014 Islamia College",
     "url": "/islamia-college/bsc-it/semester-6/",
-    "category": "B.Sc IT",
+    "category": "B.Sc. IT",
     "description": "Download free BSc IT Semester 6 past question papers and syllabus for Islamia College Srinagar.",
     "keywords": "bsc it information technology networking systems sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
@@ -262,51 +262,16 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "DMCA \u2014 ExamStash",
     "url": "/dmca/",
-    "category": "MCA",
-    "description": "",
-    "keywords": "mca master of computer applications"
-  },
-  {
-    "title": "Islamia College Srinagar Past Papers & Syllabus",
-    "url": "/islamia-college/",
     "category": "Islamia College",
-    "description": "Download free past question papers and syllabus for Islamia College of Science and Commerce Srinagar. BSc IT, BCA, BCom, BBA and more.",
+    "description": "",
     "keywords": ""
   },
   {
-    "title": "MBA Past Papers & Syllabus \u2014 Islamia College",
-    "url": "/islamia-college/mba/",
-    "category": "MBA",
-    "description": "Download free MBA (Master of Business Administration) past question papers and syllabus for Islamia College Srinagar.",
-    "keywords": "mba master management"
-  },
-  {
-    "title": "MBA Semester 1 Papers & Syllabus \u2014 Islamia College",
-    "url": "/islamia-college/mba/semester-1/",
-    "category": "MBA",
-    "description": "Download free MBA Semester 1 past question papers and syllabus for Islamia College Srinagar.",
-    "keywords": "mba master management sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "MBA Semester 2 Papers & Syllabus \u2014 Islamia College",
-    "url": "/islamia-college/mba/semester-2/",
-    "category": "MBA",
-    "description": "Download free MBA Semester 2 past question papers and syllabus for Islamia College Srinagar.",
-    "keywords": "mba master management sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "MBA Semester 3 Papers & Syllabus \u2014 Islamia College",
-    "url": "/islamia-college/mba/semester-3/",
-    "category": "MBA",
-    "description": "Download free MBA Semester 3 past question papers and syllabus for Islamia College Srinagar.",
-    "keywords": "mba master management sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "MBA Semester 4 Papers & Syllabus \u2014 Islamia College",
-    "url": "/islamia-college/mba/semester-4/",
-    "category": "MBA",
-    "description": "Download free MBA Semester 4 past question papers and syllabus for Islamia College Srinagar.",
-    "keywords": "mba master management sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Islamia College of Science and Commerce \u2014 Question Papers & Syllabus",
+    "url": "/islamia-college/",
+    "category": "Islamia College",
+    "description": "Previous year question papers and official syllabi for Islamia College of Science and Commerce (ICSC), Srinagar. BCA, B.Sc. IT, BBA, B.Com, B.A. and B.Sc. programs.",
+    "keywords": ""
   },
   {
     "title": "Privacy Policy \u2014 ExamStash",

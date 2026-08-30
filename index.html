@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Islamia College Srinagar (ICSC) — Past Papers & Syllabus Portal</title>
-  <meta name="description" content="Official student portal for Islamia College of Science & Commerce (ICSC) Srinagar. Download previous year question papers and syllabi for BCA, B.Sc IT, BBA, B.Com, B.A, MBA & MCA." />
+  <title>Islamia College of Science and Commerce — Question Papers & Syllabus</title>
+  <meta name="description" content="Previous year question papers and official syllabi for Islamia College of Science and Commerce (ICSC), Srinagar. BCA, B.Sc. IT, BBA, B.Com, B.A. and B.Sc. programs." />
   <link rel="canonical" href="https://examstash.pages.dev/" />
   <meta name="google-site-verification" content="vJ8Kf6Hv4ydtzZdD_66OS985rsx4qZGxBCzb6ZSlF5w" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Islamia College Portal" />
-  <meta property="og:title" content="Islamia College Srinagar (ICSC) — Past Papers & Syllabus" />
-  <meta property="og:description" content="Free past question papers and syllabi for Islamia College Srinagar. BCA, B.Sc IT, BBA, B.Com, B.A, MBA & MCA." />
+  <meta property="og:site_name" content="Islamia College of Science and Commerce" />
+  <meta property="og:title" content="Islamia College of Science and Commerce — Question Papers & Syllabus" />
+  <meta property="og:description" content="Previous year question papers and official syllabi for Islamia College Srinagar. BCA, B.Sc. IT, BBA, B.Com, B.A. and B.Sc." />
   <meta property="og:url" content="https://examstash.pages.dev/" />
   <meta property="og:image" content="https://examstash.pages.dev/assets/images/og-preview.svg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Islamia College Srinagar (ICSC) — Past Papers & Syllabus" />
-  <meta name="twitter:description" content="Free past question papers and syllabi for Islamia College Srinagar. BCA, B.Sc IT, BBA, B.Com, B.A, MBA & MCA." />
+  <meta name="twitter:title" content="Islamia College of Science and Commerce — Question Papers & Syllabus" />
+  <meta name="twitter:description" content="Previous year question papers and official syllabi for Islamia College Srinagar." />
   <meta name="twitter:image" content="https://examstash.pages.dev/assets/images/og-preview.svg" />
 
   <!-- Schema.org JSON-LD -->
@@ -28,7 +28,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Islamia College Student Portal",
+    "name": "Islamia College of Science and Commerce",
     "url": "https://examstash.pages.dev/",
     "potentialAction": {
       "@type": "SearchAction",
@@ -39,155 +39,273 @@
   </script>
 
   <link rel="manifest" href="/manifest.json" />
-  <meta name="theme-color" content="#0d9488" />
+  <meta name="theme-color" content="#ffffff" />
   <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
   <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
   <link rel="stylesheet" href="/assets/css/global.css" />
 
   <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #ffffff;
+      --border: #eaecf0;
+      --border-hover: #cbd5e1;
+      --text-main: #111827;
+      --text-muted: #64748b;
+      --text-light: #94a3b8;
+      --primary: #0d9488;
+      --primary-hover: #0f766e;
+    }
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f8fafc; color: #0f172a; min-height: 100vh; display: flex; flex-direction: column; }
-    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Minimal Header */
     header {
-      padding: 14px 20px; border-bottom: 1px solid #e2e8f0;
-      background: #ffffff; position: sticky; top: 0; z-index: 100;
+      padding: 20px 24px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
     }
     .header-inner {
-      max-width: 1000px; margin: 0 auto;
-      display: flex; align-items: center; justify-content: space-between;
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .logo { font-size: 20px; font-weight: 800; color: #0f172a; text-decoration: none; display: flex; align-items: center; gap: 8px; }
-    .logo span { color: #0d9488; }
-    .college-badge { font-size: 11px; background: #f0fdfa; color: #0d9488; border: 1px solid #ccfbf1; padding: 2px 8px; border-radius: 12px; font-weight: 700; margin-left: 4px; }
+    .college-brand {
+      text-decoration: none;
+      color: var(--text-main);
+    }
+    .college-title {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .college-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 1px;
+    }
 
-    .header-actions { display: flex; align-items: center; gap: 8px; }
-    .btn-request-header {
-      background: #f0fdfa; border: 1.5px solid #ccfbf1; color: #0d9488;
-      font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 20px;
-      cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.2s;
+    /* Hero / Search Section */
+    .hero-section {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 24px;
+      width: 100%;
     }
-    .btn-request-header:hover { background: #0d9488; color: #fff; border-color: #0d9488; }
-    .header-btn {
-      background: #f8fafc; border: 1px solid #e2e8f0; width: 36px; height: 36px;
-      border-radius: 10px; display: flex; align-items: center; justify-content: center;
-      cursor: pointer; font-size: 16px; position: relative;
+    .hero-heading {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      color: var(--text-main);
     }
-    .badge-count {
-      position: absolute; top: -4px; right: -4px; background: #ef4444; color: white;
-      font-size: 10px; font-weight: 700; width: 16px; height: 16px; border-radius: 50%;
-      display: none; align-items: center; justify-content: center;
+    .hero-description {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 24px;
+      max-width: 600px;
     }
 
-    .hero {
-      background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
-      color: white; padding: 48px 20px 40px; text-align: center;
+    /* Clean Notion-like Search Bar */
+    .search-container {
+      position: relative;
+      margin-bottom: 40px;
     }
-    .hero-container { max-width: 800px; margin: 0 auto; }
-    .hero-tag {
-      display: inline-flex; align-items: center; gap: 6px;
-      background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(8px);
-      padding: 4px 14px; border-radius: 20px; font-size: 12px; font-weight: 600;
-      margin-bottom: 16px; letter-spacing: 0.5px;
+    .search-input {
+      width: 100%;
+      padding: 14px 16px 14px 44px;
+      font-size: 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--text-main);
+      outline: none;
+      transition: all 0.15s ease;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
     }
-    .hero h1 { font-size: 32px; font-weight: 900; line-height: 1.25; margin-bottom: 12px; letter-spacing: -0.5px; }
-    .hero p { font-size: 16px; opacity: 0.9; max-width: 600px; margin: 0 auto 28px; line-height: 1.5; }
-
-    .search-wrap {
-      position: relative; max-width: 580px; margin: 0 auto;
+    .search-input:focus {
+      border-color: #94a3b8;
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
     }
-    .search-wrap input {
-      width: 100%; padding: 16px 20px 16px 52px; font-size: 15px;
-      border: 2px solid rgba(255,255,255,0.4); border-radius: 14px;
-      background: rgba(255,255,255,0.95); color: #0f172a; outline: none;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15); transition: all 0.2s;
-    }
-    .search-wrap input:focus {
-      background: #ffffff; border-color: #ffffff; box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    .search-input::placeholder {
+      color: var(--text-light);
     }
     .search-icon {
-      position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
-      font-size: 20px; pointer-events: none; opacity: 0.6;
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: var(--text-light);
+      pointer-events: none;
     }
-    .search-kbd {
-      position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
-      background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px;
-      font-size: 11px; font-weight: 700; color: #64748b; padding: 2px 6px;
+    .search-shortcut {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-light);
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      padding: 2px 6px;
+      border-radius: 4px;
       pointer-events: none;
     }
 
-    .container { max-width: 1000px; margin: 0 auto; padding: 36px 20px 60px; flex: 1; width: 100%; }
-
-    .section-header {
-      display: flex; align-items: center; justify-content: space-between;
-      margin-bottom: 20px;
+    /* Content Area */
+    .main-content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+      width: 100%;
+      flex: 1;
     }
-    .section-title { font-size: 20px; font-weight: 800; color: #0f172a; display: flex; align-items: center; gap: 8px; }
-    .section-title span { color: #0d9488; font-size: 14px; font-weight: 600; }
 
+    .section-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Program Cards Grid */
     .programs-grid {
-      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 16px; margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 40px;
     }
     .program-card {
-      background: #ffffff; border: 1.5px solid #e2e8f0; border-radius: 16px;
-      padding: 20px; text-decoration: none; color: inherit; transition: all 0.25s ease;
-      display: flex; flex-direction: column; justify-content: space-between;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     .program-card:hover {
-      border-color: #0d9488; transform: translateY(-3px);
-      box-shadow: 0 10px 25px rgba(13, 148, 136, 0.1);
+      border-color: var(--border-hover);
+      background: #fafafa;
+      transform: translateY(-1px);
     }
-    .program-card.featured {
-      border-color: #0d9488; background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+    .program-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 4px;
     }
-    .program-icon {
-      font-size: 32px; width: 56px; height: 56px; border-radius: 14px;
-      background: #f8fafc; display: flex; align-items: center; justify-content: center;
-      margin-bottom: 14px; border: 1px solid #e2e8f0;
+    .program-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
     }
-    .program-card.featured .program-icon { background: #ccfbf1; border-color: #99f6e4; }
-    .program-name { font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 4px; }
-    .program-desc { font-size: 13px; color: #64748b; line-height: 1.4; margin-bottom: 16px; }
-    
-    .semester-pills { display: flex; flex-wrap: wrap; gap: 6px; }
-    .sem-pill {
-      font-size: 11px; font-weight: 700; padding: 4px 8px; border-radius: 8px;
-      background: #f1f5f9; color: #475569; text-decoration: none; transition: all 0.15s;
+    .program-tag {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
     }
-    .sem-pill:hover { background: #0d9488; color: #ffffff; }
+    .program-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
 
-    .campus-box {
-      background: #ffffff; border: 1.5px solid #e2e8f0; border-radius: 16px;
-      padding: 24px; margin-bottom: 40px; display: flex; align-items: center; justify-content: space-between;
-      gap: 20px; flex-wrap: wrap;
+    /* Subtle Minimal Share Link */
+    .share-action-wrap {
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    .campus-info h3 { font-size: 16px; font-weight: 800; color: #0f172a; margin-bottom: 4px; }
-    .campus-info p { font-size: 13px; color: #64748b; line-height: 1.5; }
-    .campus-links { display: flex; gap: 10px; flex-wrap: wrap; }
-    .campus-btn {
-      padding: 8px 16px; border-radius: 10px; font-size: 13px; font-weight: 700;
-      text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
-      transition: all 0.2s;
+    .share-subtle-text {
+      font-size: 13px;
+      color: var(--text-muted);
     }
-    .campus-btn-primary { background: #0d9488; color: white; }
-    .campus-btn-primary:hover { background: #0f766e; }
-    .campus-btn-outline { background: #f8fafc; border: 1px solid #cbd5e1; color: #334155; }
-    .campus-btn-outline:hover { border-color: #0d9488; color: #0d9488; }
+    .share-subtle-link {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.15s;
+    }
+    .share-subtle-link:hover {
+      color: var(--primary-hover);
+      text-decoration: underline;
+    }
 
+    /* Minimal Footer */
     footer {
-      background: #ffffff; border-top: 1px solid #e2e8f0; padding: 32px 20px;
-      text-align: center; font-size: 13px; color: #64748b; margin-top: auto;
+      background: #ffffff;
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-light);
     }
-    footer a { color: #0d9488; text-decoration: none; font-weight: 600; }
-    footer a:hover { text-decoration: underline; }
-    .footer-links { display: flex; justify-content: center; gap: 16px; margin-bottom: 12px; flex-wrap: wrap; }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover {
+      color: var(--text-main);
+      text-decoration: underline;
+    }
 
-    @media (max-width: 640px) {
-      .hero { padding: 36px 16px 28px; }
-      .hero h1 { font-size: 24px; }
-      .hero p { font-size: 14px; }
-      .programs-grid { grid-template-columns: 1fr; }
-      .search-kbd { display: none; }
+    @media (max-width: 600px) {
+      .programs-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-section {
+        padding: 32px 16px 16px;
+      }
+      .main-content {
+        padding: 0 16px 40px;
+      }
+      .hero-heading {
+        font-size: 22px;
+      }
+      .search-shortcut {
+        display: none;
+      }
     }
   </style>
 </head>
@@ -195,207 +313,119 @@
 
 <header>
   <div class="header-inner">
-    <a class="logo" href="/">
-      🎓 <span>Islamia College</span>
-      <span class="college-badge">ICSC Portal</span>
+    <a class="college-brand" href="/">
+      <div class="college-title">
+        Islamia College of Science and Commerce
+      </div>
+      <div class="college-subtitle">Srinagar • Autonomous College</div>
     </a>
-    <div class="header-actions">
-      <button type="button" class="btn-request-header open-paper-request-btn">
-        📩 <span>Request Paper</span>
-      </button>
-      <button class="header-btn bookmarks-open-btn" title="Saved Papers" aria-label="Saved Papers">
-        🔖
-        <span class="badge-count bookmark-badge-count">0</span>
-      </button>
-    </div>
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-container">
-    <div class="hero-tag">
-      🏛️ Autonomous College • UGC • Hawal, Srinagar
-    </div>
-    <h1>Islamia College Past Papers & Syllabi</h1>
-    <p>Previous year semester examination papers and official syllabi for all undergraduate and postgraduate degree programs.</p>
+<div class="hero-section">
+  <h1 class="hero-heading">Previous Year Papers & Syllabus</h1>
+  <p class="hero-description">Clean, direct access to undergraduate question papers and course syllabi.</p>
 
-    <div class="search-wrap">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="site-search-input" placeholder="Search BCA, B.Sc IT, BBA, B.Com, Semesters or Subjects..." autocomplete="off" />
-      <span class="search-kbd">Ctrl+K</span>
-    </div>
+  <div class="search-container">
+    <span class="search-icon">🔍</span>
+    <input 
+      type="text" 
+      id="site-search-input" 
+      class="search-input" 
+      placeholder="Find previous year papers or search for papers" 
+      autocomplete="off" 
+    />
+    <span class="search-shortcut">/</span>
   </div>
-</section>
+</div>
 
-<main class="container">
-
-  <div class="section-header">
-    <h2 class="section-title">🎓 Undergraduate Programs <span>(6 Semesters)</span></h2>
+<main class="main-content">
+  <div class="section-label">
+    <span>Undergraduate Programs</span>
+    <span>6 Semesters</span>
   </div>
 
   <div class="programs-grid">
     <!-- BCA -->
-    <div class="program-card featured">
-      <div>
-        <div class="program-icon">💻</div>
-        <h3 class="program-name">BCA</h3>
-        <p class="program-desc">Bachelor of Computer Applications • Programming, Data Structures, Web Technologies & Database Systems.</p>
+    <a class="program-card" href="/bca/">
+      <div class="program-header">
+        <div class="program-title">BCA</div>
+        <div class="program-tag">Semesters 1–6</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/bca/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/bca/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/bca/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/bca/semester-4/">Sem 4</a>
-        <a class="sem-pill" href="/bca/semester-5/">Sem 5</a>
-        <a class="sem-pill" href="/bca/semester-6/">Sem 6</a>
-      </div>
-    </div>
+      <div class="program-desc">Bachelor of Computer Applications</div>
+    </a>
 
-    <!-- B.Sc IT -->
-    <div class="program-card featured">
-      <div>
-        <div class="program-icon">🖥️</div>
-        <h3 class="program-name">B.Sc IT</h3>
-        <p class="program-desc">B.Sc Information Technology • Software Engineering, Networking, Cyber Security & Algorithms.</p>
+    <!-- B.Sc. IT -->
+    <a class="program-card" href="/bsc-it/">
+      <div class="program-header">
+        <div class="program-title">B.Sc. IT</div>
+        <div class="program-tag">Semesters 1–6</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/bsc-it/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/bsc-it/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/bsc-it/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/bsc-it/semester-4/">Sem 4</a>
-        <a class="sem-pill" href="/bsc-it/semester-5/">Sem 5</a>
-        <a class="sem-pill" href="/bsc-it/semester-6/">Sem 6</a>
-      </div>
-    </div>
+      <div class="program-desc">Information Technology</div>
+    </a>
 
     <!-- BBA -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">💼</div>
-        <h3 class="program-name">BBA</h3>
-        <p class="program-desc">Bachelor of Business Administration • Principles of Management, Financial Accounting & Marketing.</p>
+    <a class="program-card" href="/bba/">
+      <div class="program-header">
+        <div class="program-title">BBA</div>
+        <div class="program-tag">Semesters 1–6</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/bba/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/bba/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/bba/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/bba/semester-4/">Sem 4</a>
-        <a class="sem-pill" href="/bba/semester-5/">Sem 5</a>
-        <a class="sem-pill" href="/bba/semester-6/">Sem 6</a>
-      </div>
-    </div>
+      <div class="program-desc">Bachelor of Business Administration</div>
+    </a>
 
     <!-- B.Com -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">📊</div>
-        <h3 class="program-name">B.Com (General & Honours)</h3>
-        <p class="program-desc">Bachelor of Commerce • Corporate Accounting, Business Law, Income Tax & Auditing.</p>
+    <a class="program-card" href="/bcom/">
+      <div class="program-header">
+        <div class="program-title">B.Com</div>
+        <div class="program-tag">Semesters 1–6</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/bcom/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/bcom/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/bcom/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/bcom/semester-4/">Sem 4</a>
-        <a class="sem-pill" href="/bcom/semester-5/">Sem 5</a>
-        <a class="sem-pill" href="/bcom/semester-6/">Sem 6</a>
-      </div>
-    </div>
+      <div class="program-desc">Commerce (General & Honours)</div>
+    </a>
 
-    <!-- B.A -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">📖</div>
-        <h3 class="program-name">B.A (Arts & Humanities)</h3>
-        <p class="program-desc">Bachelor of Arts • English Literature, Political Science, Economics, History & Kashmiri.</p>
+    <!-- B.A. -->
+    <a class="program-card" href="/ba/">
+      <div class="program-header">
+        <div class="program-title">B.A.</div>
+        <div class="program-tag">Semesters 1–6</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/ba/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/ba/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/ba/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/ba/semester-4/">Sem 4</a>
-        <a class="sem-pill" href="/ba/semester-5/">Sem 5</a>
-        <a class="sem-pill" href="/ba/semester-6/">Sem 6</a>
-      </div>
-    </div>
+      <div class="program-desc">Arts & Humanities</div>
+    </a>
 
-    <!-- B.Sc Medical & Non-Medical -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">🔬</div>
-        <h3 class="program-name">B.Sc Sciences</h3>
-        <p class="program-desc">Medical & Non-Medical Streams • Physics, Chemistry, Mathematics, Botany, Zoology & Biotechnology.</p>
+    <!-- B.Sc. Non-Medical -->
+    <a class="program-card" href="/bsc-non-medical/">
+      <div class="program-header">
+        <div class="program-title">B.Sc. Non-Medical</div>
+        <div class="program-tag">Physics, Chemistry, Maths</div>
       </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/bsc-non-medical/">Non-Medical</a>
-        <a class="sem-pill" href="/bsc-medical/">Medical</a>
-        <a class="sem-pill" href="/bsc-biotechnology/">Biotechnology</a>
-        <a class="sem-pill" href="/bsc-biochemistry/">Biochemistry</a>
+      <div class="program-desc">Physical & Mathematical Sciences</div>
+    </a>
+
+    <!-- B.Sc. Medical -->
+    <a class="program-card" href="/bsc-medical/">
+      <div class="program-header">
+        <div class="program-title">B.Sc. Medical</div>
+        <div class="program-tag">Botany, Zoology, Chemistry</div>
       </div>
-    </div>
+      <div class="program-desc">Biological & Life Sciences</div>
+    </a>
+
+    <!-- B.Sc. Biotechnology & Biochemistry -->
+    <a class="program-card" href="/bsc-biotechnology/">
+      <div class="program-header">
+        <div class="program-title">B.Sc. Biotechnology</div>
+        <div class="program-tag">Biotech & Biochemistry</div>
+      </div>
+      <div class="program-desc">Applied Biological Sciences</div>
+    </a>
   </div>
 
-  <div class="section-header">
-    <h2 class="section-title">🎓 Postgraduate Programs <span>(Master's Degrees)</span></h2>
+  <!-- Subtle Share Paper Link -->
+  <div class="share-action-wrap">
+    <div class="share-subtle-text">Have past semester papers to share with fellow students?</div>
+    <a class="share-subtle-link" href="https://t.me/sahilsleem" target="_blank" rel="noopener">
+      Share question paper →
+    </a>
   </div>
-
-  <div class="programs-grid">
-    <!-- MBA -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">🏛️</div>
-        <h3 class="program-name">MBA</h3>
-        <p class="program-desc">Master of Business Administration • Strategic Management, Financial Systems & Organizational Behavior.</p>
-      </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/mba/semester-1/">Sem 1</a>
-        <a class="sem-pill" href="/mba/semester-2/">Sem 2</a>
-        <a class="sem-pill" href="/mba/semester-3/">Sem 3</a>
-        <a class="sem-pill" href="/mba/semester-4/">Sem 4</a>
-      </div>
-    </div>
-
-    <!-- MCA -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">⚙️</div>
-        <h3 class="program-name">MCA</h3>
-        <p class="program-desc">Master of Computer Applications • Advanced Data Structures, Cloud Computing & AI Systems.</p>
-      </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/mca/">View MCA Papers</a>
-      </div>
-    </div>
-
-    <!-- M.Com -->
-    <div class="program-card">
-      <div>
-        <div class="program-icon">📈</div>
-        <h3 class="program-name">M.Com</h3>
-        <p class="program-desc">Master of Commerce • Advanced Accounting, Financial Markets & International Business.</p>
-      </div>
-      <div class="semester-pills">
-        <a class="sem-pill" href="/mcom/">View M.Com Papers</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Campus Support Box -->
-  <div class="campus-box">
-    <div class="campus-info">
-      <h3>📩 Have Islamia College Papers to Share?</h3>
-      <p>Help your fellow college batchmates! Send past mid-term or end-term semester question papers to be featured.</p>
-    </div>
-    <div class="campus-links">
-      <button type="button" class="campus-btn campus-btn-primary open-paper-request-btn">
-        ✈️ Share Paper / Request
-      </button>
-      <a class="campus-btn campus-btn-outline" href="https://t.me/sahilsleem" target="_blank">
-        💬 Telegram Group
-      </a>
-    </div>
-  </div>
-
 </main>
 
 <footer>
@@ -405,14 +435,12 @@
     <a href="/privacy/">Privacy Policy</a>
     <a href="/dmca/">DMCA</a>
   </div>
-  <p>© 2026 Islamia College Student Portal. Built for ICSC students.</p>
+  <p>Islamia College of Science and Commerce, Srinagar</p>
 </footer>
 
 <script src="/assets/js/search-index.js"></script>
 <script src="/assets/js/search.js"></script>
-<script src="/assets/js/bookmarks.js"></script>
 <script src="/assets/js/pwa.js"></script>
-<script src="/assets/js/request-paper.js"></script>
 <script src="/assets/js/analytics.js"></script>
 
 </body>

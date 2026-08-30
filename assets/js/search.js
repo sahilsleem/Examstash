@@ -15,7 +15,7 @@
   });
 
   function focusSearch() {
-    const input = document.querySelector('.search-wrap input');
+    const input = document.querySelector('#site-search-input, .search-container input, .search-wrap input');
     if (input) {
       input.scrollIntoView({ behavior: 'smooth', block: 'center' });
       setTimeout(() => input.focus(), 150);
@@ -23,7 +23,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    const searchInputs = document.querySelectorAll('.search-wrap input');
+    const searchInputs = document.querySelectorAll('#site-search-input, .search-container input, .search-wrap input');
     if (!searchInputs.length) return;
 
     searchInputs.forEach(input => {
@@ -32,7 +32,7 @@
   });
 
   function setupAutocomplete(input) {
-    const wrapper = input.closest('.search-wrap');
+    const wrapper = input.closest('.search-container, .search-wrap') || input.parentElement;
     if (!wrapper) return;
 
     // Wrap in relative container if needed
