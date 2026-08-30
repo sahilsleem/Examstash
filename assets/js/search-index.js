@@ -12,98 +12,98 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "url": "/ba/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts humanities"
+    "keywords": "ba arts kashmiri literature elt english"
   },
   {
     "title": "B.A. Past Papers & Syllabus",
     "url": "/islamia-college/ba/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts humanities"
+    "keywords": "ba arts kashmiri literature elt english"
   },
   {
     "title": "B.A. Semester 1 Past Papers & Syllabus",
     "url": "/ba/semester-1/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.A. Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-1/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.A. Semester 2 Past Papers & Syllabus",
     "url": "/ba/semester-2/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.A. Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-2/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.A. Semester 3 Past Papers & Syllabus",
     "url": "/ba/semester-3/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.A. Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-3/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.A. Semester 4 Past Papers & Syllabus",
     "url": "/ba/semester-4/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.A. Semester 4 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-4/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.A. Semester 5 Past Papers & Syllabus",
     "url": "/ba/semester-5/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.A. Semester 5 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-5/",
     "category": "B.A.",
     "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "ba arts kashmiri literature elt english sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/ba/semester-6/",
     "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba arts kashmiri literature elt english sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-6/",
     "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College Srinagar.",
-    "keywords": "ba arts humanities sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba arts kashmiri literature elt english sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Com Past Papers & Syllabus",
@@ -614,98 +614,98 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "url": "/bsc-it/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology"
+    "keywords": "bsc it information technology operating system architecture networks dbms"
   },
   {
     "title": "B.Sc. IT Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology"
+    "keywords": "bsc it information technology operating system architecture networks dbms"
   },
   {
     "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
     "url": "/bsc-it/semester-1/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-1/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
     "url": "/bsc-it/semester-2/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-2/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
     "url": "/bsc-it/semester-3/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-3/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
     "url": "/bsc-it/semester-4/",
     "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-4/",
     "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
     "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
     "url": "/bsc-it/semester-5/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-5/",
     "category": "B.Sc. IT",
     "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
     "url": "/bsc-it/semester-6/",
     "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
     "url": "/islamia-college/bsc-it/semester-6/",
     "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "bsc it information technology operating system architecture networks dbms sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Sc. Mathematics Past Papers & Syllabus",
