@@ -1,7 +1,7 @@
 {
-  "name": "ExamStash — Free Question Papers & Syllabus",
-  "short_name": "ExamStash",
-  "description": "Download free past question papers for JKBOSE, CBSE, Kashmir University, Islamia College and competitive entrance exams.",
+  "name": "Islamia College Portal — ICSC Srinagar",
+  "short_name": "ICSC Portal",
+  "description": "Download free past question papers and syllabi for Islamia College of Science & Commerce (ICSC) Srinagar. BCA, B.Sc IT, BBA, B.Com, B.A, MBA & MCA.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
