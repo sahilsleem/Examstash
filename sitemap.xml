@@ -25,7 +25,37 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/ba/semester-1/functional-english-phonetics-phonology/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-1/functional-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-1/introduction-to-literature/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/ba/semester-2/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-2/functional-english-ii-communicative-grammar/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-2/introduction-to-literature-ii/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -37,13 +67,67 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/ba/semester-3/functional-english-business-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-3/history-of-english-literature/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/ba/semester-4/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/ba/semester-4/16th-to-20th-century-prose/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-4/british-fiction-18th-to-19th-century/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-4/functional-english-sem4/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/ba/semester-5/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-5/indian-writing-in-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-5/linguistics/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/ba/semester-5/short-stories-across-cultures/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -613,6 +697,120 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/common-courses/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-1/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-1/digital-technology-solutions/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-1/environmental-science/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-1/hydroponics/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-1/mil-urdu/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/communication-skills/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/health-and-wellness/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/hydroponics-ii/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/introduction-to-biochemistry/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/introduction-to-information-technology/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-2/understanding-india/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-3/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-3/english-language/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-3/plant-tissue-culture/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-4/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-5/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/common-courses/semester-6/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/contact/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -643,7 +841,37 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-1/functional-english-phonetics-phonology/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-1/functional-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-1/introduction-to-literature/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/islamia-college/ba/semester-2/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-2/functional-english-ii-communicative-grammar/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-2/introduction-to-literature-ii/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -655,13 +883,67 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-3/functional-english-business-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-3/history-of-english-literature/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/islamia-college/ba/semester-4/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-4/16th-to-20th-century-prose/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-4/british-fiction-18th-to-19th-century/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-4/functional-english-sem4/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://examstash.pages.dev/islamia-college/ba/semester-5/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-5/indian-writing-in-english/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-5/linguistics/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/ba/semester-5/short-stories-across-cultures/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1226,6 +1508,120 @@
   </url>
   <url>
     <loc>https://examstash.pages.dev/islamia-college/bsc-zoology/semester-6/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-1/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-1/digital-technology-solutions/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-1/environmental-science/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-1/hydroponics/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-1/mil-urdu/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/communication-skills/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/health-and-wellness/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/hydroponics-ii/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/introduction-to-biochemistry/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/introduction-to-information-technology/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-2/understanding-india/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-3/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-3/english-language/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-3/plant-tissue-culture/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-4/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-5/</loc>
+    <lastmod>2026-08-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://examstash.pages.dev/islamia-college/common-courses/semester-6/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -1,6 +1,20 @@
 // Islamia College Portal In-Memory Search Index
 window.EXAMSTASH_SEARCH_INDEX = [
   {
+    "title": "16th to 20th Century Prose",
+    "url": "/ba/semester-4/16th-to-20th-century-prose/",
+    "category": "B.A. & English",
+    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "16th to 20th Century Prose",
+    "url": "/islamia-college/ba/semester-4/16th-to-20th-century-prose/",
+    "category": "B.A. & English",
+    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
     "title": "About ExamStash",
     "url": "/about/",
     "category": "Islamia College",
@@ -8,102 +22,102 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": ""
   },
   {
-    "title": "B.A. Past Papers & Syllabus",
+    "title": "B.A. & English Honours Past Papers & Syllabus",
     "url": "/ba/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for Bachelor of Arts (B.A.) and English Honours at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial"
   },
   {
-    "title": "B.A. Past Papers & Syllabus",
+    "title": "B.A. & English Honours Past Papers & Syllabus",
     "url": "/islamia-college/ba/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for Bachelor of Arts at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for Bachelor of Arts (B.A.) and English Honours at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial"
   },
   {
-    "title": "B.A. Semester 1 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 1 Past Papers & Syllabus",
     "url": "/ba/semester-1/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
-    "title": "B.A. Semester 1 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-1/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 1 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
-    "title": "B.A. Semester 2 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 2 Past Papers & Syllabus",
     "url": "/ba/semester-2/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
-    "title": "B.A. Semester 2 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-2/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 2 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
-    "title": "B.A. Semester 3 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 3 Past Papers & Syllabus",
     "url": "/ba/semester-3/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
-    "title": "B.A. Semester 3 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-3/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 3 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
-    "title": "B.A. Semester 4 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 4 Past Papers & Syllabus",
     "url": "/ba/semester-4/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
-    "title": "B.A. Semester 4 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 4 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-4/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 4 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
-    "title": "B.A. Semester 5 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 5 Past Papers & Syllabus",
     "url": "/ba/semester-5/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
-    "title": "B.A. Semester 5 Past Papers & Syllabus",
+    "title": "B.A. & English Honours Semester 5 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-5/",
-    "category": "B.A.",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 5 at Islamia College Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "category": "B.A. & English",
+    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/ba/semester-6/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.A. Semester 6 Past Papers & Syllabus",
     "url": "/islamia-college/ba/semester-6/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "B.Com Past Papers & Syllabus",
@@ -1226,32 +1240,172 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": "bca computer applications sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
+    "title": "British Fiction (18th to 19th Century)",
+    "url": "/ba/semester-4/british-fiction-18th-to-19th-century/",
+    "category": "B.A. & English",
+    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "British Fiction (18th to 19th Century)",
+    "url": "/islamia-college/ba/semester-4/british-fiction-18th-to-19th-century/",
+    "category": "B.A. & English",
+    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
     "title": "British Literature",
     "url": "/ba/semester-6/british-literature-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "British Literature",
     "url": "/islamia-college/ba/semester-6/british-literature-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "British Literature: 20th Century",
     "url": "/ba/semester-6/british-literature-20th-century/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "British Literature: 20th Century",
     "url": "/islamia-college/ba/semester-6/british-literature-20th-century/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
+    "url": "/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
+    "category": "B.A. & English",
+    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
+    "url": "/islamia-college/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
+    "category": "B.A. & English",
+    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Past Papers & Syllabus",
+    "url": "/common-courses/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers for Multidisciplinary (MDC), Skill Enhancement (SEC), Value Added (VAC), and AEC common courses at Islamia College Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture"
+  },
+  {
+    "title": "Common Courses (NEP) Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers for Multidisciplinary (MDC), Skill Enhancement (SEC), Value Added (VAC), and AEC common courses at Islamia College Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 1 Past Papers & Syllabus",
+    "url": "/common-courses/semester-1/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 1 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-1/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 2 Past Papers & Syllabus",
+    "url": "/common-courses/semester-2/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 2 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-2/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 3 Past Papers & Syllabus",
+    "url": "/common-courses/semester-3/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 3 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-3/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 4 Past Papers & Syllabus",
+    "url": "/common-courses/semester-4/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 4 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-4/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 4 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 5 Past Papers & Syllabus",
+    "url": "/common-courses/semester-5/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 5 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 5 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-5/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 5 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 6 Past Papers & Syllabus",
+    "url": "/common-courses/semester-6/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Common Courses (NEP) Semester 6 Past Papers & Syllabus",
+    "url": "/islamia-college/common-courses/semester-6/",
+    "category": "Common Courses (NEP)",
+    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 6 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Communication Skills",
+    "url": "/common-courses/semester-2/communication-skills/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Communication Skills Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Communication Skills",
+    "url": "/islamia-college/common-courses/semester-2/communication-skills/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Communication Skills Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Computer Networks",
@@ -1310,32 +1464,270 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
+    "title": "Digital Technology Solutions",
+    "url": "/common-courses/semester-1/digital-technology-solutions/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Digital Technology Solutions",
+    "url": "/islamia-college/common-courses/semester-1/digital-technology-solutions/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "English Language",
+    "url": "/common-courses/semester-3/english-language/",
+    "category": "Common Courses (NEP)",
+    "description": "Download English Language Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "English Language",
+    "url": "/islamia-college/common-courses/semester-3/english-language/",
+    "category": "Common Courses (NEP)",
+    "description": "Download English Language Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
     "title": "English Language Teaching (ELT)",
     "url": "/ba/semester-6/english-language-teaching-elt/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "English Language Teaching (ELT)",
     "url": "/islamia-college/ba/semester-6/english-language-teaching-elt/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Environmental Science",
+    "url": "/common-courses/semester-1/environmental-science/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Environmental Science Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Environmental Science",
+    "url": "/islamia-college/common-courses/semester-1/environmental-science/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Environmental Science Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Functional English",
+    "url": "/ba/semester-1/functional-english/",
+    "category": "B.A. & English",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Functional English",
+    "url": "/ba/semester-4/functional-english-sem4/",
+    "category": "B.A. & English",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Functional English",
+    "url": "/islamia-college/ba/semester-1/functional-english/",
+    "category": "B.A. & English",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Functional English",
+    "url": "/islamia-college/ba/semester-4/functional-english-sem4/",
+    "category": "B.A. & English",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Functional English (Business English)",
+    "url": "/ba/semester-3/functional-english-business-english/",
+    "category": "B.A. & English",
+    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Functional English (Business English)",
+    "url": "/islamia-college/ba/semester-3/functional-english-business-english/",
+    "category": "B.A. & English",
+    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Functional English (Phonetics & Phonology)",
+    "url": "/ba/semester-1/functional-english-phonetics-phonology/",
+    "category": "B.A. & English",
+    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Functional English (Phonetics & Phonology)",
+    "url": "/islamia-college/ba/semester-1/functional-english-phonetics-phonology/",
+    "category": "B.A. & English",
+    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Functional English II (Communicative Grammar)",
+    "url": "/ba/semester-2/functional-english-ii-communicative-grammar/",
+    "category": "B.A. & English",
+    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Functional English II (Communicative Grammar)",
+    "url": "/islamia-college/ba/semester-2/functional-english-ii-communicative-grammar/",
+    "category": "B.A. & English",
+    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Functional English Language Teaching",
     "url": "/ba/semester-6/functional-english-language-teaching-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Functional English Language Teaching",
     "url": "/islamia-college/ba/semester-6/functional-english-language-teaching-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/common-courses/semester-2/health-and-wellness/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Health and Wellness Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/islamia-college/common-courses/semester-2/health-and-wellness/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Health and Wellness Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "History of English Literature",
+    "url": "/ba/semester-3/history-of-english-literature/",
+    "category": "B.A. & English",
+    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "History of English Literature",
+    "url": "/islamia-college/ba/semester-3/history-of-english-literature/",
+    "category": "B.A. & English",
+    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Hydroponics",
+    "url": "/common-courses/semester-1/hydroponics/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Hydroponics Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Hydroponics",
+    "url": "/islamia-college/common-courses/semester-1/hydroponics/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Hydroponics Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Hydroponics-II",
+    "url": "/common-courses/semester-2/hydroponics-ii/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Hydroponics-II Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Hydroponics-II",
+    "url": "/islamia-college/common-courses/semester-2/hydroponics-ii/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Hydroponics-II Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Indian Writing in English",
+    "url": "/ba/semester-5/indian-writing-in-english/",
+    "category": "B.A. & English",
+    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Indian Writing in English",
+    "url": "/islamia-college/ba/semester-5/indian-writing-in-english/",
+    "category": "B.A. & English",
+    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Introduction to Biochemistry",
+    "url": "/common-courses/semester-2/introduction-to-biochemistry/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Introduction to Biochemistry",
+    "url": "/islamia-college/common-courses/semester-2/introduction-to-biochemistry/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Introduction to Information Technology",
+    "url": "/common-courses/semester-2/introduction-to-information-technology/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Introduction to Information Technology",
+    "url": "/islamia-college/common-courses/semester-2/introduction-to-information-technology/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Introduction to Literature",
+    "url": "/ba/semester-1/introduction-to-literature/",
+    "category": "B.A. & English",
+    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Introduction to Literature",
+    "url": "/islamia-college/ba/semester-1/introduction-to-literature/",
+    "category": "B.A. & English",
+    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "Introduction to Literature II",
+    "url": "/ba/semester-2/introduction-to-literature-ii/",
+    "category": "B.A. & English",
+    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Introduction to Literature II",
+    "url": "/islamia-college/ba/semester-2/introduction-to-literature-ii/",
+    "category": "B.A. & English",
+    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Islamia College of Science and Commerce",
@@ -1347,30 +1739,58 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Kashmiri Literature in Translation",
     "url": "/ba/semester-6/kashmiri-literature-in-translation/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Kashmiri Literature in Translation",
     "url": "/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Kashmiri Literature in Translation",
     "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Kashmiri Literature in Translation",
     "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+  },
+  {
+    "title": "Linguistics",
+    "url": "/ba/semester-5/linguistics/",
+    "category": "B.A. & English",
+    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Linguistics",
+    "url": "/islamia-college/ba/semester-5/linguistics/",
+    "category": "B.A. & English",
+    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "MIL-Urdu",
+    "url": "/common-courses/semester-1/mil-urdu/",
+    "category": "Common Courses (NEP)",
+    "description": "Download MIL-Urdu Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+  },
+  {
+    "title": "MIL-Urdu",
+    "url": "/islamia-college/common-courses/semester-1/mil-urdu/",
+    "category": "Common Courses (NEP)",
+    "description": "Download MIL-Urdu Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Operating System",
@@ -1401,18 +1821,32 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
+    "title": "Plant Tissue Culture",
+    "url": "/common-courses/semester-3/plant-tissue-culture/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
+    "title": "Plant Tissue Culture",
+    "url": "/islamia-college/common-courses/semester-3/plant-tissue-culture/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+  },
+  {
     "title": "Postcolonial Literature: African & Caribbean",
     "url": "/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Postcolonial Literature: African & Caribbean",
     "url": "/islamia-college/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
-    "category": "B.A.",
+    "category": "B.A. & English",
     "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba arts kashmiri literature elt english postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
   },
   {
     "title": "Privacy Policy",
@@ -1434,5 +1868,33 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "category": "B.Sc. IT",
     "description": "Download Real Analysis (Minor Subject) Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
     "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+  },
+  {
+    "title": "Short Stories Across Cultures",
+    "url": "/ba/semester-5/short-stories-across-cultures/",
+    "category": "B.A. & English",
+    "description": "Download Short Stories Across Cultures Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Short Stories Across Cultures",
+    "url": "/islamia-college/ba/semester-5/short-stories-across-cultures/",
+    "category": "B.A. & English",
+    "description": "Download Short Stories Across Cultures Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/common-courses/semester-2/understanding-india/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Understanding India Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/islamia-college/common-courses/semester-2/understanding-india/",
+    "category": "Common Courses (NEP)",
+    "description": "Download Understanding India Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   }
 ];
