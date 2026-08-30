@@ -1296,116 +1296,74 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
   },
   {
-    "title": "Common Courses (NEP) Past Papers & Syllabus",
+    "title": "Common Courses Past Papers & Syllabus",
     "url": "/common-courses/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers for Multidisciplinary (MDC), Skill Enhancement (SEC), Value Added (VAC), and AEC common courses at Islamia College Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Multidisciplinary, Skill Enhancement, Value Added, and Ability Enhancement common courses at Islamia College Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture"
   },
   {
-    "title": "Common Courses (NEP) Past Papers & Syllabus",
+    "title": "Common Courses Past Papers & Syllabus",
     "url": "/islamia-college/common-courses/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers for Multidisciplinary (MDC), Skill Enhancement (SEC), Value Added (VAC), and AEC common courses at Islamia College Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Multidisciplinary, Skill Enhancement, Value Added, and Ability Enhancement common courses at Islamia College Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture"
   },
   {
-    "title": "Common Courses (NEP) Semester 1 Past Papers & Syllabus",
+    "title": "Common Courses Semester 1 Past Papers & Syllabus",
     "url": "/common-courses/semester-1/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
-    "title": "Common Courses (NEP) Semester 1 Past Papers & Syllabus",
+    "title": "Common Courses Semester 1 Past Papers & Syllabus",
     "url": "/islamia-college/common-courses/semester-1/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 1 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
-    "title": "Common Courses (NEP) Semester 2 Past Papers & Syllabus",
+    "title": "Common Courses Semester 2 Past Papers & Syllabus",
     "url": "/common-courses/semester-2/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
-    "title": "Common Courses (NEP) Semester 2 Past Papers & Syllabus",
+    "title": "Common Courses Semester 2 Past Papers & Syllabus",
     "url": "/islamia-college/common-courses/semester-2/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 2 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
-    "title": "Common Courses (NEP) Semester 3 Past Papers & Syllabus",
+    "title": "Common Courses Semester 3 Past Papers & Syllabus",
     "url": "/common-courses/semester-3/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
-    "title": "Common Courses (NEP) Semester 3 Past Papers & Syllabus",
+    "title": "Common Courses Semester 3 Past Papers & Syllabus",
     "url": "/islamia-college/common-courses/semester-3/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 4 Past Papers & Syllabus",
-    "url": "/common-courses/semester-4/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-4/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 5 Past Papers & Syllabus",
-    "url": "/common-courses/semester-5/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 5 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-5/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 5 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 6 Past Papers & Syllabus",
-    "url": "/common-courses/semester-6/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Common Courses (NEP) Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-6/",
-    "category": "Common Courses (NEP)",
-    "description": "Download previous year question papers and syllabi for Common Courses (NEP) Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "category": "Common Courses",
+    "description": "Download previous year question papers for Common Courses Semester 3 at Islamia College of Science & Commerce, Srinagar.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "Communication Skills",
     "url": "/common-courses/semester-2/communication-skills/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Communication Skills Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Communication Skills Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Communication Skills",
     "url": "/islamia-college/common-courses/semester-2/communication-skills/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Communication Skills Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Communication Skills Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Computer Networks",
@@ -1466,30 +1424,30 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Digital Technology Solutions",
     "url": "/common-courses/semester-1/digital-technology-solutions/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Digital Technology Solutions Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Digital Technology Solutions",
     "url": "/islamia-college/common-courses/semester-1/digital-technology-solutions/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Digital Technology Solutions Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "English Language",
     "url": "/common-courses/semester-3/english-language/",
-    "category": "Common Courses (NEP)",
-    "description": "Download English Language Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "Common Courses",
+    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "English Language",
     "url": "/islamia-college/common-courses/semester-3/english-language/",
-    "category": "Common Courses (NEP)",
-    "description": "Download English Language Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "Common Courses",
+    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "English Language Teaching (ELT)",
@@ -1508,16 +1466,16 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Environmental Science",
     "url": "/common-courses/semester-1/environmental-science/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Environmental Science Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Environmental Science",
     "url": "/islamia-college/common-courses/semester-1/environmental-science/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Environmental Science Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Functional English",
@@ -1606,16 +1564,16 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Health and Wellness",
     "url": "/common-courses/semester-2/health-and-wellness/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Health and Wellness Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Health and Wellness",
     "url": "/islamia-college/common-courses/semester-2/health-and-wellness/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Health and Wellness Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "History of English Literature",
@@ -1634,30 +1592,30 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Hydroponics",
     "url": "/common-courses/semester-1/hydroponics/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Hydroponics Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Hydroponics",
     "url": "/islamia-college/common-courses/semester-1/hydroponics/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Hydroponics Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Hydroponics-II",
     "url": "/common-courses/semester-2/hydroponics-ii/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Hydroponics-II Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Hydroponics-II",
     "url": "/islamia-college/common-courses/semester-2/hydroponics-ii/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Hydroponics-II Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Indian Writing in English",
@@ -1676,30 +1634,30 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Introduction to Biochemistry",
     "url": "/common-courses/semester-2/introduction-to-biochemistry/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Introduction to Biochemistry Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Introduction to Biochemistry",
     "url": "/islamia-college/common-courses/semester-2/introduction-to-biochemistry/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Introduction to Biochemistry Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Introduction to Information Technology",
     "url": "/common-courses/semester-2/introduction-to-information-technology/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Introduction to Information Technology Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Introduction to Information Technology",
     "url": "/islamia-college/common-courses/semester-2/introduction-to-information-technology/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Introduction to Information Technology Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Introduction to Literature",
@@ -1781,16 +1739,16 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "MIL-Urdu",
     "url": "/common-courses/semester-1/mil-urdu/",
-    "category": "Common Courses (NEP)",
-    "description": "Download MIL-Urdu Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "MIL-Urdu",
     "url": "/islamia-college/common-courses/semester-1/mil-urdu/",
-    "category": "Common Courses (NEP)",
-    "description": "Download MIL-Urdu Question Paper for Common Courses (NEP) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "category": "Common Courses",
+    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
   },
   {
     "title": "Operating System",
@@ -1823,16 +1781,16 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Plant Tissue Culture",
     "url": "/common-courses/semester-3/plant-tissue-culture/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Plant Tissue Culture Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "Common Courses",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "Plant Tissue Culture",
     "url": "/islamia-college/common-courses/semester-3/plant-tissue-culture/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Plant Tissue Culture Question Paper for Common Courses (NEP) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "category": "Common Courses",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
   },
   {
     "title": "Postcolonial Literature: African & Caribbean",
@@ -1886,15 +1844,15 @@ window.EXAMSTASH_SEARCH_INDEX = [
   {
     "title": "Understanding India",
     "url": "/common-courses/semester-2/understanding-india/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Understanding India Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   },
   {
     "title": "Understanding India",
     "url": "/islamia-college/common-courses/semester-2/understanding-india/",
-    "category": "Common Courses (NEP)",
-    "description": "Download Understanding India Question Paper for Common Courses (NEP) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses mdc sec vac aec multidisciplinary skill urdu hydroponics digital environmental biochemistry communication health understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "category": "Common Courses",
+    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
   }
 ];
