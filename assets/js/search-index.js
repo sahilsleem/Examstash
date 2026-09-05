@@ -1,1858 +1,1501 @@
 // Islamia College Portal In-Memory Search Index
 window.EXAMSTASH_SEARCH_INDEX = [
   {
-    "title": "16th to 20th Century Prose",
-    "url": "/ba/semester-4/16th-to-20th-century-prose/",
-    "category": "B.A. & English",
-    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Chemistry Multidisciplinary",
+    "url": "/common-courses/semester-1/chemistry-multidisciplinary-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Chemistry Multidisciplinary Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "chemistry multidisciplinary common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "16th to 20th Century Prose",
-    "url": "/islamia-college/ba/semester-4/16th-to-20th-century-prose/",
-    "category": "B.A. & English",
-    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Chemistry Multidisciplinary",
+    "url": "/islamia-college/common-courses/semester-1/chemistry-multidisciplinary-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Chemistry Multidisciplinary Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "chemistry multidisciplinary common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "About ExamStash",
-    "url": "/about/",
-    "category": "Islamia College",
-    "description": "",
-    "keywords": ""
+    "title": "Communication Skill",
+    "url": "/common-courses/semester-1/communication-skill-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skill Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skill common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Past Papers & Syllabus",
-    "url": "/ba/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for Bachelor of Arts (B.A.) and English Honours at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial"
+    "title": "Communication Skill",
+    "url": "/islamia-college/common-courses/semester-1/communication-skill-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skill Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skill common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Past Papers & Syllabus",
-    "url": "/islamia-college/ba/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for Bachelor of Arts (B.A.) and English Honours at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial"
+    "title": "Communication Skills",
+    "url": "/common-courses/semester-1/communication-skills-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skills Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Semester 1 Past Papers & Syllabus",
-    "url": "/ba/semester-1/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Communication Skills",
+    "url": "/islamia-college/common-courses/semester-1/communication-skills-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skills Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-1/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Computational Mathematics",
+    "url": "/common-courses/semester-1/computational-mathematics-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computational Mathematics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computational mathematics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Semester 2 Past Papers & Syllabus",
-    "url": "/ba/semester-2/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Computational Mathematics",
+    "url": "/islamia-college/common-courses/semester-1/computational-mathematics-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computational Mathematics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computational mathematics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-2/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Computer Application Basics",
+    "url": "/common-courses/semester-1/computer-application-basics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computer Application Basics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer application basics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Semester 3 Past Papers & Syllabus",
-    "url": "/ba/semester-3/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Computer Application Basics",
+    "url": "/islamia-college/common-courses/semester-1/computer-application-basics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computer Application Basics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer application basics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-3/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Digital and Technological Solutions",
+    "url": "/common-courses/semester-1/digital-and-technological-solutions-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital and Technological Solutions Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital and technological solutions common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Semester 4 Past Papers & Syllabus",
-    "url": "/ba/semester-4/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Digital and Technological Solutions",
+    "url": "/islamia-college/common-courses/semester-1/digital-and-technological-solutions-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital and Technological Solutions Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital and technological solutions common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-4/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Digital Technology Solutions",
+    "url": "/common-courses/semester-1/digital-technology-solutions/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital technology solutions common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. & English Honours Semester 5 Past Papers & Syllabus",
-    "url": "/ba/semester-5/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Digital Technology Solutions",
+    "url": "/islamia-college/common-courses/semester-1/digital-technology-solutions/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital technology solutions common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. & English Honours Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-5/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Environmental Science",
+    "url": "/common-courses/semester-1/environmental-science/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.A. Semester 6 Past Papers & Syllabus",
-    "url": "/ba/semester-6/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Environmental Science",
+    "url": "/islamia-college/common-courses/semester-1/environmental-science/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.A. Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/ba/semester-6/",
-    "category": "B.A. & English",
-    "description": "Download previous year question papers and syllabi for B.A. Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Environmental Science Education",
+    "url": "/common-courses/semester-1/environmental-science-education-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Education Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science education common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Past Papers & Syllabus",
-    "url": "/bcom/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for Bachelor of Commerce (General & Honours) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bcom commerce accounting"
+    "title": "Environmental Science Education",
+    "url": "/islamia-college/common-courses/semester-1/environmental-science-education-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Education Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science education common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for Bachelor of Commerce (General & Honours) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bcom commerce accounting"
+    "title": "Environmental Science",
+    "url": "/common-courses/semester-1/environmental-science-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 1 Past Papers & Syllabus",
-    "url": "/bcom/semester-1/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 1 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Environmental Science",
+    "url": "/islamia-college/common-courses/semester-1/environmental-science-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-1/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 1 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Food Preservation",
+    "url": "/common-courses/semester-1/food-preservation-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Food Preservation Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "food preservation common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 2 Past Papers & Syllabus",
-    "url": "/bcom/semester-2/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 2 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Food Preservation",
+    "url": "/islamia-college/common-courses/semester-1/food-preservation-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Food Preservation Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "food preservation common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-2/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 2 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Harnessing Solar Energy I",
+    "url": "/common-courses/semester-1/harnessing-solar-energy-i-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Harnessing Solar Energy I Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "harnessing solar energy i common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 3 Past Papers & Syllabus",
-    "url": "/bcom/semester-3/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 3 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Harnessing Solar Energy I",
+    "url": "/islamia-college/common-courses/semester-1/harnessing-solar-energy-i-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Harnessing Solar Energy I Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "harnessing solar energy i common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-3/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 3 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Harnessing Solar Energy",
+    "url": "/common-courses/semester-1/harnessing-solar-energy-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Harnessing Solar Energy Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "harnessing solar energy common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 4 Past Papers & Syllabus",
-    "url": "/bcom/semester-4/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 4 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Harnessing Solar Energy",
+    "url": "/islamia-college/common-courses/semester-1/harnessing-solar-energy-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Harnessing Solar Energy Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "harnessing solar energy common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-4/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 4 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Health and Wellness",
+    "url": "/common-courses/semester-1/health-and-wellness-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 5 Past Papers & Syllabus",
-    "url": "/bcom/semester-5/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 5 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Health and Wellness",
+    "url": "/islamia-college/common-courses/semester-1/health-and-wellness-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-5/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 5 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Hydroponics",
+    "url": "/common-courses/semester-1/hydroponics/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com Semester 6 Past Papers & Syllabus",
-    "url": "/bcom/semester-6/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 6 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Hydroponics",
+    "url": "/islamia-college/common-courses/semester-1/hydroponics/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bcom/semester-6/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for B.Com Semester 6 at Islamia College Srinagar.",
-    "keywords": "bcom commerce accounting sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Hydroponics I",
+    "url": "/common-courses/semester-1/hydroponics-i-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics I Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics i common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Com. (Honours) Past Papers & Syllabus",
-    "url": "/bcom-hons/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for Bachelor of Commerce (Honours) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bcom commerce accounting"
+    "title": "Hydroponics I",
+    "url": "/islamia-college/common-courses/semester-1/hydroponics-i-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics I Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics i common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Com. (Honours) Past Papers & Syllabus",
-    "url": "/islamia-college/bcom-hons/",
-    "category": "B.Com",
-    "description": "Download previous year question papers and syllabi for Bachelor of Commerce (Honours) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bcom commerce accounting"
+    "title": "Introduction to Biochemistry",
+    "url": "/common-courses/semester-1/introduction-to-biochemistry-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biochemistry Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biochemistry common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Biochemistry at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "biochemistry"
+    "title": "Introduction to Biochemistry",
+    "url": "/islamia-college/common-courses/semester-1/introduction-to-biochemistry-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biochemistry Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biochemistry common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Biochemistry at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "biochemistry"
+    "title": "Introduction to Biotechnology",
+    "url": "/common-courses/semester-1/introduction-to-biotechnology-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biotechnology Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biotechnology common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-1/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 1 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Introduction to Biotechnology",
+    "url": "/islamia-college/common-courses/semester-1/introduction-to-biotechnology-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biotechnology Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biotechnology common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-1/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 1 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Introduction to Botany",
+    "url": "/common-courses/semester-1/introduction-to-botany-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Botany Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to botany common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-2/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 2 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Introduction to Botany",
+    "url": "/islamia-college/common-courses/semester-1/introduction-to-botany-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Botany Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to botany common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-2/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 2 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "Introduction to Commerce",
+    "url": "/common-courses/semester-1/introduction-to-commerce-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Commerce Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to commerce common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-3/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 3 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Introduction to Commerce",
+    "url": "/islamia-college/common-courses/semester-1/introduction-to-commerce-mdc-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Commerce Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to commerce common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-3/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 3 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Introduction to Zoology",
+    "url": "/common-courses/semester-1/introduction-to-zoology-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Zoology Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to zoology common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-4/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 4 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Introduction to Zoology",
+    "url": "/islamia-college/common-courses/semester-1/introduction-to-zoology-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Zoology Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to zoology common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-4/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 4 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Introductory Electronics",
+    "url": "/common-courses/semester-1/introductory-electronics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Electronics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory electronics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-5/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 5 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Introductory Electronics",
+    "url": "/islamia-college/common-courses/semester-1/introductory-electronics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Electronics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory electronics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-5/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 5 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Introductory Electronics",
+    "url": "/common-courses/semester-1/introductory-electronics-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Electronics Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory electronics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-biochemistry/semester-6/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 6 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Introductory Electronics",
+    "url": "/islamia-college/common-courses/semester-1/introductory-electronics-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Electronics Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory electronics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biochemistry Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biochemistry/semester-6/",
-    "category": "B.Sc. Biochemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biochemistry Semester 6 at Islamia College Srinagar.",
-    "keywords": "biochemistry sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Introductory Mathematics",
+    "url": "/common-courses/semester-1/introductory-mathematics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Mathematics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory mathematics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Biotechnology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "biotechnology biotech"
+    "title": "Introductory Mathematics",
+    "url": "/islamia-college/common-courses/semester-1/introductory-mathematics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Mathematics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory mathematics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Biotechnology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "biotechnology biotech"
+    "title": "Islamic Studies",
+    "url": "/common-courses/semester-1/islamic-studies-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Islamic Studies Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "islamic studies common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-1/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 1 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "Islamic Studies",
+    "url": "/islamia-college/common-courses/semester-1/islamic-studies-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Islamic Studies Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "islamic studies common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-1/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 1 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "title": "MIL-Urdu",
+    "url": "/common-courses/semester-1/mil-urdu/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil-urdu common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-2/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 2 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "MIL-Urdu",
+    "url": "/islamia-college/common-courses/semester-1/mil-urdu/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil-urdu common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-2/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 2 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "MIL Urdu",
+    "url": "/common-courses/semester-1/mil-urdu-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL Urdu Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil urdu common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-3/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 3 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "MIL Urdu",
+    "url": "/islamia-college/common-courses/semester-1/mil-urdu-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL Urdu Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil urdu common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-3/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 3 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Principles of Economics",
+    "url": "/common-courses/semester-1/principles-of-economics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Principles of Economics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "principles of economics common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-4/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 4 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Principles of Economics",
+    "url": "/islamia-college/common-courses/semester-1/principles-of-economics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Principles of Economics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "principles of economics common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-4/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 4 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "title": "Sericulture",
+    "url": "/common-courses/semester-1/sericulture-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Sericulture Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "sericulture common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-5/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 5 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Sericulture",
+    "url": "/islamia-college/common-courses/semester-1/sericulture-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Sericulture Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "sericulture common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-5/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 5 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "title": "Understanding India",
+    "url": "/common-courses/semester-1/understanding-india-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-biotechnology/semester-6/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 6 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Understanding India",
+    "url": "/islamia-college/common-courses/semester-1/understanding-india-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Biotechnology Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-biotechnology/semester-6/",
-    "category": "B.Sc. Biotechnology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Biotechnology Semester 6 at Islamia College Srinagar.",
-    "keywords": "biotechnology biotech sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Understanding India",
+    "url": "/common-courses/semester-1/understanding-india-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Botany Past Papers & Syllabus",
-    "url": "/bsc-botany/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Botany at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "botany plant science bsc botany"
+    "title": "Understanding India",
+    "url": "/islamia-college/common-courses/semester-1/understanding-india-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Syllabus for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
-    "title": "B.Sc. Botany Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Botany at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "botany plant science bsc botany"
+    "title": "Web Technologies",
+    "url": "/common-courses/semester-1/web-technologies-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Web Technologies Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "web technologies common-courses multidisciplinary & skill courses (common) semester 1"
   },
   {
-    "title": "B.Sc. Botany Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-1/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 1 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-1/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 1 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-2/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 2 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-2/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 2 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-3/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 3 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-3/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 3 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-4/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 4 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-4/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 4 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-5/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 5 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-5/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 5 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-botany/semester-6/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 6 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Botany Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-botany/semester-6/",
-    "category": "B.Sc. Botany",
-    "description": "Download previous year question papers and syllabi for B.Sc. Botany Semester 6 at Islamia College Srinagar.",
-    "keywords": "botany plant science bsc botany sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Past Papers & Syllabus",
-    "url": "/bsc-chemistry/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Chemistry at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "chemistry bsc chemistry"
-  },
-  {
-    "title": "B.Sc. Chemistry Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Chemistry at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "chemistry bsc chemistry"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-1/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 1 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-1/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 1 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-2/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 2 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-2/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 2 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-3/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 3 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-3/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 3 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-4/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 4 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-4/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 4 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-5/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 5 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-5/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 5 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-chemistry/semester-6/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 6 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Chemistry Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-chemistry/semester-6/",
-    "category": "B.Sc. Chemistry",
-    "description": "Download previous year question papers and syllabi for B.Sc. Chemistry Semester 6 at Islamia College Srinagar.",
-    "keywords": "chemistry bsc chemistry sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. IT Past Papers & Syllabus",
-    "url": "/bsc-it/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis"
-  },
-  {
-    "title": "B.Sc. IT Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc Information Technology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis"
-  },
-  {
-    "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-1/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-1/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 1 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-2/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-2/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 2 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-3/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-3/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 3 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-4/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-4/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 4 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-5/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-5/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 5 at Islamia College Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-it/semester-6/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. IT Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-it/semester-6/",
-    "category": "B.Sc. IT",
-    "description": "Download previous year question papers and syllabi for B.Sc. IT Semester 6 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Past Papers & Syllabus",
-    "url": "/bsc-mathematics/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Mathematics at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "mathematics maths bsc maths"
-  },
-  {
-    "title": "B.Sc. Mathematics Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Mathematics at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "mathematics maths bsc maths"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-1/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 1 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-1/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 1 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-2/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 2 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-2/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 2 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-3/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 3 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-3/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 3 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-4/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 4 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-4/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 4 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-5/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 5 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-5/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 5 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-mathematics/semester-6/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 6 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Mathematics Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-mathematics/semester-6/",
-    "category": "B.Sc. Mathematics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Mathematics Semester 6 at Islamia College Srinagar.",
-    "keywords": "mathematics maths bsc maths sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Medical Past Papers & Syllabus",
-    "url": "/bsc-medical/",
-    "category": "Islamia College",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science (Medical) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": ""
-  },
-  {
-    "title": "B.Sc. Medical Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-medical/",
-    "category": "Islamia College",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science (Medical) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": ""
-  },
-  {
-    "title": "B.Sc. Non-Medical Past Papers & Syllabus",
-    "url": "/bsc-non-medical/",
-    "category": "Islamia College",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science (Non-Medical) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": ""
-  },
-  {
-    "title": "B.Sc. Non-Medical Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-non-medical/",
-    "category": "Islamia College",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science (Non-Medical) at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": ""
-  },
-  {
-    "title": "B.Sc. Physics Past Papers & Syllabus",
-    "url": "/bsc-physics/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Physics at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "physics bsc physics"
-  },
-  {
-    "title": "B.Sc. Physics Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Physics at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "physics bsc physics"
-  },
-  {
-    "title": "B.Sc. Physics Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-1/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 1 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-1/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 1 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-2/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 2 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-2/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 2 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-3/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 3 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-3/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 3 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-4/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 4 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-4/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 4 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-5/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 5 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-5/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 5 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-physics/semester-6/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 6 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Physics Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-physics/semester-6/",
-    "category": "B.Sc. Physics",
-    "description": "Download previous year question papers and syllabi for B.Sc. Physics Semester 6 at Islamia College Srinagar.",
-    "keywords": "physics bsc physics sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Past Papers & Syllabus",
-    "url": "/bsc-zoology/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Zoology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "zoology animal science bsc zoology"
-  },
-  {
-    "title": "B.Sc. Zoology Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for Bachelor of Science in Zoology at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "zoology animal science bsc zoology"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 1 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-1/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 1 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-1/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 1 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 2 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-2/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 2 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-2/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 2 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 3 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-3/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 3 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-3/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 3 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 4 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-4/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 4 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-4/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 4 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 5 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-5/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 5 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-5/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 5 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 6 Past Papers & Syllabus",
-    "url": "/bsc-zoology/semester-6/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 6 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "B.Sc. Zoology Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bsc-zoology/semester-6/",
-    "category": "B.Sc. Zoology",
-    "description": "Download previous year question papers and syllabi for B.Sc. Zoology Semester 6 at Islamia College Srinagar.",
-    "keywords": "zoology animal science bsc zoology sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "BBA Past Papers & Syllabus",
-    "url": "/bba/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for Bachelor of Business Administration at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bba business administration"
-  },
-  {
-    "title": "BBA Past Papers & Syllabus",
-    "url": "/islamia-college/bba/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for Bachelor of Business Administration at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bba business administration"
-  },
-  {
-    "title": "BBA Semester 1 Past Papers & Syllabus",
-    "url": "/bba/semester-1/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 1 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "BBA Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-1/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 1 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "BBA Semester 2 Past Papers & Syllabus",
-    "url": "/bba/semester-2/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 2 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "BBA Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-2/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 2 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "BBA Semester 3 Past Papers & Syllabus",
-    "url": "/bba/semester-3/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 3 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "BBA Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-3/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 3 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "BBA Semester 4 Past Papers & Syllabus",
-    "url": "/bba/semester-4/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 4 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "BBA Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-4/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 4 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "BBA Semester 5 Past Papers & Syllabus",
-    "url": "/bba/semester-5/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 5 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "BBA Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-5/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 5 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "BBA Semester 6 Past Papers & Syllabus",
-    "url": "/bba/semester-6/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 6 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "BBA Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bba/semester-6/",
-    "category": "BBA",
-    "description": "Download previous year question papers and syllabi for BBA Semester 6 at Islamia College Srinagar.",
-    "keywords": "bba business administration sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "BCA Past Papers & Syllabus",
-    "url": "/bca/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for Bachelor of Computer Applications at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bca computer applications"
-  },
-  {
-    "title": "BCA Past Papers & Syllabus",
-    "url": "/islamia-college/bca/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for Bachelor of Computer Applications at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "bca computer applications"
-  },
-  {
-    "title": "BCA Semester 1 Past Papers & Syllabus",
-    "url": "/bca/semester-1/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 1 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "BCA Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-1/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 1 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "BCA Semester 2 Past Papers & Syllabus",
-    "url": "/bca/semester-2/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 2 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "BCA Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-2/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 2 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "BCA Semester 3 Past Papers & Syllabus",
-    "url": "/bca/semester-3/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 3 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "BCA Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-3/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 3 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "BCA Semester 4 Past Papers & Syllabus",
-    "url": "/bca/semester-4/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 4 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "BCA Semester 4 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-4/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 4 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "BCA Semester 5 Past Papers & Syllabus",
-    "url": "/bca/semester-5/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 5 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "BCA Semester 5 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-5/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 5 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "BCA Semester 6 Past Papers & Syllabus",
-    "url": "/bca/semester-6/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 6 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "BCA Semester 6 Past Papers & Syllabus",
-    "url": "/islamia-college/bca/semester-6/",
-    "category": "BCA",
-    "description": "Download previous year question papers and syllabi for BCA Semester 6 at Islamia College Srinagar.",
-    "keywords": "bca computer applications sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "British Fiction (18th to 19th Century)",
-    "url": "/ba/semester-4/british-fiction-18th-to-19th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "British Fiction (18th to 19th Century)",
-    "url": "/islamia-college/ba/semester-4/british-fiction-18th-to-19th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "British Literature",
-    "url": "/ba/semester-6/british-literature-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "British Literature",
-    "url": "/islamia-college/ba/semester-6/british-literature-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "British Literature: 20th Century",
-    "url": "/ba/semester-6/british-literature-20th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "British Literature: 20th Century",
-    "url": "/islamia-college/ba/semester-6/british-literature-20th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
-    "url": "/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
-    "url": "/islamia-college/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
-    "category": "B.A. & English",
-    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Common Courses Past Papers & Syllabus",
-    "url": "/common-courses/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Multidisciplinary, Skill Enhancement, Value Added, and Ability Enhancement common courses at Islamia College Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture"
-  },
-  {
-    "title": "Common Courses Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Multidisciplinary, Skill Enhancement, Value Added, and Ability Enhancement common courses at Islamia College Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture"
-  },
-  {
-    "title": "Common Courses Semester 1 Past Papers & Syllabus",
-    "url": "/common-courses/semester-1/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Common Courses Semester 1 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-1/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 1 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Common Courses Semester 2 Past Papers & Syllabus",
-    "url": "/common-courses/semester-2/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Common Courses Semester 2 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-2/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 2 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Common Courses Semester 3 Past Papers & Syllabus",
-    "url": "/common-courses/semester-3/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Common Courses Semester 3 Past Papers & Syllabus",
-    "url": "/islamia-college/common-courses/semester-3/",
-    "category": "Common Courses",
-    "description": "Download previous year question papers for Common Courses Semester 3 at Islamia College of Science & Commerce, Srinagar.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
+    "title": "Web Technologies",
+    "url": "/islamia-college/common-courses/semester-1/web-technologies-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Web Technologies Question Paper for Multidisciplinary & Skill Courses (Common) Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "web technologies common-courses multidisciplinary & skill courses (common) semester 1 islamia college"
   },
   {
     "title": "Communication Skills",
     "url": "/common-courses/semester-2/communication-skills/",
-    "category": "Common Courses",
+    "category": "Multidisciplinary & Skill Courses (Common)",
     "description": "Download Communication Skills Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 2"
   },
   {
     "title": "Communication Skills",
     "url": "/islamia-college/common-courses/semester-2/communication-skills/",
-    "category": "Common Courses",
+    "category": "Multidisciplinary & Skill Courses (Common)",
     "description": "Download Communication Skills Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
   },
   {
-    "title": "Computer Networks",
-    "url": "/bsc-it/semester-6/computer-networks-syllabus/",
-    "category": "B.Sc. IT",
-    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Communication Skills",
+    "url": "/common-courses/semester-2/communication-skills-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skills Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 2"
   },
   {
-    "title": "Computer Networks",
-    "url": "/islamia-college/bsc-it/semester-6/computer-networks-syllabus/",
-    "category": "B.Sc. IT",
-    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
+    "title": "Communication Skills",
+    "url": "/islamia-college/common-courses/semester-2/communication-skills-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Communication Skills Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "communication skills common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Computer Application Basics",
+    "url": "/common-courses/semester-2/computer-application-basics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computer Application Basics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer application basics common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Computer Application Basics",
+    "url": "/islamia-college/common-courses/semester-2/computer-application-basics-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computer Application Basics Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer application basics common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Creative Writing in English II",
+    "url": "/common-courses/semester-2/creative-writing-in-english-ii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Creative Writing in English II Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "creative writing in english ii common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Creative Writing in English II",
+    "url": "/islamia-college/common-courses/semester-2/creative-writing-in-english-ii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Creative Writing in English II Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "creative writing in english ii common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Digital Technology Solution",
+    "url": "/common-courses/semester-2/digital-technology-solution-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital Technology Solution Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital technology solution common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Digital Technology Solution",
+    "url": "/islamia-college/common-courses/semester-2/digital-technology-solution-vac/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Digital Technology Solution Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "digital technology solution common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Environmental Science Education",
+    "url": "/common-courses/semester-2/environmental-science-education-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Education Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science education common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Environmental Science Education",
+    "url": "/islamia-college/common-courses/semester-2/environmental-science-education-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Environmental Science Education Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "environmental science education common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Floriculture",
+    "url": "/common-courses/semester-2/floriculture-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Floriculture Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "floriculture common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Floriculture",
+    "url": "/islamia-college/common-courses/semester-2/floriculture-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Floriculture Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "floriculture common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/common-courses/semester-2/health-and-wellness/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/islamia-college/common-courses/semester-2/health-and-wellness/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/common-courses/semester-2/health-and-wellness-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Health and Wellness",
+    "url": "/islamia-college/common-courses/semester-2/health-and-wellness-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Health and Wellness Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "health and wellness common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Hydroponics-II",
+    "url": "/common-courses/semester-2/hydroponics-ii/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics-ii common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Hydroponics-II",
+    "url": "/islamia-college/common-courses/semester-2/hydroponics-ii/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "hydroponics-ii common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Introduction to Biochemistry",
+    "url": "/common-courses/semester-2/introduction-to-biochemistry/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biochemistry common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Introduction to Biochemistry",
+    "url": "/islamia-college/common-courses/semester-2/introduction-to-biochemistry/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to biochemistry common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Introduction to Information Technology",
+    "url": "/common-courses/semester-2/introduction-to-information-technology/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to information technology common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Introduction to Information Technology",
+    "url": "/islamia-college/common-courses/semester-2/introduction-to-information-technology/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to information technology common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "MIL Urdu",
+    "url": "/common-courses/semester-2/mil-urdu-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL Urdu Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil urdu common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "MIL Urdu",
+    "url": "/islamia-college/common-courses/semester-2/mil-urdu-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download MIL Urdu Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "mil urdu common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "No-Code App Developer",
+    "url": "/common-courses/semester-2/no-code-app-developer-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download No-Code App Developer Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "no-code app developer common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "No-Code App Developer",
+    "url": "/islamia-college/common-courses/semester-2/no-code-app-developer-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download No-Code App Developer Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "no-code app developer common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Repair and Maintenance of Power Supply Inverter and UPS II",
+    "url": "/common-courses/semester-2/repair-and-maintenance-of-power-supply-inverter-and-ups-ii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Repair and Maintenance of Power Supply Inverter and UPS II Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "repair and maintenance of power supply inverter and ups ii common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Repair and Maintenance of Power Supply Inverter and UPS II",
+    "url": "/islamia-college/common-courses/semester-2/repair-and-maintenance-of-power-supply-inverter-and-ups-ii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Repair and Maintenance of Power Supply Inverter and UPS II Question Paper for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "repair and maintenance of power supply inverter and ups ii common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Repair and Maintenance of Power Supply Inverter and UPS II",
+    "url": "/common-courses/semester-2/repair-and-maintenance-of-power-supply-inverter-and-ups-ii-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Repair and Maintenance of Power Supply Inverter and UPS II Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "repair and maintenance of power supply inverter and ups ii common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Repair and Maintenance of Power Supply Inverter and UPS II",
+    "url": "/islamia-college/common-courses/semester-2/repair-and-maintenance-of-power-supply-inverter-and-ups-ii-skill-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Repair and Maintenance of Power Supply Inverter and UPS II Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "repair and maintenance of power supply inverter and ups ii common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/common-courses/semester-2/understanding-india/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/islamia-college/common-courses/semester-2/understanding-india/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/common-courses/semester-2/understanding-india-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 2"
+  },
+  {
+    "title": "Understanding India",
+    "url": "/islamia-college/common-courses/semester-2/understanding-india-vac-syllabus/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Understanding India Syllabus for Multidisciplinary & Skill Courses (Common) Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "understanding india common-courses multidisciplinary & skill courses (common) semester 2 islamia college"
+  },
+  {
+    "title": "Computerised Accounting III",
+    "url": "/common-courses/semester-3/computerised-accounting-iii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computerised Accounting III Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computerised accounting iii common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "Computerised Accounting III",
+    "url": "/islamia-college/common-courses/semester-3/computerised-accounting-iii-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Computerised Accounting III Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computerised accounting iii common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "English Language",
+    "url": "/common-courses/semester-3/english-language/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "English Language",
+    "url": "/islamia-college/common-courses/semester-3/english-language/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "English Language Ability Enhancement",
+    "url": "/common-courses/semester-3/english-language-ability-enhancement-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download English Language Ability Enhancement Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language ability enhancement common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "English Language Ability Enhancement",
+    "url": "/islamia-college/common-courses/semester-3/english-language-ability-enhancement-aec/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download English Language Ability Enhancement Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language ability enhancement common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "Introductory Botany",
+    "url": "/common-courses/semester-3/introductory-botany-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Botany Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory botany common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "Introductory Botany",
+    "url": "/islamia-college/common-courses/semester-3/introductory-botany-mdc/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Introductory Botany Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory botany common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "Nutrition and Fitness",
+    "url": "/common-courses/semester-3/nutrition-and-fitness-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Nutrition and Fitness Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "nutrition and fitness common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "Nutrition and Fitness",
+    "url": "/islamia-college/common-courses/semester-3/nutrition-and-fitness-skill/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Nutrition and Fitness Question Paper for Multidisciplinary & Skill Courses (Common) Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "nutrition and fitness common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "Plant Tissue Culture",
+    "url": "/common-courses/semester-3/plant-tissue-culture/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "plant tissue culture common-courses multidisciplinary & skill courses (common) semester 3"
+  },
+  {
+    "title": "Plant Tissue Culture",
+    "url": "/islamia-college/common-courses/semester-3/plant-tissue-culture/",
+    "category": "Multidisciplinary & Skill Courses (Common)",
+    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "plant tissue culture common-courses multidisciplinary & skill courses (common) semester 3 islamia college"
+  },
+  {
+    "title": "Problem Solving Through C",
+    "url": "/bca/semester-1/problem-solving-through-c-major/",
+    "category": "BCA",
+    "description": "Download Problem Solving Through C Question Paper for BCA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "problem solving through c bca bca semester 1"
+  },
+  {
+    "title": "Problem Solving Through C",
+    "url": "/islamia-college/bca/semester-1/problem-solving-through-c-major/",
+    "category": "BCA",
+    "description": "Download Problem Solving Through C Question Paper for BCA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "problem solving through c bca bca semester 1 islamia college"
+  },
+  {
+    "title": "Data Structure",
+    "url": "/bca/semester-4/data-structure-major/",
+    "category": "BCA",
+    "description": "Download Data Structure Question Paper for BCA Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "data structure bca bca semester 4"
+  },
+  {
+    "title": "Data Structure",
+    "url": "/islamia-college/bca/semester-4/data-structure-major/",
+    "category": "BCA",
+    "description": "Download Data Structure Question Paper for BCA Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "data structure bca bca semester 4 islamia college"
+  },
+  {
+    "title": "Database Management System",
+    "url": "/bca/semester-5/database-management-system-major/",
+    "category": "BCA",
+    "description": "Download Database Management System Question Paper for BCA Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "database management system bca bca semester 5"
+  },
+  {
+    "title": "Database Management System",
+    "url": "/islamia-college/bca/semester-5/database-management-system-major/",
+    "category": "BCA",
+    "description": "Download Database Management System Question Paper for BCA Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "database management system bca bca semester 5 islamia college"
+  },
+  {
+    "title": "Discrete Mathematics",
+    "url": "/bca/semester-5/discrete-mathematics-major/",
+    "category": "BCA",
+    "description": "Download Discrete Mathematics Question Paper for BCA Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "discrete mathematics bca bca semester 5"
+  },
+  {
+    "title": "Discrete Mathematics",
+    "url": "/islamia-college/bca/semester-5/discrete-mathematics-major/",
+    "category": "BCA",
+    "description": "Download Discrete Mathematics Question Paper for BCA Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "discrete mathematics bca bca semester 5 islamia college"
   },
   {
     "title": "Computer Organisation and Architecture",
     "url": "/bsc-it/semester-4/computer-organisation-and-architecture/",
     "category": "B.Sc. IT",
     "description": "Download Computer Organisation and Architecture Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "computer organisation and architecture bsc-it b.sc. it semester 4"
   },
   {
     "title": "Computer Organisation and Architecture",
     "url": "/islamia-college/bsc-it/semester-4/computer-organisation-and-architecture/",
     "category": "B.Sc. IT",
     "description": "Download Computer Organisation and Architecture Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Contact Us",
-    "url": "/contact/",
-    "category": "Islamia College",
-    "description": "Get in touch with ExamStash via Telegram, Instagram, or Email. Share past question papers and syllabi or ask questions.",
-    "keywords": ""
-  },
-  {
-    "title": "DMCA",
-    "url": "/dmca/",
-    "category": "Islamia College",
-    "description": "",
-    "keywords": ""
-  },
-  {
-    "title": "Database Management System",
-    "url": "/bsc-it/semester-6/database-management-system-syllabus/",
-    "category": "B.Sc. IT",
-    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Database Management System",
-    "url": "/islamia-college/bsc-it/semester-6/database-management-system-syllabus/",
-    "category": "B.Sc. IT",
-    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Digital Technology Solutions",
-    "url": "/common-courses/semester-1/digital-technology-solutions/",
-    "category": "Common Courses",
-    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Digital Technology Solutions",
-    "url": "/islamia-college/common-courses/semester-1/digital-technology-solutions/",
-    "category": "Common Courses",
-    "description": "Download Digital Technology Solutions Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "English Language",
-    "url": "/common-courses/semester-3/english-language/",
-    "category": "Common Courses",
-    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "English Language",
-    "url": "/islamia-college/common-courses/semester-3/english-language/",
-    "category": "Common Courses",
-    "description": "Download English Language Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "English Language Teaching (ELT)",
-    "url": "/ba/semester-6/english-language-teaching-elt/",
-    "category": "B.A. & English",
-    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "English Language Teaching (ELT)",
-    "url": "/islamia-college/ba/semester-6/english-language-teaching-elt/",
-    "category": "B.A. & English",
-    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Environmental Science",
-    "url": "/common-courses/semester-1/environmental-science/",
-    "category": "Common Courses",
-    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Environmental Science",
-    "url": "/islamia-college/common-courses/semester-1/environmental-science/",
-    "category": "Common Courses",
-    "description": "Download Environmental Science Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Functional English",
-    "url": "/ba/semester-1/functional-english/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Functional English",
-    "url": "/ba/semester-4/functional-english-sem4/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Functional English",
-    "url": "/islamia-college/ba/semester-1/functional-english/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Functional English",
-    "url": "/islamia-college/ba/semester-4/functional-english-sem4/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Functional English (Business English)",
-    "url": "/ba/semester-3/functional-english-business-english/",
-    "category": "B.A. & English",
-    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Functional English (Business English)",
-    "url": "/islamia-college/ba/semester-3/functional-english-business-english/",
-    "category": "B.A. & English",
-    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Functional English (Phonetics & Phonology)",
-    "url": "/ba/semester-1/functional-english-phonetics-phonology/",
-    "category": "B.A. & English",
-    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Functional English (Phonetics & Phonology)",
-    "url": "/islamia-college/ba/semester-1/functional-english-phonetics-phonology/",
-    "category": "B.A. & English",
-    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Functional English II (Communicative Grammar)",
-    "url": "/ba/semester-2/functional-english-ii-communicative-grammar/",
-    "category": "B.A. & English",
-    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Functional English II (Communicative Grammar)",
-    "url": "/islamia-college/ba/semester-2/functional-english-ii-communicative-grammar/",
-    "category": "B.A. & English",
-    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Functional English Language Teaching",
-    "url": "/ba/semester-6/functional-english-language-teaching-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Functional English Language Teaching",
-    "url": "/islamia-college/ba/semester-6/functional-english-language-teaching-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Health and Wellness",
-    "url": "/common-courses/semester-2/health-and-wellness/",
-    "category": "Common Courses",
-    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Health and Wellness",
-    "url": "/islamia-college/common-courses/semester-2/health-and-wellness/",
-    "category": "Common Courses",
-    "description": "Download Health and Wellness Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "History of English Literature",
-    "url": "/ba/semester-3/history-of-english-literature/",
-    "category": "B.A. & English",
-    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "History of English Literature",
-    "url": "/islamia-college/ba/semester-3/history-of-english-literature/",
-    "category": "B.A. & English",
-    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Hydroponics",
-    "url": "/common-courses/semester-1/hydroponics/",
-    "category": "Common Courses",
-    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Hydroponics",
-    "url": "/islamia-college/common-courses/semester-1/hydroponics/",
-    "category": "Common Courses",
-    "description": "Download Hydroponics Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Hydroponics-II",
-    "url": "/common-courses/semester-2/hydroponics-ii/",
-    "category": "Common Courses",
-    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Hydroponics-II",
-    "url": "/islamia-college/common-courses/semester-2/hydroponics-ii/",
-    "category": "Common Courses",
-    "description": "Download Hydroponics-II Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Indian Writing in English",
-    "url": "/ba/semester-5/indian-writing-in-english/",
-    "category": "B.A. & English",
-    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "Indian Writing in English",
-    "url": "/islamia-college/ba/semester-5/indian-writing-in-english/",
-    "category": "B.A. & English",
-    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "Introduction to Biochemistry",
-    "url": "/common-courses/semester-2/introduction-to-biochemistry/",
-    "category": "Common Courses",
-    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Introduction to Biochemistry",
-    "url": "/islamia-college/common-courses/semester-2/introduction-to-biochemistry/",
-    "category": "Common Courses",
-    "description": "Download Introduction to Biochemistry Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Introduction to Information Technology",
-    "url": "/common-courses/semester-2/introduction-to-information-technology/",
-    "category": "Common Courses",
-    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Introduction to Information Technology",
-    "url": "/islamia-college/common-courses/semester-2/introduction-to-information-technology/",
-    "category": "Common Courses",
-    "description": "Download Introduction to Information Technology Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Introduction to Literature",
-    "url": "/ba/semester-1/introduction-to-literature/",
-    "category": "B.A. & English",
-    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Introduction to Literature",
-    "url": "/islamia-college/ba/semester-1/introduction-to-literature/",
-    "category": "B.A. & English",
-    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "Introduction to Literature II",
-    "url": "/ba/semester-2/introduction-to-literature-ii/",
-    "category": "B.A. & English",
-    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Introduction to Literature II",
-    "url": "/islamia-college/ba/semester-2/introduction-to-literature-ii/",
-    "category": "B.A. & English",
-    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
-  },
-  {
-    "title": "Islamia College of Science and Commerce",
-    "url": "/islamia-college/",
-    "category": "Islamia College",
-    "description": "Download free previous year question papers and syllabus for Islamia College of Science and Commerce (ICSC) Srinagar. BCA, B.Sc. IT, BBA, B.Com, B.A. and B.Sc. streams.",
-    "keywords": ""
-  },
-  {
-    "title": "Kashmiri Literature in Translation",
-    "url": "/ba/semester-6/kashmiri-literature-in-translation/",
-    "category": "B.A. & English",
-    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Kashmiri Literature in Translation",
-    "url": "/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Kashmiri Literature in Translation",
-    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation/",
-    "category": "B.A. & English",
-    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Kashmiri Literature in Translation",
-    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Linguistics",
-    "url": "/ba/semester-5/linguistics/",
-    "category": "B.A. & English",
-    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "Linguistics",
-    "url": "/islamia-college/ba/semester-5/linguistics/",
-    "category": "B.A. & English",
-    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
-  },
-  {
-    "title": "MIL-Urdu",
-    "url": "/common-courses/semester-1/mil-urdu/",
-    "category": "Common Courses",
-    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
-  },
-  {
-    "title": "MIL-Urdu",
-    "url": "/islamia-college/common-courses/semester-1/mil-urdu/",
-    "category": "Common Courses",
-    "description": "Download MIL-Urdu Question Paper for Common Courses Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 1 semester 1 1th sem 1st sem 1nd sem 1rd sem"
+    "keywords": "computer organisation and architecture bsc-it b.sc. it semester 4 islamia college"
   },
   {
     "title": "Operating System",
     "url": "/bsc-it/semester-4/operating-system/",
     "category": "B.Sc. IT",
     "description": "Download Operating System Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Operating System",
-    "url": "/bsc-it/semester-4/operating-system-syllabus/",
-    "category": "B.Sc. IT",
-    "description": "Download Operating System Syllabus for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "operating system bsc-it b.sc. it semester 4"
   },
   {
     "title": "Operating System",
     "url": "/islamia-college/bsc-it/semester-4/operating-system/",
     "category": "B.Sc. IT",
     "description": "Download Operating System Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "operating system bsc-it b.sc. it semester 4 islamia college"
+  },
+  {
+    "title": "Operating System",
+    "url": "/bsc-it/semester-4/operating-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Operating System Syllabus for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "operating system bsc-it b.sc. it semester 4"
   },
   {
     "title": "Operating System",
     "url": "/islamia-college/bsc-it/semester-4/operating-system-syllabus/",
     "category": "B.Sc. IT",
     "description": "Download Operating System Syllabus for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
-  },
-  {
-    "title": "Plant Tissue Culture",
-    "url": "/common-courses/semester-3/plant-tissue-culture/",
-    "category": "Common Courses",
-    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Plant Tissue Culture",
-    "url": "/islamia-college/common-courses/semester-3/plant-tissue-culture/",
-    "category": "Common Courses",
-    "description": "Download Plant Tissue Culture Question Paper for Common Courses Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 3 semester 3 3th sem 3st sem 3nd sem 3rd sem"
-  },
-  {
-    "title": "Postcolonial Literature: African & Caribbean",
-    "url": "/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Postcolonial Literature: African & Caribbean",
-    "url": "/islamia-college/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
-    "category": "B.A. & English",
-    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 6 semester 6 6th sem 6st sem 6nd sem 6rd sem"
-  },
-  {
-    "title": "Privacy Policy",
-    "url": "/privacy/",
-    "category": "Islamia College",
-    "description": "",
-    "keywords": ""
+    "keywords": "operating system bsc-it b.sc. it semester 4 islamia college"
   },
   {
     "title": "Real Analysis (Minor Subject)",
     "url": "/bsc-it/semester-4/real-analysis-minor/",
     "category": "B.Sc. IT",
     "description": "Download Real Analysis (Minor Subject) Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "real analysis (minor subject) bsc-it b.sc. it semester 4"
   },
   {
     "title": "Real Analysis (Minor Subject)",
     "url": "/islamia-college/bsc-it/semester-4/real-analysis-minor/",
     "category": "B.Sc. IT",
     "description": "Download Real Analysis (Minor Subject) Question Paper for B.Sc. IT Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "bsc it information technology operating system architecture networks dbms real analysis sem 4 semester 4 4th sem 4st sem 4nd sem 4rd sem"
+    "keywords": "real analysis (minor subject) bsc-it b.sc. it semester 4 islamia college"
+  },
+  {
+    "title": "Computer Organization and Architecture",
+    "url": "/bsc-it/semester-5/computer-organization-and-architecture-major/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Organization and Architecture Question Paper for B.Sc. IT Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer organization and architecture bsc-it b.sc. it semester 5"
+  },
+  {
+    "title": "Computer Organization and Architecture",
+    "url": "/islamia-college/bsc-it/semester-5/computer-organization-and-architecture-major/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Organization and Architecture Question Paper for B.Sc. IT Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer organization and architecture bsc-it b.sc. it semester 5 islamia college"
+  },
+  {
+    "title": "Computer Networks",
+    "url": "/bsc-it/semester-6/computer-networks-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer networks bsc-it b.sc. it semester 6"
+  },
+  {
+    "title": "Computer Networks",
+    "url": "/islamia-college/bsc-it/semester-6/computer-networks-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Computer Networks Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "computer networks bsc-it b.sc. it semester 6 islamia college"
+  },
+  {
+    "title": "Database Management System",
+    "url": "/bsc-it/semester-6/database-management-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "database management system bsc-it b.sc. it semester 6"
+  },
+  {
+    "title": "Database Management System",
+    "url": "/islamia-college/bsc-it/semester-6/database-management-system-syllabus/",
+    "category": "B.Sc. IT",
+    "description": "Download Database Management System Syllabus for B.Sc. IT Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "database management system bsc-it b.sc. it semester 6 islamia college"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/bba/semester-1/financial-accounting-major/",
+    "category": "BBA",
+    "description": "Download Financial Accounting Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bba bba semester 1"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/islamia-college/bba/semester-1/financial-accounting-major/",
+    "category": "BBA",
+    "description": "Download Financial Accounting Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bba bba semester 1 islamia college"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/bba/semester-1/financial-accounting-minor/",
+    "category": "BBA",
+    "description": "Download Financial Accounting Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bba bba semester 1"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/islamia-college/bba/semester-1/financial-accounting-minor/",
+    "category": "BBA",
+    "description": "Download Financial Accounting Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bba bba semester 1 islamia college"
+  },
+  {
+    "title": "Principles of Management",
+    "url": "/bba/semester-1/principles-of-management-major/",
+    "category": "BBA",
+    "description": "Download Principles of Management Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "principles of management bba bba semester 1"
+  },
+  {
+    "title": "Principles of Management",
+    "url": "/islamia-college/bba/semester-1/principles-of-management-major/",
+    "category": "BBA",
+    "description": "Download Principles of Management Question Paper for BBA Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "principles of management bba bba semester 1 islamia college"
+  },
+  {
+    "title": "Marketing Management",
+    "url": "/bba/semester-3/marketing-management-major/",
+    "category": "BBA",
+    "description": "Download Marketing Management Question Paper for BBA Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "marketing management bba bba semester 3"
+  },
+  {
+    "title": "Marketing Management",
+    "url": "/islamia-college/bba/semester-3/marketing-management-major/",
+    "category": "BBA",
+    "description": "Download Marketing Management Question Paper for BBA Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "marketing management bba bba semester 3 islamia college"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/bcom/semester-1/financial-accounting-major/",
+    "category": "B.Com",
+    "description": "Download Financial Accounting Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bcom b.com semester 1"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/islamia-college/bcom/semester-1/financial-accounting-major/",
+    "category": "B.Com",
+    "description": "Download Financial Accounting Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bcom b.com semester 1 islamia college"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/bcom/semester-1/financial-accounting-minor/",
+    "category": "B.Com",
+    "description": "Download Financial Accounting Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bcom b.com semester 1"
+  },
+  {
+    "title": "Financial Accounting",
+    "url": "/islamia-college/bcom/semester-1/financial-accounting-minor/",
+    "category": "B.Com",
+    "description": "Download Financial Accounting Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "financial accounting bcom b.com semester 1 islamia college"
+  },
+  {
+    "title": "Indian Financial System",
+    "url": "/bcom/semester-1/indian-financial-system-minor/",
+    "category": "B.Com",
+    "description": "Download Indian Financial System Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "indian financial system bcom b.com semester 1"
+  },
+  {
+    "title": "Indian Financial System",
+    "url": "/islamia-college/bcom/semester-1/indian-financial-system-minor/",
+    "category": "B.Com",
+    "description": "Download Indian Financial System Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "indian financial system bcom b.com semester 1 islamia college"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/bcom/semester-1/introductory-microeconomics-major/",
+    "category": "B.Com",
+    "description": "Download Introductory Microeconomics Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics bcom b.com semester 1"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/islamia-college/bcom/semester-1/introductory-microeconomics-major/",
+    "category": "B.Com",
+    "description": "Download Introductory Microeconomics Question Paper for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics bcom b.com semester 1 islamia college"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/bcom/semester-1/introductory-microeconomics-major-syllabus/",
+    "category": "B.Com",
+    "description": "Download Introductory Microeconomics Syllabus for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics bcom b.com semester 1"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/islamia-college/bcom/semester-1/introductory-microeconomics-major-syllabus/",
+    "category": "B.Com",
+    "description": "Download Introductory Microeconomics Syllabus for B.Com Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics bcom b.com semester 1 islamia college"
+  },
+  {
+    "title": "Public Finance",
+    "url": "/bcom/semester-3/public-finance-major/",
+    "category": "B.Com",
+    "description": "Download Public Finance Question Paper for B.Com Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "public finance bcom b.com semester 3"
+  },
+  {
+    "title": "Public Finance",
+    "url": "/islamia-college/bcom/semester-3/public-finance-major/",
+    "category": "B.Com",
+    "description": "Download Public Finance Question Paper for B.Com Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "public finance bcom b.com semester 3 islamia college"
+  },
+  {
+    "title": "Functional English",
+    "url": "/ba/semester-1/functional-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ba b.a. & english honours semester 1"
+  },
+  {
+    "title": "Functional English",
+    "url": "/islamia-college/ba/semester-1/functional-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ba b.a. & english honours semester 1 islamia college"
+  },
+  {
+    "title": "Functional English (Phonetics & Phonology)",
+    "url": "/ba/semester-1/functional-english-phonetics-phonology/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english (phonetics & phonology) ba b.a. & english honours semester 1"
+  },
+  {
+    "title": "Functional English (Phonetics & Phonology)",
+    "url": "/islamia-college/ba/semester-1/functional-english-phonetics-phonology/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English (Phonetics & Phonology) Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english (phonetics & phonology) ba b.a. & english honours semester 1 islamia college"
+  },
+  {
+    "title": "Introduction to Literature",
+    "url": "/ba/semester-1/introduction-to-literature/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to literature ba b.a. & english honours semester 1"
+  },
+  {
+    "title": "Introduction to Literature",
+    "url": "/islamia-college/ba/semester-1/introduction-to-literature/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introduction to Literature Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to literature ba b.a. & english honours semester 1 islamia college"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/ba/semester-1/introductory-microeconomics-major/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introductory Microeconomics Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics ba b.a. & english honours semester 1"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/islamia-college/ba/semester-1/introductory-microeconomics-major/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introductory Microeconomics Question Paper for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics ba b.a. & english honours semester 1 islamia college"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/ba/semester-1/introductory-microeconomics-major-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introductory Microeconomics Syllabus for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics ba b.a. & english honours semester 1"
+  },
+  {
+    "title": "Introductory Microeconomics",
+    "url": "/islamia-college/ba/semester-1/introductory-microeconomics-major-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introductory Microeconomics Syllabus for B.A. & English Honours Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introductory microeconomics ba b.a. & english honours semester 1 islamia college"
+  },
+  {
+    "title": "Functional English II (Communicative Grammar)",
+    "url": "/ba/semester-2/functional-english-ii-communicative-grammar/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ii (communicative grammar) ba b.a. & english honours semester 2"
+  },
+  {
+    "title": "Functional English II (Communicative Grammar)",
+    "url": "/islamia-college/ba/semester-2/functional-english-ii-communicative-grammar/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English II (Communicative Grammar) Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ii (communicative grammar) ba b.a. & english honours semester 2 islamia college"
+  },
+  {
+    "title": "Introduction to Literature II",
+    "url": "/ba/semester-2/introduction-to-literature-ii/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to literature ii ba b.a. & english honours semester 2"
+  },
+  {
+    "title": "Introduction to Literature II",
+    "url": "/islamia-college/ba/semester-2/introduction-to-literature-ii/",
+    "category": "B.A. & English Honours",
+    "description": "Download Introduction to Literature II Question Paper for B.A. & English Honours Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "introduction to literature ii ba b.a. & english honours semester 2 islamia college"
+  },
+  {
+    "title": "Functional English (Business English)",
+    "url": "/ba/semester-3/functional-english-business-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english (business english) ba b.a. & english honours semester 3"
+  },
+  {
+    "title": "Functional English (Business English)",
+    "url": "/islamia-college/ba/semester-3/functional-english-business-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English (Business English) Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english (business english) ba b.a. & english honours semester 3 islamia college"
+  },
+  {
+    "title": "History of English Literature",
+    "url": "/ba/semester-3/history-of-english-literature/",
+    "category": "B.A. & English Honours",
+    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "history of english literature ba b.a. & english honours semester 3"
+  },
+  {
+    "title": "History of English Literature",
+    "url": "/islamia-college/ba/semester-3/history-of-english-literature/",
+    "category": "B.A. & English Honours",
+    "description": "Download History of English Literature Question Paper for B.A. & English Honours Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "history of english literature ba b.a. & english honours semester 3 islamia college"
+  },
+  {
+    "title": "16th to 20th Century Prose",
+    "url": "/ba/semester-4/16th-to-20th-century-prose/",
+    "category": "B.A. & English Honours",
+    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "16th to 20th century prose ba b.a. & english honours semester 4"
+  },
+  {
+    "title": "16th to 20th Century Prose",
+    "url": "/islamia-college/ba/semester-4/16th-to-20th-century-prose/",
+    "category": "B.A. & English Honours",
+    "description": "Download 16th to 20th Century Prose Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "16th to 20th century prose ba b.a. & english honours semester 4 islamia college"
+  },
+  {
+    "title": "British Fiction (18th to 19th Century)",
+    "url": "/ba/semester-4/british-fiction-18th-to-19th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british fiction (18th to 19th century) ba b.a. & english honours semester 4"
+  },
+  {
+    "title": "British Fiction (18th to 19th Century)",
+    "url": "/islamia-college/ba/semester-4/british-fiction-18th-to-19th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Fiction (18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british fiction (18th to 19th century) ba b.a. & english honours semester 4 islamia college"
+  },
+  {
+    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
+    "url": "/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british poetry and drama (british literature 18th to 19th century) ba b.a. & english honours semester 4"
+  },
+  {
+    "title": "British Poetry and Drama (British Literature 18th to 19th Century)",
+    "url": "/islamia-college/ba/semester-4/british-poetry-and-drama-18th-to-19th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Poetry and Drama (British Literature 18th to 19th Century) Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british poetry and drama (british literature 18th to 19th century) ba b.a. & english honours semester 4 islamia college"
+  },
+  {
+    "title": "Functional English",
+    "url": "/ba/semester-4/functional-english-sem4/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ba b.a. & english honours semester 4"
+  },
+  {
+    "title": "Functional English",
+    "url": "/islamia-college/ba/semester-4/functional-english-sem4/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Question Paper for B.A. & English Honours Semester 4 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english ba b.a. & english honours semester 4 islamia college"
+  },
+  {
+    "title": "Indian Writing in English",
+    "url": "/ba/semester-5/indian-writing-in-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "indian writing in english ba b.a. & english honours semester 5"
+  },
+  {
+    "title": "Indian Writing in English",
+    "url": "/islamia-college/ba/semester-5/indian-writing-in-english/",
+    "category": "B.A. & English Honours",
+    "description": "Download Indian Writing in English Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "indian writing in english ba b.a. & english honours semester 5 islamia college"
+  },
+  {
+    "title": "Linguistics",
+    "url": "/ba/semester-5/linguistics/",
+    "category": "B.A. & English Honours",
+    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "linguistics ba b.a. & english honours semester 5"
+  },
+  {
+    "title": "Linguistics",
+    "url": "/islamia-college/ba/semester-5/linguistics/",
+    "category": "B.A. & English Honours",
+    "description": "Download Linguistics Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "linguistics ba b.a. & english honours semester 5 islamia college"
   },
   {
     "title": "Short Stories Across Cultures",
     "url": "/ba/semester-5/short-stories-across-cultures/",
-    "category": "B.A. & English",
+    "category": "B.A. & English Honours",
     "description": "Download Short Stories Across Cultures Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "short stories across cultures ba b.a. & english honours semester 5"
   },
   {
     "title": "Short Stories Across Cultures",
     "url": "/islamia-college/ba/semester-5/short-stories-across-cultures/",
-    "category": "B.A. & English",
+    "category": "B.A. & English Honours",
     "description": "Download Short Stories Across Cultures Question Paper for B.A. & English Honours Semester 5 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "ba english arts literature functional english grammar prose fiction poetry drama linguistics kashmiri elt postcolonial sem 5 semester 5 5th sem 5st sem 5nd sem 5rd sem"
+    "keywords": "short stories across cultures ba b.a. & english honours semester 5 islamia college"
   },
   {
-    "title": "Understanding India",
-    "url": "/common-courses/semester-2/understanding-india/",
-    "category": "Common Courses",
-    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "British Literature: 20th Century",
+    "url": "/ba/semester-6/british-literature-20th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british literature: 20th century ba b.a. & english honours semester 6"
   },
   {
-    "title": "Understanding India",
-    "url": "/islamia-college/common-courses/semester-2/understanding-india/",
-    "category": "Common Courses",
-    "description": "Download Understanding India Question Paper for Common Courses Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
-    "keywords": "common courses multidisciplinary skill enhancement value added ability enhancement urdu hydroponics digital technology environmental science biochemistry communication skills health wellness understanding india plant tissue culture sem 2 semester 2 2th sem 2st sem 2nd sem 2rd sem"
+    "title": "British Literature: 20th Century",
+    "url": "/islamia-college/ba/semester-6/british-literature-20th-century/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Literature: 20th Century Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british literature: 20th century ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "British Literature",
+    "url": "/ba/semester-6/british-literature-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british literature ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "British Literature",
+    "url": "/islamia-college/ba/semester-6/british-literature-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download British Literature Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "british literature ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "English Language Teaching (ELT)",
+    "url": "/ba/semester-6/english-language-teaching-elt/",
+    "category": "B.A. & English Honours",
+    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language teaching (elt) ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "English Language Teaching (ELT)",
+    "url": "/islamia-college/ba/semester-6/english-language-teaching-elt/",
+    "category": "B.A. & English Honours",
+    "description": "Download English Language Teaching (ELT) Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "english language teaching (elt) ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "Functional English Language Teaching",
+    "url": "/ba/semester-6/functional-english-language-teaching-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english language teaching ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "Functional English Language Teaching",
+    "url": "/islamia-college/ba/semester-6/functional-english-language-teaching-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Functional English Language Teaching Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "functional english language teaching ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/ba/semester-6/kashmiri-literature-in-translation/",
+    "category": "B.A. & English Honours",
+    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "kashmiri literature in translation ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation/",
+    "category": "B.A. & English Honours",
+    "description": "Download Kashmiri Literature in Translation Question Paper for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "kashmiri literature in translation ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "kashmiri literature in translation ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "Kashmiri Literature in Translation",
+    "url": "/islamia-college/ba/semester-6/kashmiri-literature-in-translation-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Kashmiri Literature in Translation Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "kashmiri literature in translation ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "Postcolonial Literature: African & Caribbean",
+    "url": "/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "postcolonial literature: african & caribbean ba b.a. & english honours semester 6"
+  },
+  {
+    "title": "Postcolonial Literature: African & Caribbean",
+    "url": "/islamia-college/ba/semester-6/postcolonial-literature-african-caribbean-syllabus/",
+    "category": "B.A. & English Honours",
+    "description": "Download Postcolonial Literature: African & Caribbean Syllabus for B.A. Semester 6 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "postcolonial literature: african & caribbean ba b.a. & english honours semester 6 islamia college"
+  },
+  {
+    "title": "Biodiversity",
+    "url": "/bsc-botany/semester-1/biodiversity-minor/",
+    "category": "B.Sc. Botany",
+    "description": "Download Biodiversity Question Paper for B.Sc. Botany Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "biodiversity bsc-botany b.sc. botany semester 1"
+  },
+  {
+    "title": "Biodiversity",
+    "url": "/islamia-college/bsc-botany/semester-1/biodiversity-minor/",
+    "category": "B.Sc. Botany",
+    "description": "Download Biodiversity Question Paper for B.Sc. Botany Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "biodiversity bsc-botany b.sc. botany semester 1 islamia college"
+  },
+  {
+    "title": "Anatomy of Angiosperms",
+    "url": "/bsc-botany/semester-2/anatomy-of-angiosperms-major/",
+    "category": "B.Sc. Botany",
+    "description": "Download Anatomy of Angiosperms Question Paper for B.Sc. Botany Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "anatomy of angiosperms bsc-botany b.sc. botany semester 2"
+  },
+  {
+    "title": "Anatomy of Angiosperms",
+    "url": "/islamia-college/bsc-botany/semester-2/anatomy-of-angiosperms-major/",
+    "category": "B.Sc. Botany",
+    "description": "Download Anatomy of Angiosperms Question Paper for B.Sc. Botany Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "anatomy of angiosperms bsc-botany b.sc. botany semester 2 islamia college"
+  },
+  {
+    "title": "Morphology of Angiosperms",
+    "url": "/bsc-botany/semester-3/morphology-of-angiosperms-major/",
+    "category": "B.Sc. Botany",
+    "description": "Download Morphology of Angiosperms Question Paper for B.Sc. Botany Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "morphology of angiosperms bsc-botany b.sc. botany semester 3"
+  },
+  {
+    "title": "Morphology of Angiosperms",
+    "url": "/islamia-college/bsc-botany/semester-3/morphology-of-angiosperms-major/",
+    "category": "B.Sc. Botany",
+    "description": "Download Morphology of Angiosperms Question Paper for B.Sc. Botany Semester 3 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "morphology of angiosperms bsc-botany b.sc. botany semester 3 islamia college"
+  },
+  {
+    "title": "Diversity of Non Chordates",
+    "url": "/bsc-zoology/semester-1/diversity-of-non-chordates-major/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Diversity of Non Chordates Question Paper for B.Sc. Zoology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "diversity of non chordates bsc-zoology b.sc. zoology semester 1"
+  },
+  {
+    "title": "Diversity of Non Chordates",
+    "url": "/islamia-college/bsc-zoology/semester-1/diversity-of-non-chordates-major/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Diversity of Non Chordates Question Paper for B.Sc. Zoology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "diversity of non chordates bsc-zoology b.sc. zoology semester 1 islamia college"
+  },
+  {
+    "title": "Zoology Diversity of Non-Chordates",
+    "url": "/bsc-zoology/semester-1/zoology-diversity-of-non-chordates-major-syllabus/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Zoology Diversity of Non-Chordates Syllabus for B.Sc. Zoology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "zoology diversity of non-chordates bsc-zoology b.sc. zoology semester 1"
+  },
+  {
+    "title": "Zoology Diversity of Non-Chordates",
+    "url": "/islamia-college/bsc-zoology/semester-1/zoology-diversity-of-non-chordates-major-syllabus/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Zoology Diversity of Non-Chordates Syllabus for B.Sc. Zoology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "zoology diversity of non-chordates bsc-zoology b.sc. zoology semester 1 islamia college"
+  },
+  {
+    "title": "Diversity of Chordates",
+    "url": "/bsc-zoology/semester-2/diversity-of-chordates-major/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Diversity of Chordates Question Paper for B.Sc. Zoology Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "diversity of chordates bsc-zoology b.sc. zoology semester 2"
+  },
+  {
+    "title": "Diversity of Chordates",
+    "url": "/islamia-college/bsc-zoology/semester-2/diversity-of-chordates-major/",
+    "category": "B.Sc. Zoology",
+    "description": "Download Diversity of Chordates Question Paper for B.Sc. Zoology Semester 2 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "diversity of chordates bsc-zoology b.sc. zoology semester 2 islamia college"
+  },
+  {
+    "title": "Biotechnology Biomolecules Structure and Function",
+    "url": "/bsc-biotechnology/semester-1/biotechnology-biomolecules-structure-and-function-major-syllabus/",
+    "category": "B.Sc. Biotechnology",
+    "description": "Download Biotechnology Biomolecules Structure and Function Syllabus for B.Sc. Biotechnology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "biotechnology biomolecules structure and function bsc-biotechnology b.sc. biotechnology semester 1"
+  },
+  {
+    "title": "Biotechnology Biomolecules Structure and Function",
+    "url": "/islamia-college/bsc-biotechnology/semester-1/biotechnology-biomolecules-structure-and-function-major-syllabus/",
+    "category": "B.Sc. Biotechnology",
+    "description": "Download Biotechnology Biomolecules Structure and Function Syllabus for B.Sc. Biotechnology Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download.",
+    "keywords": "biotechnology biomolecules structure and function bsc-biotechnology b.sc. biotechnology semester 1 islamia college"
   }
 ];
