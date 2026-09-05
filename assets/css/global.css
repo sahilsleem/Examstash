@@ -7,18 +7,24 @@
   width: 100%;
   max-width: 100%;
   margin: 24px 0;
-  padding: 14px 16px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #fafafa;
-  border: 1px dashed #e2e8f0;
+  background: transparent;
+  border: none;
   border-radius: 12px;
-  min-height: 90px;
+  min-height: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.ad-slot:has(ins[data-ad-status="filled"]) {
+  padding: 14px 16px;
+  background: #fafafa;
+  border: 1px dashed #e2e8f0;
 }
 
 .ad-slot-label {
@@ -28,6 +34,11 @@
   text-transform: uppercase;
   color: #94a3b8;
   margin-bottom: 4px;
+  display: none;
+}
+
+.ad-slot:has(ins[data-ad-status="filled"]) .ad-slot-label {
+  display: block;
 }
 
 .ad-slot-inner {
@@ -35,7 +46,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50px;
+  min-height: 0;
 }
 
 /* Header Action Buttons */
