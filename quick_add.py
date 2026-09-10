@@ -278,6 +278,74 @@ paper_page_template = """<!DOCTYPE html>
 </html>
 """
 
+def update_course_navigation(course_slug):
+    for base_prefix in ["", "islamia-college"]:
+        course_index_path = os.path.join(base_prefix, course_slug, "index.html") if base_prefix else os.path.join(course_slug, "index.html")
+        if not os.path.exists(course_index_path):
+            continue
+
+        populated_sems = []
+        for s in range(1, 7):
+            s_dir = os.path.join(course_slug, f"semester-{s}")
+            if not os.path.exists(s_dir):
+                continue
+            paper_subdirs = [d for d in os.listdir(s_dir) if os.path.isdir(os.path.join(s_dir, d)) and os.path.exists(os.path.join(s_dir, d, "index.html"))]
+            if paper_subdirs:
+                papers_meta = []
+                for p in paper_subdirs:
+                    p_idx = os.path.join(s_dir, p, "index.html")
+                    title = p.replace("-", " ").title()
+                    try:
+                        with open(p_idx, "r", encoding="utf-8") as pf:
+                            pc = pf.read()
+                            m = re.search(r'<div class="file-title">(.*?)</div>', pc)
+                            if m:
+                                title = m.group(1).strip()
+                    except Exception:
+                        pass
+                    is_syl = "syllabus" in p.lower()
+                    papers_meta.append({"title": title, "is_syllabus": is_syl})
+                populated_sems.append((s, papers_meta))
+
+        sem_grid_html = ""
+        if not populated_sems:
+            sem_grid_html = """  <div class="notice-card" style="grid-column: 1 / -1; margin-bottom: 0;">
+    <div class="notice-icon">📋</div>
+    <div class="notice-title">Past Papers &amp; Syllabus Coming Soon</div>
+    <div class="notice-text">Papers for this department are not available yet. Please check back later.</div>
+  </div>"""
+        else:
+            for s_num, p_list in populated_sems:
+                s_padded = f"{s_num:02d}"
+                syl_c = len([p for p in p_list if p["is_syllabus"]])
+                pap_c = len([p for p in p_list if not p["is_syllabus"]])
+                if pap_c > 0 and syl_c > 0:
+                    badge = f"{pap_c} Paper{'s' if pap_c > 1 else ''} • {syl_c} {'Syllabi' if syl_c > 1 else 'Syllabus'} Available"
+                elif pap_c > 0:
+                    badge = f"{pap_c} Paper{'s' if pap_c > 1 else ''} Available"
+                else:
+                    badge = f"{syl_c} {'Syllabi' if syl_c > 1 else 'Syllabus'} Available"
+
+                sub_preview = " • ".join([p["title"] for p in p_list[:3]])
+                if len(p_list) > 3:
+                    sub_preview += "..."
+
+                sem_grid_html += f"""  <a class="sem-card" href="/{course_slug}/semester-{s_num}/" style="border-color: #0d9488; background: #f0fdfa;">
+    <div class="sem-number">{s_padded}</div>
+    <div class="sem-label">Semester {s_num}</div>
+    <div class="sem-subjects">{sub_preview}</div>
+    <span class="sem-badge" style="background: #0d9488; color: white;">{badge}</span>
+  </a>\n"""
+
+        with open(course_index_path, "r", encoding="utf-8") as cf:
+            c_content = cf.read()
+
+        grid_pattern = re.compile(r'<div class="sem-grid">[\s\S]*?</div>(\s*<!-- Monetization Placeholder -->|\s*</div>\s*<footer>)', re.IGNORECASE)
+        if grid_pattern.search(c_content):
+            c_content = grid_pattern.sub(f'<div class="sem-grid">\n{sem_grid_html.rstrip()}\n</div>\\1', c_content)
+            with open(course_index_path, "w", encoding="utf-8") as cf:
+                cf.write(c_content)
+
 def add_paper(parsed, drive_id):
     course_slug = parsed["course_slug"]
     course_name = parsed["course_name"]
@@ -315,12 +383,19 @@ def add_paper(parsed, drive_id):
     with open(os.path.join(mirror_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(page_html)
 
-    # 2. Update Semester Page Link
+    # 2. Update Semester Page Link & State
     sem_dir = os.path.join(course_slug, f"semester-{sem_num}")
     sem_index = os.path.join(sem_dir, "index.html")
 
     with open(sem_index, "r", encoding="utf-8") as f:
         sem_content = f.read()
+
+    # Remove noindex if present
+    sem_content = re.sub(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex[^"']*["\']\s*\/?>\s*', '', sem_content, flags=re.IGNORECASE)
+
+    # Ensure AdSense script in head if missing
+    if "pagead2.googlesyndication.com" not in sem_content:
+        sem_content = sem_content.replace("</head>", '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>\n</head>')
 
     action_class = "item-action-syl" if is_syllabus else "item-action-paper"
     btn_text = "View Syllabus →" if is_syllabus else "View & Download →"
@@ -335,21 +410,38 @@ def add_paper(parsed, drive_id):
       </div>
     </a>\n"""
 
+    ad_slot_html = """\n  <!-- Monetization Placeholder -->
+  <div class="ad-slot">
+    <div class="ad-slot-label">Advertisement</div>
+    <div class="ad-slot-inner">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1741354477413638"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>\n"""
+
     if "notice-card" in sem_content:
         section_label = "📋 Official Syllabus" if is_syllabus else "📄 Question Papers"
         replacement_block = f"""  <div class="type-label">{section_label}</div>
   <div class="item-list">
 {item_card}  </div>"""
         sem_content = re.sub(r'<div class="notice-card">.*?</div>\s*<!-- Monetization Placeholder -->', replacement_block + "\n\n  <!-- Monetization Placeholder -->", sem_content, flags=re.DOTALL)
-        sem_content = re.sub(r'<div class="notice-card">.*?</div>\s*</div>', replacement_block + "\n</div>", sem_content, flags=re.DOTALL)
+        sem_content = re.sub(r'<div class="notice-card">.*?</div>\s*</div>', replacement_block + ad_slot_html + "</div>", sem_content, flags=re.DOTALL)
     elif '<div class="item-list">' in sem_content:
         sem_content = sem_content.replace('<div class="item-list">', '<div class="item-list">\n' + item_card, 1)
+        if "ad-slot" not in sem_content:
+            sem_content = sem_content.replace('</div>\n\n<footer>', ad_slot_html + '</div>\n\n<footer>')
     else:
         section_label = "📋 Official Syllabus" if is_syllabus else "📄 Question Papers"
         replacement_block = f"""  <div class="type-label">{section_label}</div>
   <div class="item-list">
 {item_card}  </div>\n"""
-        sem_content = sem_content.replace('  <!-- Monetization Placeholder -->', replacement_block + '\n  <!-- Monetization Placeholder -->')
+        sem_content = sem_content.replace('</div>\n\n<footer>', replacement_block + ad_slot_html + '</div>\n\n<footer>')
 
     with open(sem_index, "w", encoding="utf-8") as f:
         f.write(sem_content)
@@ -359,8 +451,12 @@ def add_paper(parsed, drive_id):
         with open(sem_mirror, "w", encoding="utf-8") as f:
             f.write(sem_content)
 
+    # 3. Update Course Landing Page Navigation
+    update_course_navigation(course_slug)
+
     print(f"✅ Created dedicated paper page: /{course_slug}/semester-{sem_num}/{paper_slug}/")
     print(f"✅ Linked in semester page: /{course_slug}/semester-{sem_num}/")
+    print(f"✅ Updated course landing page navigation for /{course_slug}/")
 
 def main():
     print("=" * 60)

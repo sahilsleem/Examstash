@@ -1,15 +1,29 @@
 import os
+import re
 from datetime import date
 
-BASE_URL = "https://examstash.pages.dev"
+BASE_URL = "https://examstash.online"
 today = date.today().isoformat()
 
 # Collect all index.html files and convert to URLs
 urls = []
 
 for root, dirs, files in os.walk("."):
+    # Skip git, scratch, and hidden folders
+    if ".git" in root or "scratch" in root:
+        continue
     for file in files:
         if file == "index.html":
+            file_path = os.path.join(root, file)
+            try:
+                with open(file_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                # If page is marked noindex, exclude from sitemap
+                if re.search(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex', content, re.IGNORECASE):
+                    continue
+            except Exception:
+                pass
+
             # Convert file path to URL
             path = root.replace("\\", "/").replace("./", "/").lower()
             if path == ".":
