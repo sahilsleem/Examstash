@@ -9,8 +9,8 @@ today = date.today().isoformat()
 urls = []
 
 for root, dirs, files in os.walk("."):
-    # Skip git, scratch, and hidden folders
-    if ".git" in root or "scratch" in root:
+    # Skip git, scratch, hidden folders, and mirror routes
+    if ".git" in root or "scratch" in root or "islamia-college" in root:
         continue
     for file in files:
         if file == "index.html":
