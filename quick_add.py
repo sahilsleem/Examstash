@@ -92,7 +92,7 @@ paper_page_template = """<!DOCTYPE html>
   <title>{subject_title} {item_type} — {course_title} Semester {sem_num} | ExamStash</title>
   <meta name="description" content="View or download the {subject_title} {item_type_lower} for {course_title}, Semester {sem_num} at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource." />
   <link rel="canonical" href="https://examstash.online/{course_slug}/semester-{sem_num}/{paper_slug}/" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>
 
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0d9488" />
@@ -279,7 +279,7 @@ paper_page_template = """<!DOCTYPE html>
            style="display:block; text-align:center;"
            data-ad-layout="in-article"
            data-ad-format="fluid"
-           data-ad-client="ca-pub-5315343862609383"></ins>
+           data-ad-client="ca-pub-1741354477413638"></ins>
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({{}});
       </script>
@@ -342,7 +342,7 @@ paper_page_template = """<!DOCTYPE html>
            style="display:block; text-align:center;"
            data-ad-layout="in-article"
            data-ad-format="fluid"
-           data-ad-client="ca-pub-5315343862609383"></ins>
+           data-ad-client="ca-pub-1741354477413638"></ins>
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({{}});
       </script>
@@ -432,6 +432,12 @@ def update_course_navigation(course_slug):
 
         with open(course_index_path, "r", encoding="utf-8") as cf:
             c_content = cf.read()
+
+        # If course has populated sems, un-noindex and restore monetization
+        if populated_sems:
+            c_content = re.sub(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex[^"']*["\']\s*\/?>\s*', '', c_content, flags=re.IGNORECASE)
+            if "pagead2.googlesyndication.com" not in c_content:
+                c_content = c_content.replace("</head>", '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>\n</head>')
 
         grid_pattern = re.compile(r'<div class="sem-grid">[\s\S]*?</div>(\s*<!-- Monetization Placeholder -->|\s*</div>\s*<footer>)', re.IGNORECASE)
         if grid_pattern.search(c_content):
