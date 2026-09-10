@@ -91,7 +91,7 @@ paper_page_template = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{subject_title} — {course_title} Semester {sem_num} ({item_type}) | Islamia College</title>
   <meta name="description" content="Download {subject_title} {item_type} for {course_title} Semester {sem_num} at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download." />
-  <link rel="canonical" href="https://examstash.pages.dev/{course_slug}/semester-{sem_num}/{paper_slug}/" />
+  <link rel="canonical" href="https://examstash.online/{course_slug}/semester-{sem_num}/{paper_slug}/" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
 
   <link rel="manifest" href="/manifest.json" />
@@ -498,7 +498,7 @@ def main():
         subprocess.run(["git", "add", "."])
         subprocess.run(["git", "commit", "-m", commit_msg])
         subprocess.run(["git", "push", "origin", "main"])
-        print("\n✅ Deployed live to https://examstash.pages.dev/ !")
+        print("\n✅ Deployed live to https://examstash.online/ !")
 
 if __name__ == "__main__":
     main()

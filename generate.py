@@ -159,7 +159,7 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download | ExamStash</title>
   <meta name="description" content="Download {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF for free. Annual examination paper. No login required." />
-  <link rel="canonical" href="https://examstash.pages.dev{canonical_path}" />
+  <link rel="canonical" href="https://examstash.online{canonical_path}" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
   
   <!-- Open Graph / Facebook -->
@@ -167,14 +167,14 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
   <meta property="og:site_name" content="ExamStash" />
   <meta property="og:title" content="{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download" />
   <meta property="og:description" content="Download free {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF. Annual examination paper." />
-  <meta property="og:url" content="https://examstash.pages.dev{canonical_path}" />
-  <meta property="og:image" content="https://examstash.pages.dev/assets/images/og-preview.svg" />
+  <meta property="og:url" content="https://examstash.online{canonical_path}" />
+  <meta property="og:image" content="https://examstash.online/assets/images/og-preview.svg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{board_name} {class_name} {subject_name} Question Paper {year}{series_label} PDF Download" />
   <meta name="twitter:description" content="Download free {board_name} {class_name} {subject_name} question paper {year}{series_label} PDF." />
-  <meta name="twitter:image" content="https://examstash.pages.dev/assets/images/og-preview.svg" />
+  <meta name="twitter:image" content="https://examstash.online/assets/images/og-preview.svg" />
 
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
@@ -189,21 +189,21 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
         "educationalLevel": "{class_name}",
         "inLanguage": "en",
         "isAccessibleForFree": true,
-        "url": "https://examstash.pages.dev{canonical_path}",
+        "url": "https://examstash.online{canonical_path}",
         "provider": {{
           "@type": "Organization",
           "name": "ExamStash",
-          "url": "https://examstash.pages.dev"
+          "url": "https://examstash.online"
         }}
       }},
       {{
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examstash.pages.dev/" }},
-          {{ "@type": "ListItem", "position": 2, "name": "{board_name}", "item": "https://examstash.pages.dev/{board}/" }},
-          {{ "@type": "ListItem", "position": 3, "name": "{class_name}", "item": "https://examstash.pages.dev/{board}/{cls}/" }},
-          {{ "@type": "ListItem", "position": 4, "name": "{subject_name}", "item": "https://examstash.pages.dev/{board}/{cls}/{subject}/" }},
-          {{ "@type": "ListItem", "position": 5, "name": "{year}{series_label}", "item": "https://examstash.pages.dev{canonical_path}" }}
+          {{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://examstash.online/" }},
+          {{ "@type": "ListItem", "position": 2, "name": "{board_name}", "item": "https://examstash.online/{board}/" }},
+          {{ "@type": "ListItem", "position": 3, "name": "{class_name}", "item": "https://examstash.online/{board}/{cls}/" }},
+          {{ "@type": "ListItem", "position": 4, "name": "{subject_name}", "item": "https://examstash.online/{board}/{cls}/{subject}/" }},
+          {{ "@type": "ListItem", "position": 5, "name": "{year}{series_label}", "item": "https://examstash.online{canonical_path}" }}
         ]
       }}
     ]
