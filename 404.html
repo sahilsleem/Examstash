@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — 404 | ExamStash</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d9488" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
+  <link rel="stylesheet" href="/assets/css/global.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; min-height: 100vh; display: flex; flex-direction: column; }
+    header {
+      padding: 16px 20px; border-bottom: 1px solid #f0f0f0;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; background: #fff; z-index: 100;
+    }
+    .header-inner { max-width: 960px; margin: 0 auto; width: 100%; display: flex; align-items: center; }
+    .logo { font-size: 19px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.4px; }
+    .logo span { color: #0d9488; }
+    .container { max-width: 680px; margin: 0 auto; padding: 60px 20px; text-align: center; flex: 1; }
+    .error-card {
+      border: 1.5px solid #ccfbf1; background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border-radius: 16px; padding: 40px 24px; box-shadow: 0 4px 20px rgba(13, 148, 136, 0.08);
+      margin-bottom: 32px;
+    }
+    .error-code { font-size: 64px; font-weight: 800; color: #0d9488; line-height: 1; margin-bottom: 12px; }
+    .error-title { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #115e59; }
+    .error-text { font-size: 15px; color: #64748b; line-height: 1.6; margin-bottom: 28px; }
+    .btn-home {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      background: #0d9488; color: white; padding: 12px 28px; border-radius: 10px;
+      font-size: 15px; font-weight: 700; text-decoration: none; transition: all 0.2s;
+    }
+    .btn-home:hover { background: #0f766e; transform: translateY(-1px); }
+    .course-links { margin-top: 24px; text-align: left; background: #fff; border: 1px solid #f0f0f0; border-radius: 12px; padding: 20px; }
+    .course-links h3 { font-size: 14px; font-weight: 700; color: #888; text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.05em; }
+    .course-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .course-chip {
+      display: inline-block; background: #f0fdfa; color: #0d9488; border: 1px solid #ccfbf1;
+      padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 600; text-decoration: none; transition: all 0.2s;
+    }
+    .course-chip:hover { background: #0d9488; color: #fff; border-color: #0d9488; }
+    footer {
+      background: #fafafa; border-top: 1px solid #f0f0f0;
+      padding: 24px 16px; text-align: center; font-size: 13px; color: #aaa; margin-top: auto;
+    }
+    footer a { color: #aaa; text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: #0d9488; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
+  </div>
+</header>
+
+<div class="container">
+  <div class="error-card">
+    <div class="error-code">404</div>
+    <h1 class="error-title">Page Not Found</h1>
+    <p class="error-text">The page you are looking for might have been moved, renamed, or is temporarily unavailable. Please use the navigation below to find past papers and syllabi.</p>
+    <a href="/" class="btn-home">← Back to Homepage</a>
+  </div>
+
+  <div class="course-links">
+    <h3>Popular Departments</h3>
+    <div class="course-grid">
+      <a href="/bca/" class="course-chip">BCA</a>
+      <a href="/bsc-it/" class="course-chip">B.Sc. IT</a>
+      <a href="/bba/" class="course-chip">BBA</a>
+      <a href="/bcom/" class="course-chip">B.Com</a>
+      <a href="/ba/" class="course-chip">B.A. & English Honours</a>
+      <a href="/bsc-physics/" class="course-chip">B.Sc. Physics</a>
+      <a href="/bsc-chemistry/" class="course-chip">B.Sc. Chemistry</a>
+      <a href="/common-courses/" class="course-chip">Common Courses</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links" style="margin-bottom: 10px;">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/dmca/">DMCA</a>
+  </div>
+  <p style="margin-bottom: 6px; font-size: 13px;">© 2026 ExamStash. All rights reserved.</p>
+  <p style="font-size: 11px; color: #888; max-width: 600px; margin: 0 auto; line-height: 1.4;">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
+</footer>
+
+</body>
+</html>

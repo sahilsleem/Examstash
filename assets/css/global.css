@@ -46,7 +46,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 0;
+  min-height: 90px;
+}
+
+@media (max-width: 600px) {
+  .ad-slot-inner {
+    min-height: 60px;
+  }
 }
 
 /* Header Action Buttons */
