@@ -165,14 +165,14 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "title": "Financial Accounting",
     "url": "/bba/semester-1/financial-accounting-major/",
     "category": "BBA",
-    "description": "View or download the Financial Accounting question paper for BBA, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
+    "description": "View or download the Financial Accounting (Major) question paper for BBA, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
     "keywords": "financial accounting bba bba semester 1 financial-accounting-major"
   },
   {
     "title": "Financial Accounting",
     "url": "/bba/semester-1/financial-accounting-minor/",
     "category": "BBA",
-    "description": "View or download the Financial Accounting question paper for BBA, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
+    "description": "View or download the Financial Accounting (Minor) question paper for BBA, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
     "keywords": "financial accounting bba bba semester 1 financial-accounting-minor"
   },
   {
@@ -221,14 +221,14 @@ window.EXAMSTASH_SEARCH_INDEX = [
     "title": "Financial Accounting",
     "url": "/bcom/semester-1/financial-accounting-major/",
     "category": "B.Com",
-    "description": "View or download the Financial Accounting question paper for B.Com, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
+    "description": "View or download the Financial Accounting (Major) question paper for B.Com, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
     "keywords": "financial accounting bcom b.com semester 1 financial-accounting-major"
   },
   {
     "title": "Financial Accounting",
     "url": "/bcom/semester-1/financial-accounting-minor/",
     "category": "B.Com",
-    "description": "View or download the Financial Accounting question paper for B.Com, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
+    "description": "View or download the Financial Accounting (Minor) question paper for B.Com, Semester 1 at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource.",
     "keywords": "financial accounting bcom b.com semester 1 financial-accounting-minor"
   },
   {
