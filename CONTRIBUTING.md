@@ -15,7 +15,7 @@ The most impactful way to help is sharing past exam papers from your school, col
 ### 2. 💻 Adding Papers via Pull Request
 If you are comfortable with Git and Python:
 1. Fork this repository.
-2. Run `python add_paper.py` to add your paper and compile the new page.
+2. Run `python quick_add.py` to add your paper and compile the new page.
 3. Test locally using `python -m http.server 8000`.
 4. Validate site health with `python validate_site.py`.
 5. Submit a Pull Request to `main`.
