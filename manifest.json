@@ -1,0 +1,20 @@
+{
+  "name": "Islamia College Portal — ICSC Srinagar",
+  "short_name": "ICSC Portal",
+  "description": "Download free past question papers and syllabi for Islamia College of Science & Commerce (ICSC) Srinagar. BCA, B.Sc IT, BBA, B.Com, B.A, MBA & MCA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/assets/icons/icon.svg",
+      "sizes": "192x192 512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "reference"]
+}
