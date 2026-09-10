@@ -89,8 +89,8 @@ paper_page_template = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{subject_title} — {course_title} Semester {sem_num} ({item_type}) | Islamia College</title>
-  <meta name="description" content="Download {subject_title} {item_type} for {course_title} Semester {sem_num} at Islamia College of Science & Commerce (ICSC), Srinagar. Free PDF download." />
+  <title>{subject_title} {item_type} — {course_title} Semester {sem_num} | ExamStash</title>
+  <meta name="description" content="View or download the {subject_title} {item_type_lower} for {course_title}, Semester {sem_num} at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource." />
   <link rel="canonical" href="https://examstash.online/{course_slug}/semester-{sem_num}/{paper_slug}/" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315343862609383" crossorigin="anonymous"></script>
 
@@ -118,7 +118,7 @@ paper_page_template = """<!DOCTYPE html>
     .container {{ padding: 0 20px 60px; max-width: 960px; margin: 0 auto; }}
     .page-header {{
       background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
-      border-radius: 16px; padding: 28px 24px; margin-bottom: 24px; color: white;
+      border-radius: 16px; padding: 28px 24px; margin-bottom: 20px; color: white;
       box-shadow: 0 4px 20px rgba(13, 148, 136, 0.12);
     }}
     .college-tag {{
@@ -129,6 +129,18 @@ paper_page_template = """<!DOCTYPE html>
     .page-header h1 {{ font-size: 24px; font-weight: 800; margin-bottom: 6px; line-height: 1.3; }}
     .page-header p {{ font-size: 14px; opacity: 0.85; line-height: 1.5; }}
     
+    .intro-box {{
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 20px 0;
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: #334155;
+    }}
+    .intro-box strong {{ color: #0f172a; }}
+
     .download-card {{
       border: 1.5px solid #ccfbf1;
       background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
@@ -146,22 +158,74 @@ paper_page_template = """<!DOCTYPE html>
     }}
     .btn-download-main:hover {{ background: #0f766e; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4); }}
     
-    .info-grid {{
-      display: grid; grid-template-columns: repeat(3, 1fr);
-      gap: 12px; margin: 24px 0;
+    .details-section {{
+      background: #fff;
+      border: 1.5px solid #f0f0f0;
+      border-radius: 14px;
+      padding: 22px;
+      margin: 24px 0;
     }}
-    .info-box {{
-      border: 1px solid #f0f0f0; border-radius: 10px; padding: 14px; text-align: center; background: #fff;
+    .details-title {{
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 10px;
     }}
-    .info-box-label {{ font-size: 11px; color: #888; text-transform: uppercase; font-weight: 600; margin-bottom: 4px; }}
-    .info-box-val {{ font-size: 14px; font-weight: 700; color: #1a1a1a; }}
+    .details-grid {{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }}
+    .detail-item {{
+      background: #fcfcfc;
+      border: 1px solid #f0f0f0;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }}
+    .detail-label {{
+      display: block;
+      font-size: 11px;
+      color: #888;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 4px;
+      letter-spacing: 0.03em;
+    }}
+    .detail-value {{
+      display: block;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }}
 
-    .back-btn {{
-      display: inline-flex; align-items: center; gap: 6px;
-      color: #0d9488; text-decoration: none; font-size: 14px; font-weight: 600;
-      margin-top: 10px;
+    .page-nav {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0 10px;
+      align-items: center;
     }}
-    .back-btn:hover {{ text-decoration: underline; }}
+    .back-btn, .all-sem-btn {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #0d9488;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }}
+    .back-btn:hover, .all-sem-btn:hover {{
+      background: #0d9488;
+      color: #fff;
+      border-color: #0d9488;
+    }}
 
     footer {{
       background: #fafafa; border-top: 1px solid #f0f0f0;
@@ -169,9 +233,15 @@ paper_page_template = """<!DOCTYPE html>
     }}
     footer a {{ color: #aaa; text-decoration: none; margin: 0 8px; }}
     footer a:hover {{ color: #0d9488; }}
-    @media (max-width: 600px) {{
-      .info-grid {{ grid-template-columns: 1fr; }}
+    
+    @media (max-width: 680px) {{
+      .details-grid {{ grid-template-columns: 1fr 1fr; }}
       .btn-download-main {{ width: 100%; }}
+    }}
+    @media (max-width: 480px) {{
+      .details-grid {{ grid-template-columns: 1fr; }}
+      .page-nav {{ flex-direction: column; align-items: stretch; }}
+      .back-btn, .all-sem-btn {{ justify-content: center; }}
     }}
   </style>
 </head>
@@ -179,7 +249,7 @@ paper_page_template = """<!DOCTYPE html>
 
 <header>
   <div class="header-inner">
-    <a class="logo" href="/">Islamia College <span>of Science & Commerce</span></a>
+    <a class="logo" href="/">Exam<span>Stash</span></a>
   </div>
 </header>
 
@@ -192,9 +262,13 @@ paper_page_template = """<!DOCTYPE html>
 
 <div class="container">
   <div class="page-header">
-    <span class="college-tag">{course_title} — SEMESTER {sem_num}</span>
+    <span class="college-tag">{course_title_upper} — SEMESTER {sem_num}</span>
     <h1>{subject_title}</h1>
     <p>Islamia College of Science & Commerce, Srinagar — {item_type}</p>
+  </div>
+
+  <div class="intro-box">
+    <p>{intro_paragraph}</p>
   </div>
 
   <!-- Top Monetization Ad Placement -->
@@ -216,32 +290,49 @@ paper_page_template = """<!DOCTYPE html>
   <div class="download-card">
     <div class="file-icon">{icon}</div>
     <div class="file-title">{subject_title}</div>
-    <div class="file-meta">{course_title} · Semester {sem_num} · {item_type} · Official PDF</div>
+    <div class="file-meta">{course_title} · Semester {sem_num} · {item_type}</div>
 
     <a href="{drive_link}" target="_blank" rel="noopener" class="btn-download-main">
-      ⬇️ Download {item_type} PDF
+      View / Download {item_type} PDF
     </a>
   </div>
 
-  <!-- File Specs Info Grid -->
-  <div class="info-grid">
-    <div class="info-box">
-      <div class="info-box-label">College</div>
-      <div class="info-box-val">ICSC Srinagar</div>
-    </div>
-    <div class="info-box">
-      <div class="info-box-label">Format</div>
-      <div class="info-box-val">High-Quality PDF</div>
-    </div>
-    <div class="info-box">
-      <div class="info-box-label">Access</div>
-      <div class="info-box-val">Free / No Login</div>
+  <!-- Structured Resource Details -->
+  <div class="details-section">
+    <h2 class="details-title">Resource Details</h2>
+    <div class="details-grid">
+      <div class="detail-item">
+        <span class="detail-label">Course</span>
+        <span class="detail-value">{course_title}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Semester</span>
+        <span class="detail-value">Semester {sem_num}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Subject</span>
+        <span class="detail-value">{subject_title}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Resource Type</span>
+        <span class="detail-value">{item_type}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">File Format</span>
+        <span class="detail-value">PDF</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Access</span>
+        <span class="detail-value">Free access</span>
+      </div>
     </div>
   </div>
 
-  <a href="/{course_slug}/semester-{sem_num}/" class="back-btn">
-    ← Back to {course_title} Semester {sem_num} Papers
-  </a>
+  <!-- Navigation -->
+  <div class="page-nav">
+    <a href="/{course_slug}/semester-{sem_num}/" class="back-btn">← Back to {course_title} Semester {sem_num} Resources</a>
+    <a href="/{course_slug}/" class="all-sem-btn">All {course_title} Semesters</a>
+  </div>
 
   <!-- Bottom Monetization Ad Placement -->
   <div class="ad-slot">
@@ -363,16 +454,28 @@ def add_paper(parsed, drive_id):
 
     drive_link = f"https://drive.google.com/file/d/{drive_id}/view?usp=sharing"
 
+    item_type_lower = item_type.lower()
+    course_title_upper = course_name.upper()
+
+    intro_paragraph = (
+        f"This page provides a syllabus document for <strong>{subject_title}</strong> ({course_name}, Semester {sem_num}) at Islamia College of Science and Commerce (ICSC), Srinagar. Students can view or download the syllabus to understand the course content and support their academic preparation."
+        if is_syllabus else
+        f"This page provides a past examination question paper for <strong>{subject_title}</strong> ({course_name}, Semester {sem_num}) at Islamia College of Science and Commerce (ICSC), Srinagar. Students can view or download the PDF document for exam preparation, practice, and revision."
+    )
+
     # 1. Create Dedicated Download Page
     page_html = paper_page_template.format(
         subject_title=subject_title,
         course_title=course_name,
+        course_title_upper=course_title_upper,
         course_slug=course_slug,
         sem_num=sem_num,
         item_type=item_type,
+        item_type_lower=item_type_lower,
         paper_slug=paper_slug,
         icon=icon,
-        drive_link=drive_link
+        drive_link=drive_link,
+        intro_paragraph=intro_paragraph
     )
 
     out_dir = os.path.join(course_slug, f"semester-{sem_num}", paper_slug)
