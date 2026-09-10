@@ -428,25 +428,15 @@ def make_paper_page(board, cls, subject, year, series, pdf_link):
 </div>
 
 <footer>
-  <div style="margin-bottom: 14px;">
-    <strong>ExamStash</strong> &nbsp;|&nbsp;
+  <div class="footer-links" style="margin-bottom: 10px;">
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
     <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms</a>
     <a href="/dmca/">DMCA</a>
   </div>
-  <div style="margin-bottom: 12px; display: flex; justify-content: center; align-items: center; gap: 12px;">
-    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-    </a>
-    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" aria-label="Telegram" title="Telegram" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .37z"/></svg>
-    </a>
-    <a href="mailto:examstash1@gmail.com" aria-label="Email" title="Email" style="display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; background: #f0fdfa; color: #0d9488; transition: all 0.2s; text-decoration: none;">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-    </a>
-  </div>
-  <p style="font-size: 12px; color: #888;">Built for students. Free past exam papers & syllabus.</p>
+  <p style="margin-bottom: 6px; font-size: 13px;">© 2026 ExamStash. All rights reserved.</p>
+  <p style="font-size: 11px; color: #888; max-width: 600px; margin: 0 auto; line-height: 1.4;">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
 </footer>
 
 <script>
