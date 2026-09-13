@@ -361,7 +361,9 @@ header, .site-header {
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
     animation: none !important;
   }
-  header, .site-header, .logo, .logo-exam, .logo-stash, .logo-dot, .logo::after, .header-meta {
+  header, .site-header, .logo, .logo-exam, .logo-stash, .logo-dot, .logo::after, .header-meta,
+  .header-menu-panel, .header-menu-panel.is-active, .menu-panel-header, .menu-panel-link,
+  .menu-panel-divider, .menu-panel-label, .menu-link-icon, .menu-link-arrow, .menu-icon-bars .bar {
     animation: none !important;
     transition: none !important;
     transform: none !important;

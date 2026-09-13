@@ -267,15 +267,15 @@ header, .site-header {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 14px;
-  box-shadow: 0 12px 32px -4px rgba(15, 23, 42, 0.12), 0 4px 12px -2px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 36px -4px rgba(15, 23, 42, 0.14), 0 4px 12px -2px rgba(15, 23, 42, 0.06);
   padding: 10px;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-8px) scale(0.985);
   transform-origin: top right;
-  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.22s cubic-bezier(0.16, 1, 0.3, 1),
-              visibility 0.22s;
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+              visibility 0.2s;
   pointer-events: none;
   z-index: 1001;
   box-sizing: border-box;
@@ -285,7 +285,49 @@ header, .site-header {
   opacity: 1;
   visibility: visible;
   transform: translateY(0) scale(1);
+  transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+              visibility 0.28s;
   pointer-events: auto;
+}
+
+@keyframes menuStaggerIn {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-menu-panel.is-active .menu-panel-header {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 0ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(1) .menu-panel-link:nth-child(1) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 40ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(1) .menu-panel-link:nth-child(2) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 70ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(1) .menu-panel-link:nth-child(3) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 100ms both;
+}
+.header-menu-panel.is-active .menu-panel-divider {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 130ms both;
+}
+.header-menu-panel.is-active .menu-panel-label {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 150ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(2) .menu-panel-link:nth-child(1) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 170ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(2) .menu-panel-link:nth-child(2) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 200ms both;
+}
+.header-menu-panel.is-active .menu-panel-group:nth-of-type(2) .menu-panel-link:nth-child(3) {
+  animation: menuStaggerIn 240ms cubic-bezier(0.16, 1, 0.3, 1) 230ms both;
 }
 
 .menu-panel-header {
@@ -326,7 +368,7 @@ header, .site-header {
 .menu-panel-link {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   padding: 9px 12px;
   border-radius: 9px;
   font-size: 13.5px;
@@ -334,21 +376,19 @@ header, .site-header {
   color: #334155;
   text-decoration: none;
   background: transparent;
-  transition: background-color 0.18s cubic-bezier(0.16, 1, 0.3, 1),
-              color 0.18s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              color 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
+  outline: none;
+  position: relative;
 }
 
-.menu-panel-link:hover {
-  background-color: #f0fdfa;
-  color: #0f766e;
-  transform: translateX(3px);
-}
-
-.menu-panel-link:active {
-  transform: scale(0.98);
-  background-color: #ccfbf1;
+.menu-link-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .menu-link-icon {
@@ -357,6 +397,50 @@ header, .site-header {
   display: inline-flex;
   justify-content: center;
   flex-shrink: 0;
+  transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1), filter 200ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.menu-link-arrow {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              transform 200ms cubic-bezier(0.16, 1, 0.3, 1),
+              color 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-block;
+  pointer-events: none;
+}
+
+/* Hover & Keyboard Focus States — Connected to Deep Teal Hero Language */
+.menu-panel-link:hover,
+.menu-panel-link:focus-visible {
+  background: linear-gradient(135deg, #115e59 0%, #0f766e 100%);
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(15, 118, 110, 0.25);
+  transform: translateX(2px);
+}
+
+.menu-panel-link:hover .menu-link-arrow,
+.menu-panel-link:focus-visible .menu-link-arrow {
+  opacity: 1;
+  transform: translateX(0);
+  color: #ffffff;
+}
+
+.menu-panel-link:hover .menu-link-icon,
+.menu-panel-link:focus-visible .menu-link-icon {
+  transform: translateX(1px);
+  filter: brightness(1.15);
+}
+
+/* Press / Active State */
+.menu-panel-link:active {
+  transform: scale(0.985);
+  background: #0d4b46;
+  box-shadow: 0 1px 4px rgba(15, 118, 110, 0.2);
+  transition-duration: 120ms;
 }
 
 .menu-panel-divider {
