@@ -464,8 +464,7 @@ footer {
 /* SEMESTER CARDS (Modern Utility Style) */
 .sem-card {
   background: var(--c-surface) !important;
-  border: none !important;
-  border-left: 3px solid var(--c-primary) !important;
+  border: 1px solid var(--c-border) !important;
   border-radius: var(--rad-md) !important;
   box-shadow: var(--shadow-sm) !important;
   padding: var(--sp-6) var(--sp-6) var(--sp-6) var(--sp-5) !important;
@@ -956,5 +955,97 @@ footer {
   .search-wrap .search-input,
   .page-header > * {
     animation: none !important;
+  }
+}
+
+
+/* ============================================================
+   GLOBAL TEAL ACCENT RAIL SYSTEM
+   ============================================================ */
+
+/* 1. Base card preparation - clean containment & positioning */
+.course-card, .sem-card, .item-card {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* 2. Course Cards (Homepage Navigation: BCA, B.Sc IT, BBA, B.Com, BA, Sciences, Common) */
+.course-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3.5px;
+  background: var(--c-primary);
+  border-radius: 4px 0 0 4px;
+  opacity: 0.85;
+  transition: opacity 200ms var(--ease-entrance), 
+              background 200ms var(--ease-entrance),
+              width 200ms var(--ease-entrance);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.course-card:hover::before {
+  opacity: 1;
+  background: var(--c-primary-hover);
+  width: 4px;
+}
+
+/* 3. Semester Cards (Course Landing Pages: Semesters 1-6) */
+.sem-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3.5px;
+  background: var(--c-primary);
+  border-radius: 4px 0 0 4px;
+  opacity: 0.85;
+  transition: opacity 200ms var(--ease-entrance), 
+              background 200ms var(--ease-entrance),
+              width 200ms var(--ease-entrance);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.sem-card:hover::before {
+  opacity: 1;
+  background: var(--c-primary-hover);
+  width: 4px;
+}
+
+/* 4. Item Cards (Semester Resource Listings) */
+.item-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--c-primary);
+  border-radius: 4px 0 0 4px;
+  opacity: 0.75;
+  transition: opacity 200ms var(--ease-entrance), 
+              background 200ms var(--ease-entrance),
+              width 200ms var(--ease-entrance);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.item-card:hover::before {
+  opacity: 1;
+  background: var(--c-primary-hover);
+  width: 3.5px;
+}
+
+/* 5. Motion safety for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .course-card::before,
+  .sem-card::before,
+  .item-card::before {
+    transition: none !important;
   }
 }
