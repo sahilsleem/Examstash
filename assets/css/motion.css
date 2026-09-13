@@ -114,36 +114,26 @@
 }
 
 /* ============================================================
-   HEADER / EDITORIAL MASTHEAD ENTRANCE SEQUENCE
-   1. Exam appears first (0ms)
-   2. Stash follows almost imperceptibly (60ms)
-   3. Tiny accent detail appears (120ms)
-   4. Secondary metadata fades in last (180ms)
+   PHYSICAL FLOATING BRAND ENTRANCE (EXAMSTASH)
+   - Enters from slightly above (translateY -24px)
+   - Falls downward with physical momentum
+   - Slight overshoot (+2.5px) and settling (0px)
    ============================================================ */
-@keyframes mastheadFadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes mastheadWordEntrance {
+@keyframes physicalFallEntrance {
   0% {
     opacity: 0;
-    transform: translateY(4px);
+    transform: translateY(-24px) scale(0.97);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(2.5px) scale(1.006);
+  }
+  78% {
+    transform: translateY(-0.8px) scale(0.998);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes mastheadDotEntrance {
-  0% {
-    opacity: 0;
-    transform: scale(0.3) translateY(3px);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
@@ -162,26 +152,12 @@ header, .site-header {
   animation: mastheadFadeIn 300ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* 1. Exam appears first */
-.logo-exam {
-  display: inline-block;
-  animation: mastheadWordEntrance 400ms cubic-bezier(0.16, 1, 0.3, 1) 0ms both;
+.logo-physical-wrap {
+  animation: physicalFallEntrance 650ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* 2. Stash follows almost imperceptibly */
-.logo-stash, .logo:not(:has(.logo-stash)) span {
-  display: inline-block;
-  animation: mastheadWordEntrance 400ms cubic-bezier(0.16, 1, 0.3, 1) 60ms both;
-}
-
-/* 3. Tiny accent detail appears */
-.logo-dot, .logo::after {
-  animation: mastheadDotEntrance 360ms cubic-bezier(0.16, 1, 0.3, 1) 120ms both;
-}
-
-/* 4. Secondary metadata fades in last */
 .header-meta {
-  animation: mastheadMetaEntrance 440ms cubic-bezier(0.16, 1, 0.3, 1) 180ms both;
+  animation: mastheadMetaEntrance 450ms cubic-bezier(0.16, 1, 0.3, 1) 200ms both;
 }
 
 /* Header Action Buttons */
