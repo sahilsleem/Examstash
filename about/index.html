@@ -1,184 +1,1056 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About ExamStash</title>
+  <meta name="view-transition" content="same-origin" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About ExamStash — Independent Academic Resource</title>
   <link rel="canonical" href="https://examstash.online/about/" />
-  <meta name="description" content="About ExamStash — Free past papers and syllabi for Islamia College of Science & Commerce, Srinagar." />
-    <style>
-        :root {
-            --primary: #0d9488;
-            --primary-hover: #0f766e;
-            --bg-light: #f0fdfa;
-            --border: #ccfbf1;
-            --text-main: #333;
-            --text-muted: #666;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', system-ui, sans-serif;
-            color: var(--text-main);
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        a { text-decoration: none; color: var(--primary); }
-        a:hover { color: var(--primary-hover); text-decoration: underline; }
-        
-        header {
-            background-color: #fff;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            display: flex;
-            align-items: center;
-        }
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--text-main);
-        }
-        .logo span {
-            color: var(--primary);
-        }
-        .logo:hover {
-            text-decoration: none;
-        }
-        
-        .container {
-            width: 100%;
-            max-width: 720px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-            flex: 1;
-        }
-        
-        .breadcrumb {
-            font-size: 0.9rem;
-            margin-bottom: 1.5rem;
-            color: var(--text-muted);
-        }
-        .breadcrumb a {
-            color: var(--primary);
-        }
-        
-        .content-card {
-            background-color: #fff;
-            padding: 2.5rem;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-        }
-        
-        h1 {
-            color: var(--primary);
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-        }
-        
-        p {
-            margin-bottom: 1rem;
-        }
-        
-        .btn {
-            display: inline-block;
-            background-color: var(--primary);
-            color: #fff;
-            padding: 0.6rem 1.2rem;
-            border-radius: 4px;
-            font-weight: 500;
-            margin-top: 1rem;
-            transition: background-color 0.2s;
-        }
-        .btn:hover {
-            background-color: var(--primary-hover);
-            color: #fff;
-            text-decoration: none;
-        }
+  <meta name="description" content="About ExamStash — Free past question papers and syllabi for Islamia College of Science & Commerce, Srinagar. An independent student educational repository." />
 
-        footer {
-            background-color: #fff;
-            padding: 2rem;
-            text-align: center;
-            border-top: 1px solid var(--border);
-            margin-top: 2rem;
-        }
-        
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
-        }
-        
-        @media (max-width: 768px) {
-            header { padding: 1rem; }
-            .container { padding: 0 1rem; margin: 1.5rem auto; }
-            .content-card { padding: 1.5rem; }
-        }
-        
-        @media (max-width: 360px) {
-            h1 { font-size: 1.5rem; }
-            .footer-links { gap: 1rem; flex-direction: column; }
-        }
-    </style>
-    <link rel="manifest" href="/manifest.json" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ExamStash" />
+  <meta property="og:title" content="About ExamStash — Independent Academic Resource" />
+  <meta property="og:description" content="Free past question papers and syllabi for Islamia College of Science & Commerce, Srinagar. Built by students, for students." />
+  <meta property="og:url" content="https://examstash.online/about/" />
+  <meta property="og:image" content="https://examstash.online/assets/images/og-preview.svg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About ExamStash — Independent Academic Resource" />
+  <meta name="twitter:description" content="Free past question papers and syllabi for Islamia College of Science & Commerce, Srinagar." />
+  <meta name="twitter:image" content="https://examstash.online/assets/images/og-preview.svg" />
+
+  <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0d9488" />
   <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
   <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
   <link rel="stylesheet" href="/assets/css/global.css" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: #1e293b;
+      line-height: 1.6;
+      background-color: #f8fafc;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 16px 20px;
+      border-bottom: 1px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .logo {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      text-decoration: none;
+      letter-spacing: -0.4px;
+    }
+    .logo span {
+      color: #0d9488;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+      flex: 1;
+    }
+
+    .breadcrumb {
+      font-size: 13px;
+      margin-bottom: 24px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .breadcrumb a {
+      color: #0d9488;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    /* ============================================================
+       1. HERO SECTION WITH EDITORIAL VISUAL DEVICE
+       ============================================================ */
+    .about-hero {
+      background: linear-gradient(135deg, #070d14 0%, #0d4b46 100%);
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      padding: 44px 36px;
+      color: #ffffff;
+      margin-bottom: 40px;
+      box-shadow: 0 12px 30px -8px rgba(15, 118, 110, 0.3);
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .about-hero::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -50%; right: -50%; bottom: -50%;
+      background: radial-gradient(circle at 65% 25%, rgba(20, 184, 166, 0.22) 0%, transparent 55%);
+      pointer-events: none;
+      animation: ambientHeroLight 8s ease-in-out infinite;
+    }
+    .about-hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .about-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #5eead4;
+      margin-bottom: 14px;
+      background: rgba(20, 184, 166, 0.14);
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(94, 234, 212, 0.25);
+    }
+    .about-hero h1 {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      margin-bottom: 14px;
+    }
+    .about-hero p {
+      font-size: 15px;
+      color: #e2e8f0;
+      line-height: 1.6;
+      margin-bottom: 24px;
+      max-width: 520px;
+    }
+    .hero-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #0d9488;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 16px rgba(13, 148, 136, 0.35);
+    }
+    .hero-cta-btn:hover {
+      background: #0f766e;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(13, 148, 136, 0.45);
+      color: #ffffff;
+    }
+    .hero-cta-btn:active {
+      transform: scale(0.975);
+    }
+
+    /* CSS PAPER STACK MOTIF */
+    .hero-visual-stack {
+      position: relative;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+    .stack-card {
+      position: absolute;
+      border-radius: 12px;
+      padding: 16px 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+    .stack-card-back {
+      width: 220px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transform: rotate(-6deg) translateY(-14px);
+      opacity: 0.6;
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .stack-card-mid {
+      width: 235px;
+      background: rgba(13, 75, 70, 0.9);
+      border: 1px solid rgba(94, 234, 212, 0.25);
+      transform: rotate(4deg) translateY(-4px);
+      opacity: 0.85;
+      color: #5eead4;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .stack-card-front {
+      width: 250px;
+      background: #ffffff;
+      border: 1px solid #ccfbf1;
+      color: #0f172a;
+      transform: rotate(0deg);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+    }
+    .stack-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .stack-tag {
+      font-size: 10px;
+      font-weight: 700;
+      color: #0d9488;
+      background: #f0fdfa;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid #ccfbf1;
+      text-transform: uppercase;
+    }
+    .stack-status {
+      font-size: 10px;
+      color: #16a34a;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .stack-status::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #16a34a;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .stack-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 2px;
+    }
+    .stack-sub {
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    /* ============================================================
+       2. THE BIG STATEMENT (EDITORIAL CALLOUT)
+       ============================================================ */
+    .statement-section {
+      padding: 36px 0 32px;
+      text-align: center;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .statement-headline {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      color: #0f172a;
+      margin-bottom: 14px;
+    }
+    .statement-headline span {
+      color: #0d9488;
+    }
+    .statement-body {
+      font-size: 15px;
+      color: #475569;
+      line-height: 1.7;
+    }
+
+    /* ============================================================
+       3. EDITORIAL STORY SECTION (2-COLUMN)
+       ============================================================ */
+    .story-section {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 32px;
+      margin: 36px 0;
+      padding-top: 24px;
+      border-top: 1px solid #e2e8f0;
+    }
+    .story-marker {
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #0d9488;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .story-marker-num {
+      font-size: 32px;
+      font-weight: 900;
+      color: #cbd5e1;
+      line-height: 1;
+    }
+    .story-content h2 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+    }
+    .story-content p {
+      font-size: 14.5px;
+      color: #334155;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+    .story-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ============================================================
+       4. VISUAL FEATURE SYSTEM (ASYMMETRIC EDITORIAL GRID)
+       ============================================================ */
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin: 36px 0 16px;
+      border-left: 4px solid #0d9488 !important;
+      padding-left: 10px !important;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .section-meta {
+      font-size: 12px;
+      font-weight: 600;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .features-asymmetric {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .feature-card-main {
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border: 1px solid #ccfbf1;
+      border-radius: 14px;
+      padding: 28px 24px;
+      box-shadow: 0 4px 18px rgba(13, 148, 136, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+    }
+    .feature-card-main:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(13, 148, 136, 0.10);
+      border-color: #99f6e4;
+    }
+    .feature-card-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .feature-card-sub {
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border: 1px solid #ccfbf1;
+      border-radius: 14px;
+      padding: 20px 22px;
+      box-shadow: 0 4px 18px rgba(13, 148, 136, 0.05);
+      transition: all 0.25s ease;
+    }
+    .feature-card-sub:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(13, 148, 136, 0.10);
+      border-color: #99f6e4;
+    }
+    .feature-icon-badge {
+      width: 42px;
+      height: 42px;
+      background: #ffffff;
+      border: 1px solid #ccfbf1;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+    .feature-card-main h3 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+    .feature-card-main p {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.6;
+    }
+    .feature-card-sub h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+    .feature-card-sub p {
+      font-size: 13px;
+      color: #475569;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* ============================================================
+       5. HIGH-CONTRAST DARK RHYTHM BREAK (THE PAUSE)
+       ============================================================ */
+    .rhythm-break {
+      background: linear-gradient(135deg, #070d14 0%, #0d4b46 100%);
+      border-radius: 14px;
+      padding: 36px 32px;
+      color: #ffffff;
+      margin: 40px 0;
+      box-shadow: 0 10px 25px -5px rgba(15, 118, 110, 0.25);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+    }
+    .rhythm-break::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -50%; right: -50%; bottom: -50%;
+      background: radial-gradient(circle at 80% 20%, rgba(20, 184, 166, 0.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .rhythm-text {
+      position: relative;
+      z-index: 2;
+      max-width: 580px;
+    }
+    .rhythm-tag {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #5eead4;
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+    .rhythm-text h2 {
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .rhythm-text p {
+      font-size: 14px;
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .rhythm-badge {
+      position: relative;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 14px 20px;
+      border-radius: 10px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .rhythm-badge-num {
+      font-size: 22px;
+      font-weight: 800;
+      color: #5eead4;
+    }
+    .rhythm-badge-lbl {
+      font-size: 11px;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    /* ============================================================
+       6. HOW EXAMSTASH WORKS (CONNECTED INTERACTIVE FLOW)
+       ============================================================ */
+    .flow-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 36px;
+      position: relative;
+    }
+    .flow-step {
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border: 1px solid #ccfbf1;
+      border-radius: 12px;
+      padding: 20px 16px;
+      box-shadow: 0 4px 18px rgba(13, 148, 136, 0.05);
+      position: relative;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .flow-step:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(13, 148, 136, 0.10);
+      border-color: #99f6e4;
+    }
+    .flow-step-num {
+      font-size: 18px;
+      font-weight: 900;
+      color: #0d9488;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .flow-step h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .flow-step p {
+      font-size: 12px;
+      color: #64748b;
+      line-height: 1.45;
+      margin: 0;
+    }
+
+    /* ============================================================
+       7. TRANSPARENCY & INDEPENDENCE (TRUST PANEL)
+       ============================================================ */
+    .transparency-panel {
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border: 1.5px solid #99f6e4;
+      border-radius: 14px;
+      padding: 28px 26px;
+      box-shadow: 0 4px 20px rgba(13, 148, 136, 0.06);
+      margin-bottom: 36px;
+      position: relative;
+    }
+    .transparency-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .transparency-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #0f766e;
+      background: #ccfbf1;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .transparency-panel h3 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 10px;
+    }
+    .transparency-panel p {
+      font-size: 14px;
+      color: #334155;
+      line-height: 1.65;
+      margin-bottom: 12px;
+    }
+    .transparency-panel p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ============================================================
+       8. COMMUNITY & FINAL CTA BANNER (2-COLUMN EDITORIAL)
+       ============================================================ */
+    .closing-cta {
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border: 1px solid #ccfbf1;
+      border-radius: 14px;
+      padding: 32px 28px;
+      box-shadow: 0 6px 24px rgba(13, 148, 136, 0.06);
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .closing-info h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+    .closing-info p {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.5;
+      margin: 0;
+    }
+    .closing-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+    .btn-share-main {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #0d9488;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25);
+      width: 100%;
+      max-width: 220px;
+    }
+    .btn-share-main:hover {
+      background: #0f766e;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(13, 148, 136, 0.35);
+      color: #ffffff;
+    }
+    .btn-contact-sub {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: transparent;
+      color: #0d9488;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.15s ease;
+      width: 100%;
+      max-width: 220px;
+    }
+    .btn-contact-sub:hover {
+      background: #f0fdfa;
+      color: #0f766e;
+    }
+
+    
+    
+    
+    
+    
+
+    /* ============================================================
+       RESPONSIVE ADAPTATIONS
+       ============================================================ */
+    @media (max-width: 768px) {
+      .about-hero {
+        grid-template-columns: 1fr;
+        padding: 32px 24px;
+        gap: 24px;
+      }
+      .hero-visual-stack {
+        height: 160px;
+      }
+      .stack-card-front { width: 220px; }
+      .stack-card-mid { width: 210px; }
+      .stack-card-back { width: 195px; }
+
+      .story-section {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+      .story-marker {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 8px;
+      }
+      .features-asymmetric {
+        grid-template-columns: 1fr;
+      }
+      .flow-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .rhythm-break {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 28px 24px;
+      }
+      .closing-cta {
+        grid-template-columns: 1fr;
+      }
+      .closing-actions {
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 16px 16px 40px;
+      }
+      .about-hero {
+        padding: 24px 20px;
+        border-radius: 12px;
+      }
+      .about-hero h1 {
+        font-size: 26px;
+      }
+      .about-hero p {
+        font-size: 14px;
+      }
+      .statement-headline {
+        font-size: 22px;
+      }
+      .statement-body {
+        font-size: 14px;
+      }
+      .flow-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .closing-cta {
+        padding: 20px 18px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .flow-grid {
+        grid-template-columns: 1fr;
+      }
+      .about-hero h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+  <link href="/assets/css/motion.css" rel="stylesheet"/>
+  <link href="/assets/css/design.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 960px; margin: 0 auto;">
-    <a class="logo" href="/" style="font-size: 18px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.4px;">
-      Islamia College <span style="color: #0d9488;">of Science & Commerce</span>
+  <header>
+  <div class="header-inner">
+    <a class="logo" href="/" aria-label="ExamStash Home">
+      <span class="logo-physical-wrap">
+        <span class="logo-exam">EXAM</span><span class="logo-stash">STASH</span>
+      </span>
     </a>
+    <div class="header-actions">
+      <button class="header-action-btn header-search-btn" id="header-search-trigger" type="button" aria-label="Search ExamStash">
+        <svg class="header-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+      <button class="header-action-btn header-menu-btn" id="header-menu-trigger" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="header-nav-panel">
+        <span class="menu-icon-bars" aria-hidden="true">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </span>
+      </button>
+    </div>
+    <div class="header-menu-panel" id="header-nav-panel" aria-hidden="true">
+      <div class="menu-panel-header">
+        <span class="menu-panel-brand">EXAM<span>STASH</span></span>
+        <span class="menu-panel-sub">Academic Archive</span>
+      </div>
+      <div class="menu-panel-group">
+        <a href="/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🏛️</span>
+            <span>Home</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/about/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">📖</span>
+            <span>About ExamStash</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/contact/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">✉️</span>
+            <span>Contact &amp; Feedback</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="menu-panel-divider"></div>
+      <div class="menu-panel-label">Legal &amp; Policy</div>
+      <div class="menu-panel-group">
+        <a href="/privacy/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🔒</span>
+            <span>Privacy Policy</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/terms/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">⚖️</span>
+            <span>Terms of Use</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/dmca/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🛡️</span>
+            <span>DMCA / Copyright</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
   </div>
 </header>
 
-    <div class="container">
-        <div class="breadcrumb">
-            <a href="/">Home</a> &gt; About
-        </div>
-        
-        <div class="content-card">
-            <h1>About ExamStash</h1>
-            <p><strong>ExamStash</strong> is an independent, free educational resource platform built by students for students. Our primary goal is to provide direct, hassle-free access to previous year examination papers and official syllabi for undergraduate programs at Islamia College of Science & Commerce (ICSC), Srinagar.</p>
-            
-            <h2 style="font-size: 1.25rem; color: #115e59; margin: 1.5rem 0 0.75rem;">Our Mission</h2>
-            <p>Accessing past papers is essential for semester exam preparation, understanding question formats, and reviewing recurring academic themes. ExamStash was created to make these study materials easily accessible in one place without mandatory logins, paywalls, or download restrictions.</p>
+  <main class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>›</span> About
+    </nav>
 
-            <h2 style="font-size: 1.25rem; color: #115e59; margin: 1.5rem 0 0.75rem;">Independent Status & Disclaimer</h2>
-            <p><strong>ExamStash is an independent student project and is NOT the official website of Islamia College of Science and Commerce.</strong></p>
-            <p>This website is not operated, authorized, managed, or officially endorsed by the college administration. All institutional names, degree titles, course codes, and subject syllabi are referenced strictly for identification, reference, and educational study purposes.</p>
-
-            <h2 style="font-size: 1.25rem; color: #115e59; margin: 1.5rem 0 0.75rem;">Contributing & Feedback</h2>
-            <p>ExamStash is continuously updated as new semester papers and syllabi are collected. If you have past exam question papers to share or have questions/suggestions, please reach out through our <a href="/contact/">Contact Page</a>.</p>
+    <!-- 1. HERO SECTION WITH LAYERED CSS ACADEMIC MOTIF -->
+    <div class="about-hero">
+      <div class="about-hero-content">
+        <div class="about-eyebrow">
+          <span>◎</span> ABOUT EXAMSTASH
         </div>
+        <h1>Less searching.<br/>More studying.</h1>
+        <p>Direct, free access to semester question papers and official syllabi for undergraduate degree programs at Islamia College of Science & Commerce, Srinagar.</p>
+        <a class="hero-cta-btn" href="/">
+          Explore Past Papers <span>→</span>
+        </a>
+      </div>
+
+      <!-- Pure CSS Academic Paper Stack Device -->
+      <div class="hero-visual-stack" aria-hidden="true">
+        <div class="stack-card stack-card-back">
+          <span>Semester 02 · Syllabus</span>
+        </div>
+        <div class="stack-card stack-card-mid">
+          <span>NEP 2020 · Major / Minor</span>
+        </div>
+        <div class="stack-card stack-card-front">
+          <div class="stack-header">
+            <span class="stack-tag">Semester 01</span>
+            <span class="stack-status">Verified PDF</span>
+          </div>
+          <div class="stack-title">Question Paper</div>
+          <div class="stack-sub">Computer Applications / C</div>
+        </div>
+      </div>
     </div>
 
-    <footer>
-  <div class="footer-links" style="margin-bottom: 10px;">
-    <a href="/about/">About</a>
-    <a href="/contact/">Contact</a>
-    <a href="/privacy/">Privacy Policy</a>
-    <a href="/terms/">Terms</a>
-    <a href="/dmca/">DMCA</a>
+    <!-- 2. THE BIG STATEMENT -->
+    <div class="statement-section">
+      <h2 class="statement-headline">Finding past exam papers <span>shouldn't be the hardest part</span> of exam preparation.</h2>
+      <p class="statement-body">Semester revision requires reviewing real question patterns, understanding mark distributions, and consulting the official syllabus blueprints. ExamStash eliminates broken messaging links and lost PDFs by organizing verified academic materials in one fast, open repository.</p>
+    </div>
+
+    <!-- 3. EDITORIAL STORY SECTION -->
+    <div class="story-section">
+      <div class="story-marker">
+        <div class="story-marker-num">01</div>
+        <div>Platform Mission</div>
+      </div>
+      <div class="story-content">
+        <h2>Built by students, for students.</h2>
+        <p><strong>ExamStash</strong> is an independent, free educational resource platform built to solve a simple, universal student frustration: finding reliable past semester papers when preparing for examinations at Islamia College of Science & Commerce (ICSC), Srinagar.</p>
+        <p>We believe study resources should be instantly available to everyone without friction, mandatory accounts, paywalls, or download restrictions.</p>
+      </div>
+    </div>
+
+    <!-- 4. VISUAL FEATURE SYSTEM (ASYMMETRIC COMPOSITION) -->
+    <div class="section-title">
+      <span>What We Provide</span>
+      <span class="section-meta">Core Features</span>
+    </div>
+
+    <div class="features-asymmetric">
+      <!-- Main Featured Card -->
+      <div class="feature-card-main">
+        <div>
+          <div class="feature-icon-badge">⚡</div>
+          <h3>Zero-Restriction Direct Downloads</h3>
+          <p>Every single question paper and syllabus PDF is hosted on fast, verified Google Drive storage. You can view papers directly in your browser or download them for offline study without logging in or waiting on countdown timers.</p>
+        </div>
+      </div>
+
+      <!-- Stacked Sub-Features -->
+      <div class="feature-card-stack">
+        <div class="feature-card-sub">
+          <h3>📚 NEP 2020 Structured Hierarchy</h3>
+          <p>Organized systematically across Major, Minor, Multidisciplinary (MDC), and Skill Enhancement (SEC) courses across Semesters 1 through 6.</p>
+        </div>
+        <div class="feature-card-sub">
+          <h3>🎯 Paired Syllabi & Question Papers</h3>
+          <p>Official curriculum blueprints paired alongside previous year exams so you know exactly what topics are covered.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. HIGH-CONTRAST RHYTHM BREAK -->
+    <div class="rhythm-break">
+      <div class="rhythm-text">
+        <span class="rhythm-tag">Academic Utility</span>
+        <h2>Find it. Study it. Move on.</h2>
+        <p>No mandatory logins. No advertising clutter blocking your documents. Just clean, rapid access to your semester study resources.</p>
+      </div>
+      <div class="rhythm-badge">
+        <div class="rhythm-badge-num">100%</div>
+        <div class="rhythm-badge-lbl">Open Access</div>
+      </div>
+    </div>
+
+    <!-- 6. HOW EXAMSTASH WORKS (4-STEP CONNECTED FLOW) -->
+    <div class="section-title">
+      <span>How ExamStash Works</span>
+      <span class="section-meta">Navigation Flow</span>
+    </div>
+
+    <div class="flow-grid">
+      <div class="flow-step">
+        <div class="flow-step-num">01</div>
+        <h4>Select Degree</h4>
+        <p>BCA, B.Sc IT, BBA, B.Com, B.A., Sciences, or Common Courses.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num">02</div>
+        <h4>Choose Semester</h4>
+        <p>Direct navigation across Semesters 1 through 6.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num">03</div>
+        <h4>Pick Subject</h4>
+        <p>Select from organized Major, Minor, and MDC resources.</p>
+      </div>
+      <div class="flow-step">
+        <div class="flow-step-num">04</div>
+        <h4>Direct Download</h4>
+        <p>One-click PDF download via verified storage links.</p>
+      </div>
+    </div>
+
+    <!-- 7. TRANSPARENCY & INDEPENDENCE DISCLOSURE -->
+    <div class="section-title">
+      <span>Transparency & Independent Status</span>
+      <span class="section-meta">Official Disclosure</span>
+    </div>
+
+    <div class="transparency-panel">
+      <div class="transparency-header">
+        <span class="transparency-badge">◎ INDEPENDENT STUDENT REPOSITORY</span>
+      </div>
+      <h3>Not Affiliated with Islamia College Administration</h3>
+      <p><strong>ExamStash is an independent student project and is NOT the official website of Islamia College of Science and Commerce.</strong></p>
+      <p>This website is not operated, authorized, managed, or officially endorsed by the college administration. All institutional names, degree titles, course codes, and subject syllabi are referenced strictly for identification, reference, and educational study purposes.</p>
+    </div>
+
+    <!-- 8. COMMUNITY CONTRIBUTION & CLOSING CTA -->
+    <div class="closing-cta">
+      <div class="closing-info">
+        <h3>Have past semester papers to share?</h3>
+        <p>ExamStash is continuously updated as new semester papers and syllabi are collected. Help fellow students by contributing exam papers or sending feedback.</p>
+      </div>
+      <div class="closing-actions">
+        <a class="btn-share-main" href="https://t.me/sahilsleem" target="_blank" rel="noopener">
+          Share Question Paper <span>→</span>
+        </a>
+        <a class="btn-contact-sub" href="/contact/">
+          Contact & Feedback <span>→</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/">
+          Exam<span>Stash</span>
+        </a>
+        <p class="footer-tagline">Previous year papers &amp; official syllabi.<br/>Less searching. More studying.</p>
+      </div>
+
+      <div class="footer-nav">
+        <div class="footer-nav-title">Explore</div>
+        <div class="footer-links">
+          <a href="/about/">About <span>→</span></a>
+          <a href="/contact/">Contact <span>→</span></a>
+          <a href="/privacy/">Privacy Policy <span>→</span></a>
+          <a href="/terms/">Terms <span>→</span></a>
+          <a href="/dmca/">DMCA <span>→</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-disclaimer-box">
+      <div class="footer-disclaimer-badge">
+        <span>◎</span> INDEPENDENT STUDENT RESOURCE
+      </div>
+      <p class="footer-disclaimer-text">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ExamStash. All rights reserved.</p>
+    </div>
   </div>
-  <p style="margin-bottom: 6px; font-size: 13px;">© 2026 ExamStash. All rights reserved.</p>
-  <p style="font-size: 11px; color: #888; max-width: 600px; margin: 0 auto; line-height: 1.4;">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
 </footer>
-<script src="/assets/js/search-index.js?v=3"></script>
-<script src="/assets/js/search.js?v=3"></script>
-<script src="/assets/js/pwa.js?v=3"></script>
-<script src="/assets/js/analytics.js"></script>
+
+  <script src="/assets/js/search-index.js?v=3"></script>
+  <script src="/assets/js/search.js?v=3"></script>
+  <script src="/assets/js/pwa.js?v=3"></script>
+  <script src="/assets/js/analytics.js"></script>
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>

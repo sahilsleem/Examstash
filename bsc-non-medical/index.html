@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="view-transition" content="same-origin" />
+
 <meta name="robots" content="noindex, follow"/>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,12 +65,9 @@
       font-weight: 600; padding: 2px 8px; border-radius: 20px;
       background: #fff7ed; color: #ea580c;
     }
-    footer {
-      background: #fafafa; border-top: 1px solid #f0f0f0;
-      padding: 24px 16px; text-align: center; font-size: 13px; color: #aaa;
-    }
-    footer a { color: #aaa; text-decoration: none; margin: 0 8px; }
-    footer a:hover { color: #0d9488; }
+    
+    
+    
     @media (min-width: 768px) {
       .sem-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
       .page-header { padding: 32px 40px; }
@@ -78,14 +77,87 @@
       .sem-grid { grid-template-columns: 1fr; }
     }
   </style>
+  <link href="/assets/css/motion.css" rel="stylesheet"/>
+  <link href="/assets/css/design.css" rel="stylesheet"/>
 </head>
 <body>
 
 <header>
-  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 960px; margin: 0 auto;">
-    <a class="logo" href="/" style="font-size: 18px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.4px;">
-      Islamia College <span style="color: #0d9488;">of Science & Commerce</span>
+  <div class="header-inner">
+    <a class="logo" href="/" aria-label="ExamStash Home">
+      <span class="logo-physical-wrap">
+        <span class="logo-exam">EXAM</span><span class="logo-stash">STASH</span>
+      </span>
     </a>
+    <div class="header-actions">
+      <button class="header-action-btn header-search-btn" id="header-search-trigger" type="button" aria-label="Search ExamStash">
+        <svg class="header-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+      <button class="header-action-btn header-menu-btn" id="header-menu-trigger" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="header-nav-panel">
+        <span class="menu-icon-bars" aria-hidden="true">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </span>
+      </button>
+    </div>
+    <div class="header-menu-panel" id="header-nav-panel" aria-hidden="true">
+      <div class="menu-panel-header">
+        <span class="menu-panel-brand">EXAM<span>STASH</span></span>
+        <span class="menu-panel-sub">Academic Archive</span>
+      </div>
+      <div class="menu-panel-group">
+        <a href="/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🏛️</span>
+            <span>Home</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/about/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">📖</span>
+            <span>About ExamStash</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/contact/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">✉️</span>
+            <span>Contact &amp; Feedback</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+      <div class="menu-panel-divider"></div>
+      <div class="menu-panel-label">Legal &amp; Policy</div>
+      <div class="menu-panel-group">
+        <a href="/privacy/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🔒</span>
+            <span>Privacy Policy</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/terms/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">⚖️</span>
+            <span>Terms of Use</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="/dmca/" class="menu-panel-link">
+          <span class="menu-link-main">
+            <span class="menu-link-icon">🛡️</span>
+            <span>DMCA / Copyright</span>
+          </span>
+          <span class="menu-link-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -145,16 +217,41 @@
   
 </div>
 
-<footer>
-  <div class="footer-links" style="margin-bottom: 10px;">
-    <a href="/about/">About</a>
-    <a href="/contact/">Contact</a>
-    <a href="/privacy/">Privacy Policy</a>
-    <a href="/terms/">Terms</a>
-    <a href="/dmca/">DMCA</a>
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="footer-logo" href="/">
+          Exam<span>Stash</span>
+        </a>
+        <p class="footer-tagline">Previous year papers &amp; official syllabi.<br/>Less searching. More studying.</p>
+      </div>
+
+      <div class="footer-nav">
+        <div class="footer-nav-title">Explore</div>
+        <div class="footer-links">
+          <a href="/about/">About <span>→</span></a>
+          <a href="/contact/">Contact <span>→</span></a>
+          <a href="/privacy/">Privacy Policy <span>→</span></a>
+          <a href="/terms/">Terms <span>→</span></a>
+          <a href="/dmca/">DMCA <span>→</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-disclaimer-box">
+      <div class="footer-disclaimer-badge">
+        <span>◎</span> INDEPENDENT STUDENT RESOURCE
+      </div>
+      <p class="footer-disclaimer-text">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ExamStash. All rights reserved.</p>
+    </div>
   </div>
-  <p style="margin-bottom: 6px; font-size: 13px;">© 2026 ExamStash. All rights reserved.</p>
-  <p style="font-size: 11px; color: #888; max-width: 600px; margin: 0 auto; line-height: 1.4;">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
 </footer>
 
 <script src="/assets/js/search-index.js?v=3"></script>
@@ -162,5 +259,6 @@
 <script src="/assets/js/pwa.js?v=3"></script>
 <script src="/assets/js/analytics.js"></script>
 
+  <script src="/assets/js/motion.js" defer></script>
 </body>
 </html>
