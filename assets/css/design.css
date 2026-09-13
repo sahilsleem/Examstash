@@ -752,3 +752,102 @@ footer {
 @media (max-width: 600px) {
   .share-wrap { flex-direction: column; text-align: center; gap: var(--sp-4); }
 }
+
+/* COURSE PAGE HERO POLISH */
+.page-header:not(:has(.search-wrap)) {
+  padding: var(--sp-10) var(--sp-8);
+  text-align: left;
+  border-radius: var(--rad-lg);
+}
+.page-header:not(:has(.search-wrap)) h1 {
+  font-size: 32px;
+  margin: 0 0 var(--sp-2) 0;
+}
+.page-header:not(:has(.search-wrap)) p {
+  font-size: 15px;
+  margin: 0;
+  opacity: 0.8;
+}
+@media (max-width: 600px) {
+  .page-header:not(:has(.search-wrap)) {
+    padding: var(--sp-6) var(--sp-5);
+  }
+  .page-header:not(:has(.search-wrap)) h1 {
+    font-size: 24px;
+  }
+}
+
+/* COURSE PAGE SECTION TITLE POLISH */
+.section-title:not(:has(span)) {
+  display: block;
+  font-size: 20px;
+  border-bottom: 2px solid var(--c-border);
+  padding-bottom: var(--sp-3);
+  margin-bottom: var(--sp-6);
+}
+.section-title:not(:has(span))::after {
+  content: "Choose a semester to browse available question papers and syllabus.";
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--c-text-secondary);
+  margin-top: var(--sp-1);
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* SEMESTER CARD UX POLISH (PHASE 4) */
+.sem-card {
+  padding: var(--sp-6) var(--sp-8) !important;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--dur-standard) var(--ease-entrance) !important;
+}
+.sem-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+.sem-number {
+  font-size: 100px !important;
+  font-weight: 900 !important;
+  opacity: 0.03 !important;
+  right: -10px !important;
+  top: -20px !important;
+}
+.sem-label {
+  font-size: 18px !important;
+  letter-spacing: -0.01em;
+}
+.sem-subjects {
+  font-size: 14px !important;
+  color: var(--c-text-primary) !important;
+  line-height: 1.5 !important;
+  margin-bottom: var(--sp-4) !important;
+  flex: 1;
+}
+.sem-badge {
+  background: transparent !important;
+  color: var(--c-text-secondary) !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  display: block !important;
+  margin-bottom: var(--sp-2) !important;
+}
+.sem-card::after {
+  content: 'Explore semester \2192';
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-primary);
+  margin-top: var(--sp-2);
+  transition: transform var(--dur-standard) var(--ease-entrance);
+}
+.sem-card:hover::after {
+  transform: translateX(4px);
+}
+@media (max-width: 600px) {
+  .sem-number { font-size: 80px !important; }
+}
+
+.sem-card { display: flex !important; }
