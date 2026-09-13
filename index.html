@@ -126,24 +126,28 @@
     }
     .search-wrap input {
       width: 100%;
-      padding: 14px 18px 14px 46px;
-      font-size: 14px;
-      border: 2px solid rgba(255, 255, 255, 0.35);
+      height: 48px;
+      padding: 0 44px 0 42px;
+      font-size: 14.5px;
+      border: 1.5px solid rgba(255, 255, 255, 0.45);
       border-radius: 12px;
-      background: rgba(255, 255, 255, 0.95);
-      color: #1a1a1a;
+      background: rgba(255, 255, 255, 0.96);
+      color: #0f172a;
       outline: none;
-      transition: all 0.2s ease;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
       font-family: inherit;
+      box-sizing: border-box;
     }
     .search-wrap input:focus {
       background: #ffffff;
-      border-color: #ffffff;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+      border-color: #0d9488;
+      box-shadow: 0 6px 20px rgba(13, 148, 136, 0.18), 0 0 0 3px rgba(13, 148, 136, 0.12);
     }
     .search-wrap input::placeholder {
-      color: #888888;
+      color: #64748b;
+      font-size: 14px;
+      font-weight: 450;
     }
     .search-icon {
       position: absolute;
@@ -322,7 +326,57 @@
         <span class="logo-exam">EXAM</span><span class="logo-stash">STASH</span>
       </span>
     </a>
-    <div class="header-meta">Islamia College • Srinagar</div>
+    <div class="header-actions">
+      <button class="header-action-btn header-search-btn" id="header-search-trigger" type="button" aria-label="Search ExamStash">
+        <svg class="header-btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+      <button class="header-action-btn header-menu-btn" id="header-menu-trigger" type="button" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="header-nav-panel">
+        <span class="menu-icon-bars" aria-hidden="true">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </span>
+      </button>
+    </div>
+    <div class="header-menu-panel" id="header-nav-panel" aria-hidden="true">
+      <div class="menu-panel-header">
+        <span class="menu-panel-brand">EXAM<span>STASH</span></span>
+        <span class="menu-panel-sub">Academic Archive</span>
+      </div>
+      <div class="menu-panel-group">
+        <a href="/" class="menu-panel-link">
+          <span class="menu-link-icon">🏛️</span>
+          <span>Home</span>
+        </a>
+        <a href="/about/" class="menu-panel-link">
+          <span class="menu-link-icon">📖</span>
+          <span>About ExamStash</span>
+        </a>
+        <a href="/contact/" class="menu-panel-link">
+          <span class="menu-link-icon">✉️</span>
+          <span>Contact &amp; Feedback</span>
+        </a>
+      </div>
+      <div class="menu-panel-divider"></div>
+      <div class="menu-panel-label">Legal &amp; Policy</div>
+      <div class="menu-panel-group">
+        <a href="/privacy/" class="menu-panel-link">
+          <span class="menu-link-icon">🔒</span>
+          <span>Privacy Policy</span>
+        </a>
+        <a href="/terms/" class="menu-panel-link">
+          <span class="menu-link-icon">⚖️</span>
+          <span>Terms of Use</span>
+        </a>
+        <a href="/dmca/" class="menu-panel-link">
+          <span class="menu-link-icon">🛡️</span>
+          <span>DMCA / Copyright</span>
+        </a>
+      </div>
+    </div>
   </div>
 </header>
 <main class="container">

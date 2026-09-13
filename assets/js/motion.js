@@ -177,10 +177,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initSensors();
   }
 
-  // iOS 13+ requires user gesture
-  window.addEventListener('touchstart', initSensors, { once: true, passive: true });
-  window.addEventListener('click', initSensors, { once: true, passive: true });
-
   // ------------------------------------------------------------
   // Desktop Pointer Fallback (Magnetic Header Parallax)
   // ------------------------------------------------------------
@@ -192,9 +188,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const relX = clamp((e.clientX - (rect.left + rect.width / 2)) / (rect.width / 2), -1, 1);
       const relY = clamp((e.clientY - (rect.top + rect.height / 2)) / (rect.height / 2), -1, 1);
 
-      targetX = relX * 9;
-      targetY = relY * 4;
-      targetRot = relX * 0.75;
+      targetX = relX * 8;
+      targetY = relY * 3.5;
+      targetRot = relX * 0.6;
     };
 
     const handlePointerLeave = () => {
@@ -206,5 +202,76 @@ document.addEventListener('DOMContentLoaded', () => {
 
     header.addEventListener('mousemove', handlePointerMove, { passive: true });
     header.addEventListener('mouseleave', handlePointerLeave, { passive: true });
+  }
+
+  // ------------------------------------------------------------
+  // 3. Header Action Controls (Search & Hamburger Menu)
+  // ------------------------------------------------------------
+  const menuTrigger = document.querySelector('#header-menu-trigger, .header-menu-btn');
+  const menuPanel = document.querySelector('#header-nav-panel, .header-menu-panel');
+  const searchTrigger = document.querySelector('#header-search-trigger, .header-search-btn');
+
+  // Toggle Navigation Menu
+  if (menuTrigger && menuPanel) {
+    const toggleMenu = (open) => {
+      const isOpen = typeof open === 'boolean' ? open : !menuPanel.classList.contains('is-active');
+      menuPanel.classList.toggle('is-active', isOpen);
+      menuTrigger.classList.toggle('is-open', isOpen);
+      menuTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      menuPanel.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    };
+
+    menuTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleMenu();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (menuPanel.classList.contains('is-active')) {
+        if (!menuPanel.contains(e.target) && !menuTrigger.contains(e.target)) {
+          toggleMenu(false);
+        }
+      }
+    });
+
+    // Close on link click
+    menuPanel.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => toggleMenu(false));
+    });
+
+    // Close on Escape key & return focus
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuPanel.classList.contains('is-active')) {
+        toggleMenu(false);
+        menuTrigger.focus();
+      }
+    });
+  }
+
+  // Header Search Trigger
+  if (searchTrigger) {
+    searchTrigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      const inlineInput = document.querySelector('#site-search-input, .search-wrap input, .search-input');
+      if (inlineInput) {
+        inlineInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => inlineInput.focus(), 160);
+      } else {
+        window.location.href = '/?search=1';
+      }
+    });
+  }
+
+  // Check URL query for ?search=1 on page load
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('search')) {
+    const inlineInput = document.querySelector('#site-search-input, .search-wrap input, .search-input');
+    if (inlineInput) {
+      setTimeout(() => {
+        inlineInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        inlineInput.focus();
+      }, 250);
+    }
   }
 });
