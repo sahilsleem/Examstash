@@ -577,3 +577,178 @@ footer {
     font-size: 32px !important;
   }
 }
+
+/* HOMEPAGE HERO UPGRADES */
+.page-header {
+  background: linear-gradient(135deg, #090e17 0%, #0d4b46 100%);
+  position: relative;
+  overflow: hidden;
+  padding: var(--sp-16) var(--sp-8);
+  text-align: center;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%; right: -50%; bottom: -50%;
+  background: radial-gradient(circle at 50% 0%, rgba(20, 184, 166, 0.15) 0%, transparent 60%);
+  pointer-events: none;
+}
+.page-header h1 {
+  font-size: 42px;
+  letter-spacing: -0.03em;
+  max-width: 800px;
+  margin: 0 auto var(--sp-4);
+}
+.page-header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+.hero-sub {
+  color: #5eead4;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--sp-6);
+}
+.search-wrap {
+  margin-top: var(--sp-8);
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+.search-input {
+  font-size: 18px;
+  padding: var(--sp-5) var(--sp-5) var(--sp-5) 56px;
+  box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: var(--rad-xl);
+}
+.search-icon {
+  left: 20px;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+/* HOMEPAGE COURSE DISCOVERY CARDS */
+.course-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: var(--sp-8) var(--sp-6) !important;
+  background: var(--c-surface) !important;
+  border: 1px solid var(--c-border) !important;
+  border-radius: var(--rad-xl) !important;
+  box-shadow: var(--shadow-sm) !important;
+  transition: all var(--dur-standard) var(--ease-entrance);
+}
+.course-card:hover {
+  border-color: var(--c-primary) !important;
+  box-shadow: var(--shadow-md) !important;
+  transform: translateY(-4px);
+}
+.course-card.featured {
+  background: var(--c-primary-soft) !important;
+  border-color: #ccfbf1 !important;
+}
+.course-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--sp-6);
+}
+.course-icon-wrap {
+  font-size: 32px;
+  background: var(--c-background);
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--rad-lg);
+}
+.course-badge {
+  background: var(--c-background) !important;
+  color: var(--c-primary) !important;
+  border: 1px solid var(--c-border-subtle) !important;
+  font-size: 11px !important;
+  padding: 4px 10px !important;
+  border-radius: 20px !important;
+}
+.course-card h3 {
+  font-size: 20px !important;
+  margin-bottom: var(--sp-2) !important;
+  letter-spacing: -0.01em;
+}
+.course-card p {
+  font-size: 14px !important;
+  line-height: 1.5;
+  margin-bottom: 0;
+  flex: 1;
+}
+/* Adding a subtle arrow via pseudo-element */
+.course-card::after {
+  content: '?';
+  position: absolute;
+  right: var(--sp-6);
+  bottom: var(--sp-8);
+  color: var(--c-primary);
+  font-weight: 800;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all var(--dur-standard) var(--ease-entrance);
+}
+.course-card:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.course-card { padding-bottom: var(--sp-12) !important; }
+
+/* AD SLOTS */
+.ad-slot {
+  margin: var(--sp-8) 0;
+  border-radius: var(--rad-lg);
+  background: var(--c-surface);
+  padding: var(--sp-4);
+  border: 1px dashed var(--c-border);
+}
+.ad-slot-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: var(--sp-2);
+}
+
+/* SHARE WRAP */
+.share-wrap {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--rad-lg);
+  padding: var(--sp-6) var(--sp-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--sp-12);
+  box-shadow: var(--shadow-sm);
+}
+.share-label {
+  font-size: 15px;
+  color: var(--c-text-secondary);
+  font-weight: 500;
+}
+.share-link {
+  background: var(--c-primary-soft);
+  color: var(--c-primary);
+  font-weight: 600;
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--rad-md);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.share-link:hover {
+  background: var(--c-primary);
+  color: var(--c-surface);
+}
+@media (max-width: 600px) {
+  .share-wrap { flex-direction: column; text-align: center; gap: var(--sp-4); }
+}
