@@ -2343,3 +2343,155 @@ footer, .site-footer {
     padding: 9px 12px;
   }
 }
+
+/* ============================================================
+   MOBILE TYPOGRAPHIC HIERARCHY ENGINE (<= 640px)
+   Clear, intentional visual hierarchy on smaller viewports
+   ============================================================ */
+@media (max-width: 640px) {
+  /* 1. PRIMARY COURSE TITLES */
+  .course-card h3,
+  .course-card .course-title,
+  a.course-card h3 {
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    line-height: 1.25 !important;
+    margin-bottom: 6px !important;
+    letter-spacing: -0.015em !important;
+  }
+
+  /* Secondary Course Subtitle */
+  .course-card p,
+  .course-card .course-desc,
+  a.course-card p {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* 2. PRIMARY SEMESTER HEADINGS */
+  .sem-card .sem-label,
+  .sem-card h3,
+  .sem-card .sem-title,
+  a.sem-card .sem-label,
+  a.sem-card h3 {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    line-height: 1.25 !important;
+    margin-bottom: 6px !important;
+    letter-spacing: -0.015em !important;
+  }
+
+  /* Secondary Semester Subject Preview */
+  .sem-card .sem-subjects,
+  .sem-card p,
+  .sem-card .sem-desc,
+  a.sem-card .sem-subjects,
+  a.sem-card p {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.45 !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* 3. PRIMARY PAPER / SUBJECT TITLES */
+  .item-card .item-info h3,
+  .item-card h3,
+  .item-info h3,
+  .item-title,
+  a.item-card h3,
+  a.item-card .item-info h3 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #0f172a !important;
+    line-height: 1.3 !important;
+    margin-bottom: 6px !important;
+    letter-spacing: -0.01em !important;
+  }
+
+  /* Secondary Paper Description / Supporting Meta */
+  .item-card .item-info p,
+  .item-card p,
+  .item-info p,
+  .item-desc,
+  .item-meta,
+  a.item-card p,
+  a.item-card .item-info p {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #64748b !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* 4. RESOURCE / PAPER PAGE DETAIL HEADINGS */
+  .file-title {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    line-height: 1.3 !important;
+  }
+
+  .file-meta {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+  }
+}
+
+/* Extra Compact Mobile Viewports (<= 380px) */
+@media (max-width: 380px) {
+  .course-card h3,
+  .course-card .course-title,
+  a.course-card h3 {
+    font-size: 20px !important;
+  }
+
+  .course-card p,
+  .course-card .course-desc,
+  a.course-card p {
+    font-size: 15px !important;
+  }
+
+  .sem-card .sem-label,
+  .sem-card h3,
+  .sem-card .sem-title,
+  a.sem-card .sem-label,
+  a.sem-card h3 {
+    font-size: 20px !important;
+  }
+
+  .sem-card .sem-subjects,
+  .sem-card p,
+  .sem-card .sem-desc,
+  a.sem-card .sem-subjects,
+  a.sem-card p {
+    font-size: 15px !important;
+  }
+
+  .item-card .item-info h3,
+  .item-card h3,
+  .item-info h3,
+  .item-title,
+  a.item-card h3,
+  a.item-card .item-info h3 {
+    font-size: 18.5px !important;
+  }
+
+  .item-card .item-info p,
+  .item-card p,
+  .item-info p,
+  .item-desc,
+  .item-meta,
+  a.item-card p,
+  a.item-card .item-info p {
+    font-size: 15px !important;
+  }
+
+  .file-title {
+    font-size: 20px !important;
+  }
+}
