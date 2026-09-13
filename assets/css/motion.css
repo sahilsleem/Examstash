@@ -54,7 +54,7 @@
    ============================================================ */
 @keyframes fadeUpEntrance {
   0% {
-    opacity: 0;
+    
     transform: translateY(12px);
   }
   100% {
@@ -65,7 +65,7 @@
 
 @keyframes fadeUpEntranceSmall {
   0% {
-    opacity: 0;
+    
     transform: translateY(6px);
   }
   100% {
@@ -76,7 +76,7 @@
 
 @keyframes fadeEntrance {
   0% {
-    opacity: 0;
+    
   }
   100% {
     opacity: 1;
@@ -89,33 +89,35 @@
 
 /* The hero banner itself */
 .page-header {
-  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) forwards;
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
 }
 
 /* Children stagger inside hero */
 .page-header > * {
-  opacity: 0;
-  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) forwards;
+  
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
 }
 
+
 .page-header > *:nth-child(1) { animation-delay: 50ms; }
-.page-header > *:nth-child(2) { animation-delay: 100ms; }
-.page-header > *:nth-child(3) { animation-delay: 150ms; }
-.page-header > *:nth-child(4) { animation-delay: 200ms; }
-.page-header > *:nth-child(5) { animation-delay: 250ms; }
-.page-header > *:nth-child(6) { animation-delay: 300ms; }
+.page-header > *:nth-child(2) { animation-delay: 120ms; }
+.page-header > *:nth-child(3) { animation-delay: 220ms; }
+.page-header > *:nth-child(4) { animation-delay: 320ms; }
+.page-header > *:nth-child(5) { animation-delay: 420ms; }
+.page-header > *:nth-child(6) { animation-delay: 520ms; }
+
 
 /* Breadcrumbs Entrance */
 .breadcrumb {
-  opacity: 0;
-  animation: fadeUpEntranceSmall var(--dur-standard) var(--ease-entrance) 50ms forwards;
+  
+  animation: fadeUpEntranceSmall var(--dur-standard) var(--ease-entrance) 50ms both;
 }
 
 /* ============================================================
    HEADER / NAVIGATION
    ============================================================ */
 header {
-  animation: fadeEntrance var(--dur-entrance) var(--ease-entrance) forwards;
+  animation: fadeEntrance var(--dur-entrance) var(--ease-entrance) both;
   transition: box-shadow var(--dur-standard) var(--ease-standard);
 }
 
@@ -252,8 +254,8 @@ header:not(:hover) {
 
 .course-grid > *,
 .item-list > * {
-  opacity: 0;
-  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) forwards;
+  
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
 }
 
 /* Stagger up to 10 items to prevent massive cascades on long lists */
@@ -281,7 +283,7 @@ header:not(:hover) {
 }
 
 .search-dropdown:not(.active) {
-  opacity: 0;
+  
   transform: translateY(-8px) scale(0.98);
   pointer-events: none;
   visibility: hidden;
@@ -319,7 +321,7 @@ header:not(:hover) {
    SCROLL REVEAL (IntersectionObserver Target Classes)
    ============================================================ */
 .reveal-on-scroll {
-  opacity: 0;
+  
   transform: translateY(16px);
   transition: opacity var(--dur-entrance) var(--ease-entrance), 
               transform var(--dur-entrance) var(--ease-entrance);

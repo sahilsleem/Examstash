@@ -894,12 +894,67 @@ footer {
   .page-header:not(:has(.search-wrap)) h1 { font-size: 20px !important; }
 }
 
-.page-header > * { animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) backwards; }
-.page-header > *:nth-child(1) { animation-delay: 40ms; }
-.page-header > *:nth-child(2) { animation-delay: 80ms; }
-.page-header > *:nth-child(3) { animation-delay: 120ms; }
-.page-header > *:nth-child(4) { animation-delay: 160ms; }
+
+
+
+
+
 
 .btn-download-main:active, .back-btn:active, .item-action-paper:active { transform: scale(0.975) !important; transition: transform var(--dur-micro) ease !important; }
 .search-input { transition: all var(--dur-standard) var(--ease-entrance) !important; }
 .search-input:focus { transform: translateY(-1px); box-shadow: 0 12px 30px -5px rgba(0,0,0,0.25) !important; }
+
+/* ============================================================
+   JAW-DROPPING MOTION POLISH
+   ============================================================ */
+
+/* 1. Ambient Hero Background */
+@keyframes ambientHeroLight {
+  0% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.05) translateY(-2%); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 0.5; }
+}
+.page-header::before {
+  animation: ambientHeroLight 8s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+/* 2. Coordinated Search Glow */
+@keyframes searchInputPulse {
+  0% { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2); border-color: rgba(255,255,255,0.1); }
+  20% { box-shadow: 0 0 24px rgba(20, 184, 166, 0.5); border-color: rgba(20, 184, 166, 0.6); }
+  100% { box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2); border-color: rgba(255,255,255,0.1); }
+}
+.search-wrap .search-input {
+  animation: searchInputPulse 1.5s 420ms var(--ease-entrance) both;
+}
+
+/* 3. Dropdown Transitions */
+.search-dropdown {
+  transform-origin: top center;
+  transition: opacity 200ms var(--ease-entrance),
+              transform 200ms var(--ease-entrance),
+              visibility 200ms;
+}
+.search-dropdown:not(.active) {
+  opacity: 0 !important;
+  transform: translateY(-4px) scale(0.99) !important;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* 4. Enhanced Card Hover */
+.course-card, .sem-card, .item-card {
+  transition: transform 250ms var(--ease-entrance), 
+              border-color 250ms var(--ease-entrance), 
+              box-shadow 250ms var(--ease-entrance) !important;
+}
+
+/* Ensure no conflicts with reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .page-header::before,
+  .search-wrap .search-input,
+  .page-header > * {
+    animation: none !important;
+  }
+}
