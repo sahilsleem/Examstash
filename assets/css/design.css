@@ -1233,12 +1233,14 @@ footer, .site-footer {
   background: linear-gradient(135deg, #090e17 0%, #0d4b46 100%);
   border: 1px solid rgba(20, 184, 166, 0.25);
   border-radius: 16px;
-  padding: 40px 36px;
+  padding: 36px 32px;
   color: #ffffff;
   position: relative;
   overflow: hidden;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   box-shadow: 0 10px 25px -5px rgba(15, 118, 110, 0.25);
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .editorial-hero::before {
@@ -1269,7 +1271,7 @@ footer, .site-footer {
   color: #5eead4;
   padding: 4px 12px;
   border-radius: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .editorial-badge span {
@@ -1278,19 +1280,22 @@ footer, .site-footer {
 }
 
 .editorial-hero h1 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 800;
   color: #ffffff;
   letter-spacing: -0.03em;
   line-height: 1.25;
   margin-bottom: 10px;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .editorial-hero p {
-  font-size: 15px;
+  font-size: 14.5px;
   color: #cbd5e1;
   line-height: 1.6;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 .editorial-meta {
@@ -1304,33 +1309,40 @@ footer, .site-footer {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 4px 12px;
   border-radius: 6px;
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 /* 2. Structured Document / Legal Layout */
 .doc-layout {
   max-width: 840px;
   margin: 0 auto 48px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .doc-pill-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .doc-pill-card {
   background: var(--surface-card, #f0fdfa);
   border: 1px solid var(--border-card, #ccfbf1);
   border-radius: 12px;
-  padding: 14px 16px;
+  padding: 12px 14px;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13.5px;
+  font-size: 13px;
   font-weight: 600;
   color: #0f766e;
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .doc-pill-card span {
@@ -1342,15 +1354,18 @@ footer, .site-footer {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 16px;
-  padding: 36px 40px;
+  padding: 34px 36px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .doc-section {
-  margin-bottom: 36px;
-  padding-bottom: 28px;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #f1f5f9;
   position: relative;
+  box-sizing: border-box;
 }
 
 .doc-section:last-child {
@@ -1373,18 +1388,21 @@ footer, .site-footer {
 }
 
 .doc-section h2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 800;
   color: #0f172a;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .doc-section p {
-  font-size: 15px;
+  font-size: 14.5px;
   color: #334155;
   line-height: 1.7;
   margin-bottom: 14px;
+  overflow-wrap: break-word;
 }
 
 .doc-section p:last-child {
@@ -1405,14 +1423,17 @@ footer, .site-footer {
 }
 
 .doc-section ul {
-  margin: 12px 0 16px 20px;
+  margin: 12px 0 16px 0;
+  padding-left: 20px;
   color: #334155;
   line-height: 1.7;
-  font-size: 14.5px;
+  font-size: 14px;
+  box-sizing: border-box;
 }
 
 .doc-section li {
   margin-bottom: 8px;
+  overflow-wrap: break-word;
 }
 
 .doc-section li strong {
@@ -1424,8 +1445,12 @@ footer, .site-footer {
   border: 1px solid var(--border-card, #ccfbf1);
   border-left: 4px solid #0d9488;
   border-radius: 10px;
-  padding: 18px 22px;
+  padding: 16px 20px;
   margin: 20px 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .doc-callout h3 {
@@ -1439,7 +1464,7 @@ footer, .site-footer {
 }
 
 .doc-callout p {
-  font-size: 14px;
+  font-size: 13.5px;
   color: #334155;
   line-height: 1.6;
   margin: 0;
@@ -1449,6 +1474,8 @@ footer, .site-footer {
 .contact-layout {
   max-width: 960px;
   margin: 0 auto 48px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-grid-main {
@@ -1457,6 +1484,8 @@ footer, .site-footer {
   gap: 28px;
   margin-bottom: 32px;
   align-items: start;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .channel-card {
@@ -1467,11 +1496,13 @@ footer, .site-footer {
   background: #ffffff;
   border: 1.5px solid #e2e8f0;
   border-radius: 14px;
-  padding: 20px 22px;
+  padding: 18px 20px;
   text-decoration: none;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
   margin-bottom: 14px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .channel-card:last-child {
@@ -1484,22 +1515,32 @@ footer, .site-footer {
   box-shadow: 0 8px 20px rgba(13, 148, 136, 0.1);
 }
 
+.channel-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  flex: 1;
+}
+
 .channel-icon-wrap {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 12px;
   background: #f0fdfa;
   border: 1px solid #ccfbf1;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
+  font-size: 20px;
   flex-shrink: 0;
 }
 
 .channel-info {
   flex: 1;
   min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .channel-header {
@@ -1507,12 +1548,14 @@ footer, .site-footer {
   align-items: center;
   gap: 8px;
   margin-bottom: 3px;
+  flex-wrap: wrap;
 }
 
 .channel-title {
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: 700;
   color: #0f172a;
+  line-height: 1.3;
 }
 
 .channel-badge {
@@ -1525,6 +1568,7 @@ footer, .site-footer {
   border: 1px solid #a7f3d0;
   padding: 2px 6px;
   border-radius: 4px;
+  white-space: nowrap;
 }
 
 .channel-desc {
@@ -1532,21 +1576,26 @@ footer, .site-footer {
   color: #64748b;
   line-height: 1.4;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 .channel-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   background: #0d9488;
   color: #ffffff !important;
   font-size: 13px;
   font-weight: 700;
-  padding: 8px 16px;
+  padding: 9px 16px;
   border-radius: 8px;
   text-decoration: none;
   flex-shrink: 0;
-  transition: background 0.15s;
+  white-space: nowrap;
+  box-sizing: border-box;
+  max-width: 100%;
+  transition: background 0.15s, transform 0.15s;
 }
 
 .channel-card:hover .channel-btn {
@@ -1557,12 +1606,14 @@ footer, .site-footer {
   background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 100%);
   border: 1.5px solid #99f6e4;
   border-radius: 16px;
-  padding: 28px 24px;
+  padding: 26px 22px;
   box-shadow: 0 4px 16px rgba(13, 148, 136, 0.06);
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .contribute-box h3 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 800;
   color: #0f766e;
   margin-bottom: 8px;
@@ -1576,6 +1627,7 @@ footer, .site-footer {
   color: #475569;
   line-height: 1.6;
   margin-bottom: 16px;
+  overflow-wrap: break-word;
 }
 
 .contribute-steps {
@@ -1592,6 +1644,7 @@ footer, .site-footer {
   font-size: 13px;
   color: #334155;
   line-height: 1.4;
+  overflow-wrap: break-word;
 }
 
 .step-badge {
@@ -1616,6 +1669,8 @@ footer, .site-footer {
   border-radius: 8px;
   line-height: 1.5;
   border-left: 3px solid #0d9488;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 }
 
 /* 4. DMCA / Copyright Experience */
@@ -1623,7 +1678,9 @@ footer, .site-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-  margin: 28px 0 32px;
+  margin: 26px 0 30px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .dmca-step-card {
@@ -1633,6 +1690,10 @@ footer, .site-footer {
   padding: 22px 20px;
   position: relative;
   transition: all 0.2s ease;
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .dmca-step-card:hover {
@@ -1645,7 +1706,7 @@ footer, .site-footer {
   font-weight: 900;
   color: #0d9488;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .dmca-step-title {
@@ -1666,12 +1727,14 @@ footer, .site-footer {
   background: linear-gradient(135deg, #090e17 0%, #0d4b46 100%);
   border: 1px solid rgba(20, 184, 166, 0.25);
   border-radius: 16px;
-  padding: 32px 30px;
+  padding: 30px 28px;
   color: #ffffff;
   margin-top: 32px;
   box-shadow: 0 10px 25px -5px rgba(15, 118, 110, 0.25);
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .dmca-action-panel::before {
@@ -1685,10 +1748,11 @@ footer, .site-footer {
 .dmca-action-content {
   position: relative;
   z-index: 2;
+  box-sizing: border-box;
 }
 
 .dmca-action-content h3 {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 8px;
@@ -1700,25 +1764,33 @@ footer, .site-footer {
   line-height: 1.6;
   max-width: 680px;
   margin-bottom: 20px;
+  overflow-wrap: break-word;
 }
 
 .dmca-action-btns {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .btn-dmca-primary {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   background: #0d9488;
   color: #ffffff !important;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 10px 18px;
   border-radius: 8px;
   text-decoration: none;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
   transition: all 0.15s;
 }
 
@@ -1730,15 +1802,20 @@ footer, .site-footer {
 .btn-dmca-secondary {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #ffffff !important;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
-  padding: 10px 20px;
+  padding: 10px 18px;
   border-radius: 8px;
   text-decoration: none;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
   transition: all 0.15s;
 }
 
@@ -1747,8 +1824,8 @@ footer, .site-footer {
   border-color: rgba(255, 255, 255, 0.35);
 }
 
-/* 5. Responsive Adjustments for Informational Pages */
-@media (max-width: 860px) {
+/* 5. Multi-Breakpoint Responsive Engine */
+@media (max-width: 960px) {
   .contact-grid-main {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -1763,34 +1840,49 @@ footer, .site-footer {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .editorial-hero {
-    padding: 28px 20px;
+    padding: 26px 20px;
     border-radius: 14px;
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
   .editorial-hero h1 {
-    font-size: 24px;
+    font-size: 23px;
+  }
+  .editorial-hero p {
+    font-size: 14px;
   }
   .doc-card {
-    padding: 24px 20px;
+    padding: 24px 18px;
     border-radius: 14px;
   }
   .doc-section h2 {
     font-size: 18px;
   }
+  .doc-section p, .doc-section ul {
+    font-size: 14px;
+  }
   .channel-card {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     padding: 16px;
+    gap: 12px;
+  }
+  .channel-main {
+    align-items: flex-start;
   }
   .channel-btn {
     width: 100%;
     justify-content: center;
-    margin-top: 4px;
+    padding: 10px 14px;
+  }
+  .contribute-box {
+    padding: 22px 18px;
+    border-radius: 14px;
   }
   .dmca-action-panel {
     padding: 24px 18px;
+    border-radius: 14px;
   }
   .dmca-action-btns {
     flex-direction: column;
@@ -1798,5 +1890,55 @@ footer, .site-footer {
   .btn-dmca-primary, .btn-dmca-secondary {
     width: 100%;
     justify-content: center;
+    padding: 11px 14px;
+  }
+}
+
+@media (max-width: 380px) {
+  .editorial-hero {
+    padding: 20px 14px;
+  }
+  .editorial-hero h1 {
+    font-size: 20px;
+  }
+  .doc-card {
+    padding: 18px 14px;
+  }
+  .channel-card {
+    padding: 14px 12px;
+  }
+  .channel-icon-wrap {
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+  .channel-title {
+    font-size: 14.5px;
+  }
+  .channel-desc {
+    font-size: 12.5px;
+  }
+  .channel-btn {
+    font-size: 12.5px;
+    padding: 8px 12px;
+  }
+  .contribute-box {
+    padding: 18px 14px;
+  }
+  .contribute-box h3 {
+    font-size: 15px;
+  }
+  .contribute-step {
+    font-size: 12.5px;
+  }
+  .dmca-action-panel {
+    padding: 20px 14px;
+  }
+  .dmca-action-content h3 {
+    font-size: 17px;
+  }
+  .btn-dmca-primary, .btn-dmca-secondary {
+    font-size: 12.5px;
+    padding: 9px 12px;
   }
 }
