@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta name="view-transition" content="same-origin" />
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Us — ExamStash</title>
@@ -35,131 +34,103 @@
   }
   </script>
 
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f9fbfb; color: #1a1a1a; min-height: 100vh; display: flex; flex-direction: column; }
-    header {
-      padding: 14px 20px; border-bottom: 1px solid #f0f0f0;
-      display: flex; align-items: center; justify-content: center;
-      position: sticky; top: 0; background: #fff; z-index: 100;
-    }
-    .logo { font-size: 22px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.5px; }
-    .logo span { color: #0d9488; }
-    .breadcrumb { padding: 14px 20px; font-size: 13px; color: #999; max-width: 760px; margin: 0 auto; width: 100%; }
-    .breadcrumb a { color: #999; text-decoration: none; }
-    .breadcrumb a:hover { color: #0d9488; }
-    .container { padding: 0 20px 60px; max-width: 760px; margin: 0 auto; width: 100%; flex: 1; }
-    .page-header {
-      background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
-      border-radius: 16px; padding: 28px 24px; margin-bottom: 24px; color: white;
-    }
-    .tagline-badge {
-      display: inline-block; font-size: 12px; font-weight: 600;
-      background: rgba(255,255,255,0.2); padding: 3px 12px; border-radius: 20px;
-      margin-bottom: 10px;
-    }
-    .page-header h1 { font-size: 26px; font-weight: 800; margin-bottom: 6px; }
-    .page-header p { font-size: 14px; opacity: 0.9; line-height: 1.5; }
-    .contact-grid { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
-    .contact-card {
-      background: #fff; border: 1.5px solid #e5e7eb; border-radius: 14px;
-      padding: 18px 20px; display: flex; align-items: center; justify-content: space-between;
-      gap: 16px; text-decoration: none; color: #1a1a1a; transition: all 0.2s;
-    }
-    .contact-card:hover { border-color: #0d9488; box-shadow: 0 4px 16px rgba(13,148,136,0.08); transform: translateY(-2px); }
-    .contact-icon {
-      width: 44px; height: 44px; background: #f0fdfa; border-radius: 10px;
-      display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0;
-    }
-    .contact-info { flex: 1; min-width: 0; }
-    .contact-info h3 { font-size: 16px; font-weight: 700; margin-bottom: 2px; }
-    .contact-info p { font-size: 13px; color: #666; word-break: break-all; }
-    .contact-action {
-      background: #0d9488; color: white; padding: 8px 16px; border-radius: 8px;
-      font-size: 13px; font-weight: 600; flex-shrink: 0;
-    }
-    .contact-card:hover .contact-action { background: #0f766e; }
-    .info-card {
-      background: #fff; border: 1.5px solid #f0f0f0; border-radius: 14px; padding: 20px;
-      margin-bottom: 24px; font-size: 14px; color: #555; line-height: 1.6;
-    }
-    .info-card strong { color: #1a1a1a; }
-    
-    
-    
-    @media (max-width: 600px) {
-      .contact-card { flex-direction: column; align-items: flex-start; }
-      .contact-action { width: 100%; text-align: center; }
-    }
-  </style>
-    <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0d9488" />
   <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
   <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
   <link rel="stylesheet" href="/assets/css/global.css" />
+  <link rel="stylesheet" href="/assets/css/design.css" />
+  <link rel="stylesheet" href="/assets/css/motion.css" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>
-  <link href="/assets/css/motion.css" rel="stylesheet"/>
-  <link href="/assets/css/design.css" rel="stylesheet"/>
 </head>
 <body>
 
 <header>
-  <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 960px; margin: 0 auto;">
-    <a class="logo" href="/" style="font-size: 18px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.4px;">
-      Islamia College <span style="color: #0d9488;">of Science & Commerce</span>
-    </a>
+  <div class="header-inner">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
   </div>
 </header>
 
-<div class="breadcrumb">
-  <a href="/">Home</a><span>›</span>
-  Contact Us
-</div>
+<div class="container contact-layout">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a><span>›</span>Contact Us
+  </nav>
 
-<div class="container">
-
-  <div class="page-header">
-    <span class="tagline-badge">Built for students</span>
-    <h1>Contact ExamStash</h1>
-    <p>Have questions, want to request a paper, or want to share study materials? Reach out directly through any of our official channels below.</p>
+  <div class="editorial-hero">
+    <div class="editorial-hero-inner">
+      <div class="editorial-badge">
+        <span>◎</span> Contact ExamStash
+      </div>
+      <h1>Questions, feedback, or study materials to share?</h1>
+      <p>Reach out directly through any of our official channels. Whether you need an unlisted paper, have questions regarding an existing syllabus, or wish to contribute your archive to help fellow students, we're here.</p>
+    </div>
   </div>
 
-  <div class="contact-grid">
+  <div class="contact-grid-main">
+    <div class="contact-channels">
 
-    <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" class="contact-card">
-      <div class="contact-icon">✈️</div>
-      <div class="contact-info">
-        <h3>Telegram</h3>
-        <p>@sahilsleem — Fastest response for paper requests & uploads</p>
+      <a href="https://t.me/sahilsleem" target="_blank" rel="noopener" class="channel-card">
+        <div class="channel-icon-wrap">✈️</div>
+        <div class="channel-info">
+          <div class="channel-header">
+            <div class="channel-title">Telegram</div>
+            <span class="channel-badge">Fastest Response</span>
+          </div>
+          <p class="channel-desc">@sahilsleem — Fastest response for paper requests, urgent questions &amp; direct uploads.</p>
+        </div>
+        <span class="channel-btn">Message on Telegram →</span>
+      </a>
+
+      <a href="mailto:examstash1@gmail.com" class="channel-card">
+        <div class="channel-icon-wrap">✉️</div>
+        <div class="channel-info">
+          <div class="channel-header">
+            <div class="channel-title">Email</div>
+            <span class="channel-badge">Official Channel</span>
+          </div>
+          <p class="channel-desc">examstash1@gmail.com — Official inquiries, formal feedback &amp; bulk document sharing.</p>
+        </div>
+        <span class="channel-btn">Send Email →</span>
+      </a>
+
+      <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" class="channel-card">
+        <div class="channel-icon-wrap">📸</div>
+        <div class="channel-info">
+          <div class="channel-header">
+            <div class="channel-title">Instagram</div>
+            <span class="channel-badge">Community</span>
+          </div>
+          <p class="channel-desc">@sahilsleem — Connect with our student creator &amp; send direct messages.</p>
+        </div>
+        <span class="channel-btn">Open Instagram →</span>
+      </a>
+
+    </div>
+
+    <aside class="contribute-box">
+      <h3><span>📤</span> Share Past Papers &amp; Syllabi</h3>
+      <p>ExamStash is built by students, for students. If you have question papers or syllabus booklets from past examinations, share them to support students across India.</p>
+      
+      <div class="contribute-steps">
+        <div class="contribute-step">
+          <div class="step-badge">1</div>
+          <div>Take clean, readable photos or scan your papers into a PDF file.</div>
+        </div>
+        <div class="contribute-step">
+          <div class="step-badge">2</div>
+          <div>Note the degree, department, semester number, and subject name.</div>
+        </div>
+        <div class="contribute-step">
+          <div class="step-badge">3</div>
+          <div>Send to our Telegram (@sahilsleem) or email examstash1@gmail.com.</div>
+        </div>
       </div>
-      <span class="contact-action">Message on Telegram →</span>
-    </a>
 
-    <a href="https://www.instagram.com/sahilsleem/" target="_blank" rel="noopener" class="contact-card">
-      <div class="contact-icon">📸</div>
-      <div class="contact-info">
-        <h3>Instagram</h3>
-        <p>@sahilsleem — Connect & send direct messages</p>
+      <div class="contribute-verification">
+        <strong>◎ 24-Hour Review:</strong> All papers are verified for academic integrity and indexed within 24 hours for free public access.
       </div>
-      <span class="contact-action">Open Instagram →</span>
-    </a>
-
-    <a href="mailto:examstash1@gmail.com" class="contact-card">
-      <div class="contact-icon">✉️</div>
-      <div class="contact-info">
-        <h3>Email</h3>
-        <p>examstash1@gmail.com — Official inquiries & document sharing</p>
-      </div>
-      <span class="contact-action">Send Email →</span>
-    </a>
-
+    </aside>
   </div>
-
-  <div class="info-card">
-    <strong>📤 Sharing a Past Paper or Syllabus?</strong><br/>
-    Send clear photos or PDF files to our Telegram or Email. We verify and upload papers within 24 hours to help students across India access free study materials.
-  </div>
-
 </div>
 
 <footer class="site-footer">
@@ -203,6 +174,6 @@
 <script src="/assets/js/search.js?v=3"></script>
 <script src="/assets/js/pwa.js?v=3"></script>
 <script src="/assets/js/analytics.js"></script>
-  <script src="/assets/js/motion.js" defer></script>
+<script src="/assets/js/motion.js" defer></script>
 </body>
 </html>
