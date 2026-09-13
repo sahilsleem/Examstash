@@ -1483,133 +1483,166 @@ footer, .site-footer {
   grid-template-columns: 1.15fr 0.85fr;
   gap: 28px;
   margin-bottom: 32px;
-  align-items: start;
+  align-items: stretch;
   width: 100%;
   box-sizing: border-box;
 }
 
-.channel-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+/* Primary Contact Action Card */
+.contact-action-card {
   background: #ffffff;
-  border: 1.5px solid #e2e8f0;
-  border-radius: 14px;
-  padding: 18px 20px;
-  text-decoration: none;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
-  margin-bottom: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 32px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
   box-sizing: border-box;
   width: 100%;
-}
-
-.channel-card:last-child {
-  margin-bottom: 0;
-}
-
-.channel-card:hover {
-  border-color: #0d9488;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(13, 148, 136, 0.1);
-}
-
-.channel-main {
   display: flex;
-  align-items: center;
-  gap: 14px;
-  min-width: 0;
-  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.channel-icon-wrap {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+.contact-action-card-header {
+  margin-bottom: 24px;
+}
+
+.contact-action-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #0d9488;
   background: #f0fdfa;
   border: 1px solid #ccfbf1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  flex-shrink: 0;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
 }
 
-.channel-info {
-  flex: 1;
-  min-width: 0;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-
-.channel-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 3px;
-  flex-wrap: wrap;
-}
-
-.channel-title {
-  font-size: 15.5px;
-  font-weight: 700;
+.contact-action-card h2 {
+  font-size: 22px;
+  font-weight: 800;
   color: #0f172a;
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
   line-height: 1.3;
 }
 
-.channel-badge {
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  background: #ecfdf5;
-  color: #059669;
-  border: 1px solid #a7f3d0;
-  padding: 2px 6px;
-  border-radius: 4px;
-  white-space: nowrap;
-}
-
-.channel-desc {
-  font-size: 13px;
-  color: #64748b;
-  line-height: 1.4;
+.contact-action-card p {
+  font-size: 14.5px;
+  color: #475569;
+  line-height: 1.6;
   margin: 0;
-  overflow-wrap: break-word;
 }
 
-.channel-btn {
-  display: inline-flex;
+.contact-btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Premium Primary Button */
+.btn-contact-primary {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
+  justify-content: space-between;
   background: #0d9488;
   color: #ffffff !important;
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 700;
-  padding: 9px 16px;
-  border-radius: 8px;
+  padding: 13px 20px;
+  border-radius: 10px;
   text-decoration: none;
-  flex-shrink: 0;
-  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25);
   box-sizing: border-box;
-  max-width: 100%;
-  transition: background 0.15s, transform 0.15s;
+  width: 100%;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.channel-card:hover .channel-btn {
+.btn-contact-primary:hover {
   background: #0f766e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.35);
 }
 
+.btn-contact-primary:active {
+  transform: scale(0.985);
+}
+
+.btn-contact-primary .btn-arrow {
+  transition: transform 0.2s ease;
+}
+
+.btn-contact-primary:hover .btn-arrow {
+  transform: translateX(3px);
+}
+
+/* Premium Secondary Button */
+.btn-contact-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1.5px solid #ccfbf1;
+  color: #0f766e !important;
+  font-size: 14.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  width: 100%;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-contact-secondary:hover {
+  border-color: #0d9488;
+  background: #f0fdfa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.12);
+}
+
+.btn-contact-secondary:active {
+  transform: scale(0.985);
+}
+
+.btn-contact-secondary .btn-arrow {
+  transition: transform 0.2s ease;
+}
+
+.btn-contact-secondary:hover .btn-arrow {
+  transform: translate(2px, -2px);
+}
+
+.btn-label-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-icon-symbol {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Contributor Box */
 .contribute-box {
   background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 100%);
   border: 1.5px solid #99f6e4;
   border-radius: 16px;
-  padding: 26px 22px;
+  padding: 28px 24px;
   box-shadow: 0 4px 16px rgba(13, 148, 136, 0.06);
   box-sizing: border-box;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contribute-box h3 {
@@ -1862,19 +1895,16 @@ footer, .site-footer {
   .doc-section p, .doc-section ul {
     font-size: 14px;
   }
-  .channel-card {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 16px;
-    gap: 12px;
+  .contact-action-card {
+    padding: 24px 20px;
+    border-radius: 14px;
   }
-  .channel-main {
-    align-items: flex-start;
+  .contact-action-card h2 {
+    font-size: 20px;
   }
-  .channel-btn {
-    width: 100%;
-    justify-content: center;
-    padding: 10px 14px;
+  .btn-contact-primary, .btn-contact-secondary {
+    padding: 12px 16px;
+    font-size: 14px;
   }
   .contribute-box {
     padding: 22px 18px;
@@ -1904,23 +1934,15 @@ footer, .site-footer {
   .doc-card {
     padding: 18px 14px;
   }
-  .channel-card {
-    padding: 14px 12px;
+  .contact-action-card {
+    padding: 18px 14px;
   }
-  .channel-icon-wrap {
-    width: 38px;
-    height: 38px;
+  .contact-action-card h2 {
     font-size: 18px;
   }
-  .channel-title {
-    font-size: 14.5px;
-  }
-  .channel-desc {
-    font-size: 12.5px;
-  }
-  .channel-btn {
-    font-size: 12.5px;
-    padding: 8px 12px;
+  .btn-contact-primary, .btn-contact-secondary {
+    padding: 11px 14px;
+    font-size: 13.5px;
   }
   .contribute-box {
     padding: 18px 14px;
