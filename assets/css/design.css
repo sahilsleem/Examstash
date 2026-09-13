@@ -1049,3 +1049,64 @@ footer {
     transition: none !important;
   }
 }
+
+
+/* ============================================================
+   GLOBAL SOFT TEAL SURFACE SYSTEM (PHASE: SOFT TEAL SURFACE)
+   Unifying the subtle Multidisciplinary card surface across all cards
+   ============================================================ */
+
+:root {
+  --surface-card: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+  --surface-card-hover: linear-gradient(180deg, #e6faf6 0%, #ffffff 100%);
+  --border-card: #ccfbf1;
+  --border-card-hover: #99f6e4;
+  --shadow-card: 0 4px 18px rgba(13, 148, 136, 0.05);
+  --shadow-card-hover: 0 6px 22px rgba(13, 148, 136, 0.10);
+  
+  --surface-download: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+  --border-download: #ccfbf1;
+}
+
+/* 1. Global Card Surface (Course, Semester, Subject/Item Cards) */
+.course-card, .sem-card, .item-card {
+  background: var(--surface-card) !important;
+  border: 1px solid var(--border-card) !important;
+  box-shadow: var(--shadow-card) !important;
+  transition: transform 250ms var(--ease-entrance),
+              border-color 200ms var(--ease-entrance),
+              box-shadow 200ms var(--ease-entrance),
+              background 200ms var(--ease-entrance) !important;
+}
+
+/* 2. Interactive Card Hover State */
+.course-card:hover, .sem-card:hover, .item-card:hover {
+  background: var(--surface-card-hover) !important;
+  border-color: var(--border-card-hover) !important;
+  box-shadow: var(--shadow-card-hover) !important;
+}
+
+/* 3. Featured Course Cards (Common Courses, BA, B.Sc IT) */
+.course-card.featured {
+  background: var(--surface-card) !important;
+  border-color: var(--border-card) !important;
+}
+
+.course-card.featured:hover {
+  background: var(--surface-card-hover) !important;
+  border-color: var(--border-card-hover) !important;
+}
+
+/* 4. Primary Download / Resource Detail Card (Level 3 Hierarchy) */
+.download-card {
+  background: var(--surface-download) !important;
+  border: 1.5px solid var(--border-download) !important;
+  box-shadow: 0 6px 24px rgba(13, 148, 136, 0.08) !important;
+}
+
+/* 5. Supporting Detail Sections & Share Box */
+.details-section, .share-box {
+  background: var(--surface-card) !important;
+  border: 1px solid var(--border-card) !important;
+  box-shadow: var(--shadow-card) !important;
+}
