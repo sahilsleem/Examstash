@@ -1023,12 +1023,12 @@ footer {
 
 
 /* ============================================================
-   PREMIUM SITE-WIDE FOOTER SYSTEM
+   PREMIUM SITE-WIDE FOOTER SYSTEM (HARMONIZED DEEP NAVY + TEAL)
    ============================================================ */
 
 footer, .site-footer {
-  background: linear-gradient(180deg, #070d14 0%, #04080c 100%) !important;
-  border-top: 1px solid rgba(20, 184, 166, 0.16) !important;
+  background: linear-gradient(180deg, #0f172a 0%, #09262b 100%) !important;
+  border-top: 1px solid rgba(20, 184, 166, 0.22) !important;
   color: #e2e8f0 !important;
   padding: 44px 20px 32px !important;
   margin-top: auto !important;
@@ -1037,15 +1037,15 @@ footer, .site-footer {
   text-align: left !important;
 }
 
-/* Subtle ambient corner lighting */
+/* Subtle ambient atmospheric lighting */
 footer::before, .site-footer::before {
   content: '';
   position: absolute;
   top: 0;
-  right: 8%;
-  width: 340px;
-  height: 140px;
-  background: radial-gradient(ellipse at top, rgba(20, 184, 166, 0.10) 0%, transparent 70%);
+  left: 10%;
+  right: 10%;
+  height: 160px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(20, 184, 166, 0.12) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -1081,7 +1081,7 @@ footer::before, .site-footer::before {
 }
 
 .footer-logo span {
-  color: #0d9488 !important;
+  color: #2dd4bf !important;
 }
 
 .footer-tagline {
@@ -1130,7 +1130,8 @@ footer::before, .site-footer::before {
 
 .footer-links a span {
   font-size: 11px !important;
-  opacity: 0.5;
+  opacity: 0.6;
+  color: #5eead4 !important;
   transition: transform 0.2s var(--ease-entrance), opacity 0.2s var(--ease-entrance) !important;
   display: inline-block;
 }
@@ -1146,17 +1147,18 @@ footer::before, .site-footer::before {
 
 .footer-divider {
   height: 1px;
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.08);
   margin: 24px 0 20px;
   width: 100%;
 }
 
 .footer-disclaimer-box {
-  background: rgba(13, 75, 70, 0.18);
-  border: 1px solid rgba(94, 234, 212, 0.15);
+  background: rgba(15, 23, 42, 0.5) !important;
+  border: 1px solid rgba(45, 212, 191, 0.2) !important;
   border-radius: 10px;
-  padding: 14px 16px;
+  padding: 14px 18px;
   margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
 }
 
 .footer-disclaimer-badge {
@@ -1168,11 +1170,15 @@ footer::before, .site-footer::before {
   text-transform: uppercase !important;
   letter-spacing: 0.08em !important;
   color: #5eead4 !important;
-  margin-bottom: 6px;
+  background: rgba(13, 148, 136, 0.25);
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(94, 234, 212, 0.25);
+  margin-bottom: 8px;
 }
 
 .footer-disclaimer-text {
-  font-size: 11.5px !important;
+  font-size: 12px !important;
   color: #94a3b8 !important;
   line-height: 1.55 !important;
   margin: 0 !important;
