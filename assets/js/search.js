@@ -45,6 +45,34 @@
       parent = container;
     }
 
+    // Clear Button inside search wrap
+    let clearBtn = wrapper.querySelector('.search-clear-btn');
+    if (!clearBtn) {
+      clearBtn = document.createElement('button');
+      clearBtn.className = 'search-clear-btn';
+      clearBtn.setAttribute('type', 'button');
+      clearBtn.setAttribute('aria-label', 'Clear search');
+      clearBtn.innerHTML = '✕';
+      wrapper.appendChild(clearBtn);
+    }
+
+    const toggleClearBtn = () => {
+      if (input.value.trim().length > 0) {
+        clearBtn.classList.add('is-visible');
+      } else {
+        clearBtn.classList.remove('is-visible');
+      }
+    };
+
+    clearBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      input.value = '';
+      toggleClearBtn();
+      hideDropdown();
+      input.focus();
+    });
+
     // Create dropdown container
     const dropdown = document.createElement('div');
     dropdown.className = 'search-dropdown';
@@ -145,6 +173,7 @@
 
     // Event listeners
     input.addEventListener('input', () => {
+      toggleClearBtn();
       const q = input.value.trim();
       if (q.length > 0) {
         const results = search(q);
