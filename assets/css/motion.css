@@ -116,23 +116,40 @@
 /* ============================================================
    HEADER / NAVIGATION
    ============================================================ */
-header {
+@keyframes headerLogoEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes headerNavEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header, .site-header {
   animation: fadeEntrance var(--dur-entrance) var(--ease-entrance) both;
-  transition: box-shadow var(--dur-standard) var(--ease-standard);
 }
 
-header:not(:hover) {
-  /* Subtle header integration */
-}
-
-/* Logo */
+/* Logo Entrance */
 .logo {
-  transition: transform var(--dur-micro) var(--ease-standard), opacity var(--dur-micro) var(--ease-standard);
+  animation: headerLogoEntrance 420ms var(--ease-entrance) both;
 }
 
-.logo:active {
-  transform: scale(0.97);
-  opacity: 0.8;
+/* Nav Entrance */
+.header-nav {
+  animation: headerNavEntrance 420ms var(--ease-entrance) 90ms both;
 }
 
 /* Header Action Buttons */
@@ -335,5 +352,9 @@ header:not(:hover) {
 @media (prefers-reduced-motion: reduce) {
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
     animation: none !important;
+  }
+  header, .site-header, .logo, .header-nav, .header-nav-link, .logo::after {
+    animation: none !important;
+    transition: none !important;
   }
 }
