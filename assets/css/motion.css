@@ -114,12 +114,21 @@
 }
 
 /* ============================================================
-   HEADER / NAVIGATION
+   HEADER / EDITORIAL MASTHEAD ENTRANCE SEQUENCE
+   1. Exam appears first (0ms)
+   2. Stash follows almost imperceptibly (60ms)
+   3. Tiny accent detail appears (120ms)
+   4. Secondary metadata fades in last (180ms)
    ============================================================ */
-@keyframes headerLogoEntrance {
+@keyframes mastheadFadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes mastheadWordEntrance {
   0% {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translateY(4px);
   }
   100% {
     opacity: 1;
@@ -127,10 +136,21 @@
   }
 }
 
-@keyframes headerNavEntrance {
+@keyframes mastheadDotEntrance {
   0% {
     opacity: 0;
-    transform: translateY(-3px);
+    transform: scale(0.3) translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes mastheadMetaEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(3px);
   }
   100% {
     opacity: 1;
@@ -139,17 +159,29 @@
 }
 
 header, .site-header {
-  animation: fadeEntrance var(--dur-entrance) var(--ease-entrance) both;
+  animation: mastheadFadeIn 300ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-/* Logo Entrance */
-.logo {
-  animation: headerLogoEntrance 420ms var(--ease-entrance) both;
+/* 1. Exam appears first */
+.logo-exam {
+  display: inline-block;
+  animation: mastheadWordEntrance 400ms cubic-bezier(0.16, 1, 0.3, 1) 0ms both;
 }
 
-/* Nav Entrance */
-.header-nav {
-  animation: headerNavEntrance 420ms var(--ease-entrance) 90ms both;
+/* 2. Stash follows almost imperceptibly */
+.logo-stash, .logo:not(:has(.logo-stash)) span {
+  display: inline-block;
+  animation: mastheadWordEntrance 400ms cubic-bezier(0.16, 1, 0.3, 1) 60ms both;
+}
+
+/* 3. Tiny accent detail appears */
+.logo-dot, .logo::after {
+  animation: mastheadDotEntrance 360ms cubic-bezier(0.16, 1, 0.3, 1) 120ms both;
+}
+
+/* 4. Secondary metadata fades in last */
+.header-meta {
+  animation: mastheadMetaEntrance 440ms cubic-bezier(0.16, 1, 0.3, 1) 180ms both;
 }
 
 /* Header Action Buttons */
@@ -353,8 +385,9 @@ header, .site-header {
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
     animation: none !important;
   }
-  header, .site-header, .logo, .header-nav, .header-nav-link, .logo::after {
+  header, .site-header, .logo, .logo-exam, .logo-stash, .logo-dot, .logo::after, .header-meta {
     animation: none !important;
     transition: none !important;
+    transform: none !important;
   }
 }
