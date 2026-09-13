@@ -851,3 +851,55 @@ footer {
 }
 
 .sem-card { display: flex !important; }
+/* ============================================================
+   SIZE CORRECTION + ANIMATION POLISH OVERRIDES
+   Restoring the f5c244f compact visual scale
+   ============================================================ */
+:root { --container-max: 960px; }
+.container { padding: 24px 20px 60px !important; }
+.page-header { padding: 32px 28px !important; }
+.page-header h1 { font-size: 26px !important; max-width: 800px; margin: 0 auto 12px !important; }
+.page-header p { font-size: 14px !important; max-width: 600px; margin: 0 auto !important; }
+.hero-sub, .college-tag { font-size: 11px !important; margin-bottom: 12px !important; }
+.search-wrap { margin-top: 24px !important; }
+.search-input { font-size: 14px !important; padding: 12px 18px 12px 42px !important; border-radius: var(--rad-lg) !important; }
+.search-icon { font-size: 16px !important; left: 14px !important; top: 50% !important; transform: translateY(-50%) !important; }
+.course-card { padding: 20px 18px !important; }
+.course-card h3 { font-size: 16px !important; margin-bottom: 4px !important; }
+.course-card p { font-size: 13px !important; }
+.course-top { margin-bottom: 12px !important; }
+.course-icon-wrap { width: 40px !important; height: 40px !important; font-size: 20px !important; }
+.course-card::after { right: 16px !important; bottom: 18px !important; font-size: 14px !important; }
+.section-title { margin-top: 32px !important; margin-bottom: 16px !important; }
+.section-title span:first-child { font-size: 16px !important; }
+.sem-card { padding: 20px 16px !important; }
+.sem-number { font-size: 64px !important; top: -12px !important; right: -8px !important; }
+.sem-label { font-size: 15px !important; margin-bottom: 4px !important; }
+.sem-subjects { font-size: 12px !important; margin-bottom: 12px !important; }
+.sem-card::after { margin-top: 8px !important; font-size: 12px !important; }
+.page-header:not(:has(.search-wrap)) { padding: 28px 24px !important; }
+.page-header:not(:has(.search-wrap)) h1 { font-size: 24px !important; }
+.page-header:not(:has(.search-wrap)) p { font-size: 14px !important; }
+.details-section, .share-box, .download-card { padding: 24px 20px !important; margin: 24px 0 !important; }
+.file-title { font-size: 20px !important; }
+
+@media (max-width: 600px) {
+  .container { padding: 16px 16px 40px !important; }
+  .page-header { padding: 24px 20px !important; }
+  .page-header h1 { font-size: 22px !important; }
+  .search-input { padding: 10px 16px 10px 38px !important; }
+  .course-card, .sem-card, .item-card { padding: 16px !important; }
+  .sem-number { font-size: 48px !important; }
+  .page-header:not(:has(.search-wrap)) { padding: 20px 16px !important; }
+  .page-header:not(:has(.search-wrap)) h1 { font-size: 20px !important; }
+}
+
+.page-header > * { animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) backwards; }
+.page-header > *:nth-child(1) { animation-delay: 40ms; }
+.page-header > *:nth-child(2) { animation-delay: 80ms; }
+.page-header > *:nth-child(3) { animation-delay: 120ms; }
+.page-header > *:nth-child(4) { animation-delay: 160ms; }
+
+.btn-download-main:active, .back-btn:active, .item-action-paper:active { transform: scale(0.975) !important; transition: transform var(--dur-micro) ease !important; }
+.search-input { transition: all var(--dur-standard) var(--ease-entrance) !important; }
+.search-input:focus { transform: translateY(-1px); box-shadow: 0 12px 30px -5px rgba(0,0,0,0.25) !important; }
