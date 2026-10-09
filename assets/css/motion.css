@@ -1,0 +1,371 @@
+/* ============================================================
+   ExamStash 2.0 — Premium Motion System
+   ============================================================ */
+
+:root {
+  /* Motion Tokens */
+  
+  /* Easing curves */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-entrance: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  
+  /* Durations */
+  --dur-micro: 150ms;
+  --dur-standard: 250ms;
+  --dur-entrance: 500ms;
+  --dur-page: 700ms;
+  
+  /* Stagger Delays */
+  --delay-0: 0ms;
+  --delay-1: 50ms;
+  --delay-2: 100ms;
+  --delay-3: 150ms;
+  --delay-4: 200ms;
+  --delay-5: 250ms;
+}
+
+/* ============================================================
+   REDUCED MOTION SUPPORT
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-micro: 0ms !important;
+    --dur-standard: 0ms !important;
+    --dur-entrance: 0ms !important;
+    --dur-page: 0ms !important;
+    --delay-1: 0ms !important;
+    --delay-2: 0ms !important;
+    --delay-3: 0ms !important;
+    --delay-4: 0ms !important;
+    --delay-5: 0ms !important;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================================
+   KEYFRAMES
+   ============================================================ */
+@keyframes fadeUpEntrance {
+  0% {
+    
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUpEntranceSmall {
+  0% {
+    
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeEntrance {
+  0% {
+    
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ============================================================
+   PAGE / HERO ENTRANCE (HOMEPAGE & GLOBAL)
+   ============================================================ */
+
+/* The hero banner itself */
+.page-header {
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
+}
+
+/* Children stagger inside hero */
+.page-header > * {
+  
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
+}
+
+
+.page-header > *:nth-child(1) { animation-delay: 50ms; }
+.page-header > *:nth-child(2) { animation-delay: 120ms; }
+.page-header > *:nth-child(3) { animation-delay: 220ms; }
+.page-header > *:nth-child(4) { animation-delay: 320ms; }
+.page-header > *:nth-child(5) { animation-delay: 420ms; }
+.page-header > *:nth-child(6) { animation-delay: 520ms; }
+
+
+/* Breadcrumbs Entrance */
+.breadcrumb {
+  
+  animation: fadeUpEntranceSmall var(--dur-standard) var(--ease-entrance) 50ms both;
+}
+
+/* ============================================================
+   PHYSICAL FLOATING BRAND ENTRANCE (EXAMSTASH)
+   - Enters from slightly above (translateY -24px)
+   - Falls downward with physical momentum
+   - Slight overshoot (+2.5px) and settling (0px)
+   ============================================================ */
+@keyframes physicalFallEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(-24px) scale(0.97);
+  }
+  55% {
+    opacity: 1;
+    transform: translateY(2.5px) scale(1.006);
+  }
+  78% {
+    transform: translateY(-0.8px) scale(0.998);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes mastheadMetaEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header, .site-header {
+  animation: mastheadFadeIn 300ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.logo-physical-wrap {
+  animation: physicalFallEntrance 650ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.header-meta {
+  animation: mastheadMetaEntrance 450ms cubic-bezier(0.16, 1, 0.3, 1) 200ms both;
+}
+
+/* Header Action Buttons */
+.header-btn {
+  transition: transform var(--dur-standard) var(--ease-standard), 
+              border-color var(--dur-micro) var(--ease-standard),
+              color var(--dur-micro) var(--ease-standard);
+}
+
+.header-btn:hover {
+  transform: translateY(-2px);
+  border-color: #0d9488;
+  color: #0d9488;
+}
+
+.header-btn:active {
+  transform: scale(0.95);
+}
+
+/* ============================================================
+   BUTTONS & MICRO-INTERACTIONS
+   ============================================================ */
+
+/* Primary CTA Download Button */
+.btn-download-main {
+  transition: transform var(--dur-standard) var(--ease-standard), 
+              box-shadow var(--dur-standard) var(--ease-standard),
+              background var(--dur-standard) var(--ease-standard) !important;
+  will-change: transform, box-shadow;
+}
+
+.btn-download-main:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.25) !important;
+}
+
+.btn-download-main:active, 
+.btn-secondary:active,
+.btn-share:active,
+.btn-pwa-install:active {
+  transform: scale(0.975) !important;
+  transition-duration: var(--dur-micro) !important;
+}
+
+/* Arrow / Icon movement inside buttons */
+.btn-download-main:hover .file-icon,
+.btn-secondary:hover svg,
+.btn-action:hover svg {
+  transform: translateY(-1px);
+}
+
+/* Secondary Buttons */
+.btn-secondary {
+  transition: all var(--dur-standard) var(--ease-standard);
+}
+.btn-secondary:hover {
+  transform: translateY(-1px);
+}
+
+/* ============================================================
+   CARDS (Course Cards, Semester Cards, Subject Cards)
+   ============================================================ */
+
+/* Shared Base Transition */
+.course-card, .item-card, .sem-card {
+  transition: transform var(--dur-standard) var(--ease-standard), 
+              border-color var(--dur-standard) var(--ease-standard), 
+              box-shadow var(--dur-standard) var(--ease-standard) !important;
+  will-change: transform, box-shadow, border-color;
+}
+
+/* Hover States */
+@media (hover: hover) {
+  .course-card:hover, .item-card:hover, .sem-card:hover {
+    transform: translateY(-4px) !important;
+    border-color: #0d9488 !important;
+    box-shadow: 0 8px 24px rgba(13, 148, 136, 0.08) !important;
+  }
+}
+
+/* Active/Press States (Crucial for Mobile) */
+.course-card:active, .item-card:active, .sem-card:active {
+  transform: scale(0.985) translateY(0) !important;
+  box-shadow: 0 2px 8px rgba(13, 148, 136, 0.04) !important;
+  transition-duration: var(--dur-micro) !important;
+}
+
+/* Arrow inside cards */
+.item-card .item-action span,
+.sem-card .sem-badge {
+  display: inline-block;
+  transition: transform var(--dur-standard) var(--ease-standard);
+}
+
+@media (hover: hover) {
+  .course-card:hover .course-badge,
+  .item-card:hover .item-action span,
+  .sem-card:hover .sem-badge {
+    transform: translateX(3px);
+  }
+}
+
+/* Icon emphasis */
+.course-card .course-icon-wrap,
+.item-card .file-icon {
+  transition: transform var(--dur-standard) var(--ease-standard);
+}
+
+@media (hover: hover) {
+  .course-card:hover .course-icon-wrap,
+  .item-card:hover .file-icon {
+    transform: scale(1.05) translateY(-1px);
+  }
+}
+
+/* ============================================================
+   CARD ENTRANCES / STAGGER
+   ============================================================ */
+
+.course-grid > *,
+.item-list > * {
+  
+  animation: fadeUpEntrance var(--dur-entrance) var(--ease-entrance) both;
+}
+
+/* Stagger up to 10 items to prevent massive cascades on long lists */
+.course-grid > *:nth-child(1), .item-list > *:nth-child(1) { animation-delay: var(--delay-0); }
+.course-grid > *:nth-child(2), .item-list > *:nth-child(2) { animation-delay: var(--delay-1); }
+.course-grid > *:nth-child(3), .item-list > *:nth-child(3) { animation-delay: var(--delay-2); }
+.course-grid > *:nth-child(4), .item-list > *:nth-child(4) { animation-delay: var(--delay-3); }
+.course-grid > *:nth-child(5), .item-list > *:nth-child(5) { animation-delay: var(--delay-4); }
+.course-grid > *:nth-child(6), .item-list > *:nth-child(6) { animation-delay: var(--delay-5); }
+.course-grid > *:nth-child(7), .item-list > *:nth-child(7) { animation-delay: 300ms; }
+.course-grid > *:nth-child(8), .item-list > *:nth-child(8) { animation-delay: 350ms; }
+.course-grid > *:nth-child(9), .item-list > *:nth-child(9) { animation-delay: 400ms; }
+.course-grid > *:nth-child(10), .item-list > *:nth-child(10) { animation-delay: 450ms; }
+/* Items beyond 10 all animate together slightly delayed */
+.course-grid > *:nth-child(n+11), .item-list > *:nth-child(n+11) { animation-delay: 500ms; }
+
+/* ============================================================
+   SEARCH / FILTER INTERACTION
+   ============================================================ */
+.search-dropdown {
+  transform-origin: top center;
+  transition: opacity var(--dur-standard) var(--ease-entrance),
+              transform var(--dur-standard) var(--ease-entrance),
+              visibility var(--dur-standard);
+}
+
+.search-dropdown:not(.active) {
+  
+  transform: translateY(-8px) scale(0.98);
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.search-dropdown.active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+  visibility: visible;
+  /* Override default display: block toggling if JS does it, we handle via opacity/visibility */
+  display: block !important; 
+}
+
+/* ============================================================
+   MODALS / DRAWERS
+   ============================================================ */
+.drawer-overlay {
+  transition: opacity var(--dur-standard) var(--ease-standard);
+}
+.drawer-panel {
+  transition: right var(--dur-entrance) var(--ease-entrance) !important;
+}
+
+/* ============================================================
+   FOCUS STATES (Accessibility)
+   ============================================================ */
+:focus-visible {
+  outline: 2px solid #0d9488 !important;
+  outline-offset: 3px !important;
+  transition: outline-offset var(--dur-micro) var(--ease-standard);
+}
+
+/* ============================================================
+   SCROLL REVEAL (IntersectionObserver Target Classes)
+   ============================================================ */
+.reveal-on-scroll {
+  
+  transform: translateY(16px);
+  transition: opacity var(--dur-entrance) var(--ease-entrance), 
+              transform var(--dur-entrance) var(--ease-entrance);
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
+    animation: none !important;
+  }
+  header, .site-header, .logo, .logo-exam, .logo-stash, .logo-dot, .logo::after, .header-meta,
+  .header-menu-panel, .header-menu-panel.is-active, .menu-panel-header, .menu-panel-link,
+  .menu-panel-divider, .menu-panel-label, .menu-link-icon, .menu-link-arrow, .menu-icon-bars .bar {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}

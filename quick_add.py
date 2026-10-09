@@ -1,0 +1,615 @@
+#!/usr/bin/env python3
+"""
+ExamStash 1-Step Quick Paper Addition for Islamia College (quick_add.py)
+Creates dedicated paper download page with monetization ad slots, links to semester page,
+rebuilds search index & sitemap, and deploys live.
+"""
+
+import os
+import re
+import sys
+import subprocess
+
+# Force UTF-8 stdout on Windows
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r'[^\w\s-]', '', text).strip()
+    return re.sub(r'[-\s]+', '-', text)
+
+def extract_drive_id(link_or_id):
+    link_or_id = link_or_id.strip()
+    match = re.search(r'(?:file/d/|id=)([a-zA-Z0-9_-]{20,})', link_or_id)
+    if match:
+        return match.group(1)
+    if re.match(r'^[a-zA-Z0-9_-]{20,}$', link_or_id):
+        return link_or_id
+    return None
+
+def parse_paper_string(text):
+    text_lower = text.lower()
+
+    # 1. Detect Course / Department
+    course_slug = "bca"
+    course_name = "BCA"
+
+    if "bsc it" in text_lower or "b.sc it" in text_lower or "b.sc. it" in text_lower or "information technology" in text_lower:
+        course_slug, course_name = "bsc-it", "B.Sc. IT"
+    elif "bba" in text_lower or "business administration" in text_lower:
+        course_slug, course_name = "bba", "BBA"
+    elif "bcom" in text_lower or "b.com" in text_lower or "commerce" in text_lower:
+        course_slug, course_name = "bcom", "B.Com"
+    elif "ba" in text_lower or "b.a" in text_lower or "arts" in text_lower or "english" in text_lower or "kashmiri" in text_lower:
+        course_slug, course_name = "ba", "B.A."
+    elif "physics" in text_lower:
+        course_slug, course_name = "bsc-physics", "B.Sc. Physics"
+    elif "chemistry" in text_lower:
+        course_slug, course_name = "bsc-chemistry", "B.Sc. Chemistry"
+    elif "math" in text_lower:
+        course_slug, course_name = "bsc-mathematics", "B.Sc. Mathematics"
+    elif "botany" in text_lower:
+        course_slug, course_name = "bsc-botany", "B.Sc. Botany"
+    elif "zoology" in text_lower:
+        course_slug, course_name = "bsc-zoology", "B.Sc. Zoology"
+    elif "biotech" in text_lower:
+        course_slug, course_name = "bsc-biotechnology", "B.Sc. Biotechnology"
+    elif "biochem" in text_lower:
+        course_slug, course_name = "bsc-biochemistry", "B.Sc. Biochemistry"
+    elif "bca" in text_lower or "computer" in text_lower:
+        course_slug, course_name = "bca", "BCA"
+
+    # 2. Detect Semester
+    sem_match = re.search(r'(?:sem(?:ester)?|s)\s*([1-6])\b|\b([1-6])(?:st|nd|rd|th)?\s*sem', text_lower)
+    sem_num = sem_match.group(1) or sem_match.group(2) if sem_match else "1"
+
+    # 3. Detect Paper vs Syllabus
+    is_syllabus = "syllabus" in text_lower or "curriculum" in text_lower
+
+    # 4. Clean Subject Title
+    clean = text
+    for token in ["islamia", "college", "icsc", "srinagar", "bca", "bba", "bcom", "ba", "bsc", "it", "physics", "chemistry", "mathematics", "maths", "botany", "zoology", "biotechnology", "biochemistry", "sem", "semester", "1st", "2nd", "3rd", "4th", "5th", "6th", "1", "2", "3", "4", "5", "6", "paper", "syllabus", "question"]:
+        clean = re.sub(r'\b' + re.escape(token) + r'\b', '', clean, flags=re.IGNORECASE)
+
+    clean = re.sub(r'[^\w\s-]', '', clean).strip()
+    clean = re.sub(r'\s+', ' ', clean)
+    subject_title = clean.title() if clean else f"{course_name} Paper"
+
+    return {
+        "course_slug": course_slug,
+        "course_name": course_name,
+        "semester": sem_num,
+        "is_syllabus": is_syllabus,
+        "subject_title": subject_title
+    }
+
+paper_page_template = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{subject_title} {item_type} — {course_title} Semester {sem_num} | ExamStash</title>
+  <meta name="description" content="View or download the {subject_title} {item_type_lower} for {course_title}, Semester {sem_num} at Islamia College of Science & Commerce (ICSC), Srinagar. Free student resource." />
+  <link rel="canonical" href="https://examstash.online/{course_slug}/semester-{sem_num}/{paper_slug}/" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>
+
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0d9488" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/icon.svg" />
+  <link rel="apple-touch-icon" href="/assets/icons/icon.svg" />
+  <link rel="stylesheet" href="/assets/css/global.css" />
+
+  <style>
+    * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    body {{ font-family: 'Segoe UI', system-ui, sans-serif; background: #fff; color: #1a1a1a; }}
+    header {{
+      padding: 16px 20px; border-bottom: 1px solid #f0f0f0;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; background: #fff; z-index: 100;
+    }}
+    .header-inner {{ max-width: 960px; margin: 0 auto; width: 100%; display: flex; align-items: center; }}
+    .logo {{ font-size: 19px; font-weight: 800; color: #1a1a1a; text-decoration: none; letter-spacing: -0.4px; }}
+    .logo span {{ color: #0d9488; }}
+    .breadcrumb {{ padding: 14px 20px; font-size: 13px; color: #999; max-width: 960px; margin: 0 auto; }}
+    .breadcrumb a {{ color: #999; text-decoration: none; }}
+    .breadcrumb a:hover {{ color: #0d9488; }}
+    .breadcrumb span {{ margin: 0 6px; }}
+    .container {{ padding: 0 20px 60px; max-width: 960px; margin: 0 auto; }}
+    .page-header {{
+      background: linear-gradient(135deg, #115e59 0%, #0d9488 100%);
+      border-radius: 16px; padding: 28px 24px; margin-bottom: 20px; color: white;
+      box-shadow: 0 4px 20px rgba(13, 148, 136, 0.12);
+    }}
+    .college-tag {{
+      font-size: 11px; font-weight: 600; background: rgba(255,255,255,0.2);
+      display: inline-block; padding: 3px 10px; border-radius: 20px;
+      margin-bottom: 10px; letter-spacing: 0.05em;
+    }}
+    .page-header h1 {{ font-size: 24px; font-weight: 800; margin-bottom: 6px; line-height: 1.3; }}
+    .page-header p {{ font-size: 14px; opacity: 0.85; line-height: 1.5; }}
+    
+    .intro-box {{
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin: 20px 0;
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: #334155;
+    }}
+    .intro-box strong {{ color: #0f172a; }}
+
+    .download-card {{
+      border: 1.5px solid #ccfbf1;
+      background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 100%);
+      border-radius: 16px; padding: 32px 24px; text-align: center;
+      margin: 24px 0; box-shadow: 0 4px 20px rgba(13, 148, 136, 0.08);
+    }}
+    .file-icon {{ font-size: 44px; margin-bottom: 12px; }}
+    .file-title {{ font-size: 20px; font-weight: 800; margin-bottom: 6px; color: #115e59; }}
+    .file-meta {{ font-size: 13px; color: #0f766e; margin-bottom: 24px; }}
+    .btn-download-main {{
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      background: #0d9488; color: white; padding: 14px 32px; border-radius: 12px;
+      font-size: 15px; font-weight: 700; text-decoration: none; transition: all 0.2s;
+      box-shadow: 0 4px 14px rgba(13, 148, 136, 0.3);
+    }}
+    .btn-download-main:hover {{ background: #0f766e; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4); }}
+    
+    .details-section {{
+      background: #fff;
+      border: 1.5px solid #f0f0f0;
+      border-radius: 14px;
+      padding: 22px;
+      margin: 24px 0;
+    }}
+    .details-title {{
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 10px;
+    }}
+    .details-grid {{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }}
+    .detail-item {{
+      background: #fcfcfc;
+      border: 1px solid #f0f0f0;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }}
+    .detail-label {{
+      display: block;
+      font-size: 11px;
+      color: #888;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 4px;
+      letter-spacing: 0.03em;
+    }}
+    .detail-value {{
+      display: block;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }}
+
+    .page-nav {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0 10px;
+      align-items: center;
+    }}
+    .back-btn, .all-sem-btn {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #0d9488;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 600;
+      transition: all 0.2s;
+    }}
+    .back-btn:hover, .all-sem-btn:hover {{
+      background: #0d9488;
+      color: #fff;
+      border-color: #0d9488;
+    }}
+
+    footer {{
+      background: #fafafa; border-top: 1px solid #f0f0f0;
+      padding: 24px 16px; text-align: center; font-size: 13px; color: #aaa;
+    }}
+    footer a {{ color: #aaa; text-decoration: none; margin: 0 8px; }}
+    footer a:hover {{ color: #0d9488; }}
+    
+    @media (max-width: 680px) {{
+      .details-grid {{ grid-template-columns: 1fr 1fr; }}
+      .btn-download-main {{ width: 100%; }}
+    }}
+    @media (max-width: 480px) {{
+      .details-grid {{ grid-template-columns: 1fr; }}
+      .page-nav {{ flex-direction: column; align-items: stretch; }}
+      .back-btn, .all-sem-btn {{ justify-content: center; }}
+    }}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="/">Exam<span>Stash</span></a>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  <a href="/{course_slug}/">{course_title}</a><span>›</span>
+  <a href="/{course_slug}/semester-{sem_num}/">Semester {sem_num}</a><span>›</span>
+  {subject_title}
+</div>
+
+<div class="container">
+  <div class="page-header">
+    <span class="college-tag">{course_title_upper} — SEMESTER {sem_num}</span>
+    <h1>{subject_title}</h1>
+    <p>Islamia College of Science & Commerce, Srinagar — {item_type}</p>
+  </div>
+
+  <div class="intro-box">
+    <p>{intro_paragraph}</p>
+  </div>
+
+  <!-- Top Monetization Ad Placement -->
+  <div class="ad-slot">
+    <div class="ad-slot-label">Advertisement</div>
+    <div class="ad-slot-inner">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1741354477413638"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({{}});
+      </script>
+    </div>
+  </div>
+
+  <!-- Download Card -->
+  <div class="download-card">
+    <div class="file-icon">{icon}</div>
+    <div class="file-title">{subject_title}</div>
+    <div class="file-meta">{course_title} · Semester {sem_num} · {item_type}</div>
+
+    <a href="{drive_link}" target="_blank" rel="noopener" class="btn-download-main">
+      View / Download {item_type} PDF
+    </a>
+  </div>
+
+  <!-- Structured Resource Details -->
+  <div class="details-section">
+    <h2 class="details-title">Resource Details</h2>
+    <div class="details-grid">
+      <div class="detail-item">
+        <span class="detail-label">Course</span>
+        <span class="detail-value">{course_title}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Semester</span>
+        <span class="detail-value">Semester {sem_num}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Subject</span>
+        <span class="detail-value">{subject_title}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Resource Type</span>
+        <span class="detail-value">{item_type}</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">File Format</span>
+        <span class="detail-value">PDF</span>
+      </div>
+      <div class="detail-item">
+        <span class="detail-label">Access</span>
+        <span class="detail-value">Free access</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="page-nav">
+    <a href="/{course_slug}/semester-{sem_num}/" class="back-btn">← Back to {course_title} Semester {sem_num} Resources</a>
+    <a href="/{course_slug}/" class="all-sem-btn">All {course_title} Semesters</a>
+  </div>
+
+  <!-- Bottom Monetization Ad Placement -->
+  <div class="ad-slot">
+    <div class="ad-slot-label">Advertisement</div>
+    <div class="ad-slot-inner">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1741354477413638"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({{}});
+      </script>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-links" style="margin-bottom: 10px;">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms</a>
+    <a href="/dmca/">DMCA</a>
+  </div>
+  <p style="margin-bottom: 6px; font-size: 13px;">© 2026 ExamStash. All rights reserved.</p>
+  <p style="font-size: 11px; color: #888; max-width: 600px; margin: 0 auto; line-height: 1.4;">Disclaimer: ExamStash is an independent student educational resource and is not affiliated with, endorsed by, or an official website of Islamia College of Science and Commerce, Srinagar. All college names, course titles, and materials are referenced strictly for educational and identification purposes.</p>
+</footer>
+
+<script src="/assets/js/search-index.js?v=4"></script>
+<script src="/assets/js/search.js?v=4"></script>
+<script src="/assets/js/pwa.js?v=4"></script>
+<script src="/assets/js/analytics.js"></script>
+</body>
+</html>
+"""
+
+def update_course_navigation(course_slug):
+    for base_prefix in ["", "islamia-college"]:
+        course_index_path = os.path.join(base_prefix, course_slug, "index.html") if base_prefix else os.path.join(course_slug, "index.html")
+        if not os.path.exists(course_index_path):
+            continue
+
+        populated_sems = []
+        for s in range(1, 7):
+            s_dir = os.path.join(course_slug, f"semester-{s}")
+            if not os.path.exists(s_dir):
+                continue
+            paper_subdirs = [d for d in os.listdir(s_dir) if os.path.isdir(os.path.join(s_dir, d)) and os.path.exists(os.path.join(s_dir, d, "index.html"))]
+            if paper_subdirs:
+                papers_meta = []
+                for p in paper_subdirs:
+                    p_idx = os.path.join(s_dir, p, "index.html")
+                    title = p.replace("-", " ").title()
+                    try:
+                        with open(p_idx, "r", encoding="utf-8") as pf:
+                            pc = pf.read()
+                            m = re.search(r'<div class="file-title">(.*?)</div>', pc)
+                            if m:
+                                title = m.group(1).strip()
+                    except Exception:
+                        pass
+                    is_syl = "syllabus" in p.lower()
+                    papers_meta.append({"title": title, "is_syllabus": is_syl})
+                populated_sems.append((s, papers_meta))
+
+        sem_grid_html = ""
+        if not populated_sems:
+            sem_grid_html = """  <div class="notice-card" style="grid-column: 1 / -1; margin-bottom: 0;">
+    <div class="notice-icon">📋</div>
+    <div class="notice-title">Past Papers &amp; Syllabus Coming Soon</div>
+    <div class="notice-text">Papers for this department are not available yet. Please check back later.</div>
+  </div>"""
+        else:
+            for s_num, p_list in populated_sems:
+                s_padded = f"{s_num:02d}"
+                syl_c = len([p for p in p_list if p["is_syllabus"]])
+                pap_c = len([p for p in p_list if not p["is_syllabus"]])
+                if pap_c > 0 and syl_c > 0:
+                    badge = f"{pap_c} Paper{'s' if pap_c > 1 else ''} • {syl_c} {'Syllabi' if syl_c > 1 else 'Syllabus'} Available"
+                elif pap_c > 0:
+                    badge = f"{pap_c} Paper{'s' if pap_c > 1 else ''} Available"
+                else:
+                    badge = f"{syl_c} {'Syllabi' if syl_c > 1 else 'Syllabus'} Available"
+
+                sub_preview = " • ".join([p["title"] for p in p_list[:3]])
+                if len(p_list) > 3:
+                    sub_preview += "..."
+
+                sem_grid_html += f"""  <a class="sem-card" href="/{course_slug}/semester-{s_num}/" style="border-color: #0d9488; background: #f0fdfa;">
+    <div class="sem-number">{s_padded}</div>
+    <div class="sem-label">Semester {s_num}</div>
+    <div class="sem-subjects">{sub_preview}</div>
+    <span class="sem-badge" style="background: #0d9488; color: white;">{badge}</span>
+  </a>\n"""
+
+        with open(course_index_path, "r", encoding="utf-8") as cf:
+            c_content = cf.read()
+
+        # If course has populated sems, un-noindex and restore monetization
+        if populated_sems:
+            c_content = re.sub(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex[^"']*["\']\s*\/?>\s*', '', c_content, flags=re.IGNORECASE)
+            if "pagead2.googlesyndication.com" not in c_content:
+                c_content = c_content.replace("</head>", '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>\n</head>')
+
+        grid_pattern = re.compile(r'<div class="sem-grid">[\s\S]*?</div>(\s*<!-- Monetization Placeholder -->|\s*</div>\s*<footer>)', re.IGNORECASE)
+        if grid_pattern.search(c_content):
+            c_content = grid_pattern.sub(f'<div class="sem-grid">\n{sem_grid_html.rstrip()}\n</div>\\1', c_content)
+            with open(course_index_path, "w", encoding="utf-8") as cf:
+                cf.write(c_content)
+
+def add_paper(parsed, drive_id):
+    course_slug = parsed["course_slug"]
+    course_name = parsed["course_name"]
+    sem_num = parsed["semester"]
+    subject_title = parsed["subject_title"]
+    is_syllabus = parsed["is_syllabus"]
+    item_type = "Syllabus" if is_syllabus else "Question Paper"
+    icon = "📋" if is_syllabus else "📄"
+
+    paper_slug = slugify(subject_title)
+    if is_syllabus and not paper_slug.endswith("syllabus"):
+        paper_slug += "-syllabus"
+
+    drive_link = f"https://drive.google.com/file/d/{drive_id}/view?usp=sharing"
+
+    item_type_lower = item_type.lower()
+    course_title_upper = course_name.upper()
+
+    intro_paragraph = (
+        f"This page provides a syllabus document for <strong>{subject_title}</strong> ({course_name}, Semester {sem_num}) at Islamia College of Science and Commerce (ICSC), Srinagar. Students can view or download the syllabus to understand the course content and support their academic preparation."
+        if is_syllabus else
+        f"This page provides a past examination question paper for <strong>{subject_title}</strong> ({course_name}, Semester {sem_num}) at Islamia College of Science and Commerce (ICSC), Srinagar. Students can view or download the PDF document for exam preparation, practice, and revision."
+    )
+
+    # 1. Create Dedicated Download Page
+    page_html = paper_page_template.format(
+        subject_title=subject_title,
+        course_title=course_name,
+        course_title_upper=course_title_upper,
+        course_slug=course_slug,
+        sem_num=sem_num,
+        item_type=item_type,
+        item_type_lower=item_type_lower,
+        paper_slug=paper_slug,
+        icon=icon,
+        drive_link=drive_link,
+        intro_paragraph=intro_paragraph
+    )
+
+    out_dir = os.path.join(course_slug, f"semester-{sem_num}", paper_slug)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(page_html)
+
+    mirror_dir = os.path.join("islamia-college", out_dir)
+    os.makedirs(mirror_dir, exist_ok=True)
+    with open(os.path.join(mirror_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(page_html)
+
+    # 2. Update Semester Page Link & State
+    sem_dir = os.path.join(course_slug, f"semester-{sem_num}")
+    sem_index = os.path.join(sem_dir, "index.html")
+
+    with open(sem_index, "r", encoding="utf-8") as f:
+        sem_content = f.read()
+
+    # Remove noindex if present
+    sem_content = re.sub(r'<meta\s+name=["\']robots["\']\s+content=["\'][^"\']*noindex[^"']*["\']\s*\/?>\s*', '', sem_content, flags=re.IGNORECASE)
+
+    # Ensure AdSense script in head if missing
+    if "pagead2.googlesyndication.com" not in sem_content:
+        sem_content = sem_content.replace("</head>", '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638" crossorigin="anonymous"></script>\n</head>')
+
+    action_class = "item-action-syl" if is_syllabus else "item-action-paper"
+    btn_text = "View Syllabus →" if is_syllabus else "View & Download →"
+
+    item_card = f"""    <a href="/{course_slug}/semester-{sem_num}/{paper_slug}/" class="item-card">
+      <div class="item-info">
+        <h3>{subject_title}</h3>
+        <p>{course_name} · Semester {sem_num} {item_type}</p>
+      </div>
+      <div class="item-action {action_class}">
+        <span>{btn_text}</span>
+      </div>
+    </a>\n"""
+
+    ad_slot_html = """\n  <!-- Monetization Placeholder -->
+  <div class="ad-slot">
+    <div class="ad-slot-label">Advertisement</div>
+    <div class="ad-slot-inner">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-1741354477413638"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>\n"""
+
+    if "notice-card" in sem_content:
+        section_label = "📋 Official Syllabus" if is_syllabus else "📄 Question Papers"
+        replacement_block = f"""  <div class="type-label">{section_label}</div>
+  <div class="item-list">
+{item_card}  </div>"""
+        sem_content = re.sub(r'<div class="notice-card">.*?</div>\s*<!-- Monetization Placeholder -->', replacement_block + "\n\n  <!-- Monetization Placeholder -->", sem_content, flags=re.DOTALL)
+        sem_content = re.sub(r'<div class="notice-card">.*?</div>\s*</div>', replacement_block + ad_slot_html + "</div>", sem_content, flags=re.DOTALL)
+    elif '<div class="item-list">' in sem_content:
+        sem_content = sem_content.replace('<div class="item-list">', '<div class="item-list">\n' + item_card, 1)
+        if "ad-slot" not in sem_content:
+            sem_content = sem_content.replace('</div>\n\n<footer>', ad_slot_html + '</div>\n\n<footer>')
+    else:
+        section_label = "📋 Official Syllabus" if is_syllabus else "📄 Question Papers"
+        replacement_block = f"""  <div class="type-label">{section_label}</div>
+  <div class="item-list">
+{item_card}  </div>\n"""
+        sem_content = sem_content.replace('</div>\n\n<footer>', replacement_block + ad_slot_html + '</div>\n\n<footer>')
+
+    with open(sem_index, "w", encoding="utf-8") as f:
+        f.write(sem_content)
+
+    sem_mirror = os.path.join("islamia-college", sem_dir, "index.html")
+    if os.path.exists(os.path.dirname(sem_mirror)):
+        with open(sem_mirror, "w", encoding="utf-8") as f:
+            f.write(sem_content)
+
+    # 3. Update Course Landing Page Navigation
+    update_course_navigation(course_slug)
+
+    print(f"✅ Created dedicated paper page: /{course_slug}/semester-{sem_num}/{paper_slug}/")
+    print(f"✅ Linked in semester page: /{course_slug}/semester-{sem_num}/")
+    print(f"✅ Updated course landing page navigation for /{course_slug}/")
+
+def main():
+    print("=" * 60)
+    print(" ⚡ Islamia College Paper Ingestion Assistant (2-Tier Monetized)")
+    print("=" * 60)
+
+    desc = input("\n👉 Enter Paper Description (e.g. 'BCA Sem 2 Data Structures' or 'Physics Sem 1 Mechanics'): ").strip()
+    if not desc:
+        print("❌ No description entered.")
+        return
+
+    drive_input = input("👉 Paste Google Drive Link: ").strip()
+    drive_id = extract_drive_id(drive_input)
+    if not drive_id:
+        print("❌ Invalid Google Drive link or ID.")
+        return
+
+    parsed = parse_paper_string(desc)
+    print("\n📋 Detected Information:")
+    print(f"  • Course:   {parsed['course_name']} ({parsed['course_slug']})")
+    print(f"  • Semester: Semester {parsed['semester']}")
+    print(f"  • Subject:  {parsed['subject_title']}")
+    print(f"  • Type:     {'Syllabus' if parsed['is_syllabus'] else 'Question Paper'}")
+    print(f"  • Drive ID: {drive_id}")
+
+    confirm = input("\nProceed? [Y/n]: ").strip().lower()
+    if confirm in ["n", "no"]:
+        print("Cancelled.")
+        return
+
+    add_paper(parsed, drive_id)
+
+    # Rebuild search and sitemap
+    subprocess.run(["python", "generate_sitemap.py"])
+    
+    push = input("\n🚀 Commit and push live to Cloudflare Pages? [Y/n]: ").strip().lower()
+    if push not in ["n", "no"]:
+        commit_msg = f"Add {parsed['course_name']} Sem {parsed['semester']} {parsed['subject_title']}"
+        subprocess.run(["git", "add", "."])
+        subprocess.run(["git", "commit", "-m", commit_msg])
+        subprocess.run(["git", "push", "origin", "main"])
+        print("\n✅ Deployed live to https://examstash.online/ !")
+
+if __name__ == "__main__":
+    main()

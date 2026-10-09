@@ -1,0 +1,31 @@
+name: ExamStash CI & Integrity Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Site Health & Link Integrity Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate Site Integrity & Links
+        run: |
+          python validate_site.py
+
+      - name: Verify Sitemap Generation
+        run: |
+          python generate_sitemap.py
