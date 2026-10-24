@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.5 Georgia,"Times New Roman",serif;color:#000;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#000;text-decoration:none}
+a:hover,a:focus-visible{text-decoration:underline}
+main{max-width:640px;margin:0 auto;padding:24px 16px 32px}
+.college{margin:4px 0 16px;font:700 13px/1.4 Verdana,sans-serif}
+h1{margin:0 0 4px;font-size:24px;line-height:1.2}
+.bc{margin:0 0 16px;font:11px/1.4 Verdana,sans-serif}
+.bc a{text-decoration:underline}
+input{display:block;width:100%;margin-bottom:8px;padding:12px;font:16px Verdana,sans-serif;color:#000;background:#fff;border:1px solid #000;border-radius:0;-webkit-appearance:none}
+h2{margin:28px 0 2px;font-size:20px;line-height:1.2}
+.r{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid #ccc}
+.r b{font-weight:400;min-width:0;overflow-wrap:break-word}
+.r i{font:13px Verdana,sans-serif;font-style:normal;white-space:nowrap;margin-left:auto;flex-shrink:0}
+footer{margin-top:40px;font:13px Verdana,sans-serif;text-align:center}
+footer a{text-decoration:underline}
+.soc{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:14px}
+.soc a{display:inline-flex;color:#000;text-decoration:none}
+.soc svg{width:16px;height:16px;display:block}
+[hidden]{display:none!important}
