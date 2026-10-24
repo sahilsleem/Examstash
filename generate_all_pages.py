@@ -118,6 +118,15 @@ PROGRAMMES = [
     }
 ]
 
+FOOTER_HTML = """<footer>
+<p><a href="https://t.me/sahilsleem">Share a paper</a></p>
+<nav class="soc" aria-label="Social links">
+<a href="https://t.me/sahilsleem" aria-label="Telegram" title="Telegram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 3 2.5 10.4l6 2.3 2.3 6.2 3.2-4 4.8 3.6z"/><path d="m8.5 12.7 13-9.7"/></svg></a>
+<a href="https://www.instagram.com/sahilsleem/" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+<a href="mailto:examstash1@gmail.com" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+</nav>
+</footer>"""
+
 def format_count(papers, syllabi):
     parts = []
     if papers > 0:
@@ -236,7 +245,6 @@ def main():
         extra_meta=home_extra
     )
     
-    # Build the 5 sections
     sections_html = []
     
     # 1. Common
@@ -303,19 +311,25 @@ def main():
 {chr(10).join(sci_links)}
 </section>""")
 
+    about_section_html = """<section id="about">
+<h2>About</h2>
+<p>ExamStash has free past papers and syllabus for students of Islamia College of Science &amp; Commerce, Srinagar. A paper missing? Send it on <a href="https://t.me/sahilsleem">Telegram</a>.</p>
+</section>"""
+
     home_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <h1>ExamStash</h1>
 <input id="q" type="search" aria-label="Search programmes" placeholder="Search programme" autocomplete="off">
 {chr(10).join(sections_html)}
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{about_section_html}
+{FOOTER_HTML}
 </main>
 <script>
 var q=document.getElementById('q');
 q.addEventListener('input',function(){{var v=q.value.toLowerCase().trim();
 document.querySelectorAll('a.r').forEach(function(a){{a.hidden=!!v&&a.textContent.toLowerCase().indexOf(v)<0}});
-document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelector('a.r:not([hidden])')}})}});
+document.querySelectorAll('section').forEach(function(s){{if(s.id==='about'){{s.hidden=!!v}}else{{s.hidden=!s.querySelector('a.r:not([hidden])')}}}})}});
 </script>
 </body>
 </html>"""
@@ -329,7 +343,6 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         short_name = prog["short_name"]
         prog_path = os.path.join(slug, "index.html")
         
-        # Read existing metadata if available
         prog_title = f"{short_name} Past Papers & Syllabus — Islamia College"
         prog_desc = f"Download free previous year question papers and syllabi for {short_name} at Islamia College of Science & Commerce, Srinagar."
         canonical_url = f"https://examstash.online/{slug}/"
@@ -350,7 +363,6 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
             extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
         )
         
-        # Build semester rows
         sem_rows = []
         for sem in prog["semesters"]:
             sem_data = data[slug]["semesters"].get(sem, {"count_str": ""})
@@ -365,7 +377,7 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
 <p class="bc"><a href="/">Home</a> › {short_name}</p>
 <h1>{short_name}</h1>
 {chr(10).join(sem_rows)}
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -424,7 +436,7 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
 <p class="bc"><a href="/">Home</a> › <a href="/{slug}/">{short_name}</a> › {sem_display}</p>
 <h1>{sem_display}</h1>
 {chr(10).join(content_blocks)}
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -453,7 +465,7 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
 <p class="bc"><a href="/">Home</a> › <a href="/{slug}/">{short_name}</a> › <a href="/{slug}/{sem}/">{sem_display}</a> › {sub['title']}</p>
 <h1>{sub['title']}</h1>
 <a class="r" href="{sub['drive_link']}" target="_blank" rel="noopener"><b>Download PDF</b><i>View</i></a>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -470,13 +482,13 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         canonical_url="https://examstash.online/about/",
         extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
     )
-    about_body = """<body>
+    about_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <p class="bc"><a href="/">Home</a> › About</p>
 <h1>About</h1>
 <p>ExamStash has free past papers and syllabus for students of Islamia College of Science &amp; Commerce, Srinagar. A paper missing? Send it on <a href="https://t.me/sahilsleem">Telegram</a>.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -490,13 +502,13 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         canonical_url="https://examstash.online/contact/",
         extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
     )
-    contact_body = """<body>
+    contact_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <p class="bc"><a href="/">Home</a> › Contact</p>
 <h1>Contact</h1>
 <p>Send a message on <a href="https://t.me/sahilsleem">Telegram</a> or email <a href="mailto:examstash1@gmail.com">examstash1@gmail.com</a>.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -510,13 +522,13 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         canonical_url="https://examstash.online/privacy/",
         extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
     )
-    privacy_body = """<body>
+    privacy_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <p class="bc"><a href="/">Home</a> › Privacy</p>
 <h1>Privacy Policy</h1>
 <p>ExamStash does not collect personal data or require accounts. Google AdSense and Google Analytics may use cookies to serve ads and analyze anonymous traffic.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -530,13 +542,13 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         canonical_url="https://examstash.online/terms/",
         extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
     )
-    terms_body = """<body>
+    terms_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <p class="bc"><a href="/">Home</a> › Terms</p>
 <h1>Terms</h1>
 <p>ExamStash is an independent student resource and is not affiliated with Islamia College of Science &amp; Commerce. All study materials are for educational reference.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -550,13 +562,13 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         canonical_url="https://examstash.online/dmca/",
         extra_meta='<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1741354477413638"></script>\n'
     )
-    dmca_body = """<body>
+    dmca_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <p class="bc"><a href="/">Home</a> › DMCA</p>
 <h1>DMCA</h1>
 <p>If you believe content infringes your copyright, email <a href="mailto:examstash1@gmail.com">examstash1@gmail.com</a> or message on <a href="https://t.me/sahilsleem">Telegram</a> for prompt removal.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -578,12 +590,12 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
 <link rel="stylesheet" href="/style.css">
 <script defer src="/assets/js/analytics.js"></script>
 </head>"""
-    notfound_body = """<body>
+    notfound_body = f"""<body>
 <main>
 <p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <h1>404</h1>
 <p>Page not found. <a href="/">Return to home</a>.</p>
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{FOOTER_HTML}
 </main>
 </body>
 </html>"""
@@ -591,7 +603,6 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
         f.write(notfound_head + "\n" + notfound_body)
 
     print("5. Syncing to islamia-college mirror...")
-    # Mirror all programme folders to islamia-college/
     for prog in PROGRAMMES:
         slug = prog["slug"]
         src = slug
@@ -600,13 +611,11 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
             shutil.rmtree(dst)
         shutil.copytree(src, dst)
 
-    # islamia-college/terms/index.html
     ic_terms_dir = os.path.join("islamia-college", "terms")
     os.makedirs(ic_terms_dir, exist_ok=True)
     with open(os.path.join(ic_terms_dir, "index.html"), "w", encoding="utf-8") as f:
         f.write(terms_head + "\n" + terms_body)
 
-    # islamia-college/index.html
     ic_index_head = build_head(
         title="Islamia College of Science and Commerce — Past Papers & Syllabus",
         description="Download free previous year question papers and syllabus for Islamia College of Science and Commerce (ICSC) Srinagar.",
@@ -620,13 +629,14 @@ document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelec
 <h1>Islamia College of Science &amp; Commerce</h1>
 <input id="q" type="search" aria-label="Search programmes" placeholder="Search programme" autocomplete="off">
 {chr(10).join(sections_html)}
-<footer><a href="https://t.me/sahilsleem">Share a paper</a></footer>
+{about_section_html}
+{FOOTER_HTML}
 </main>
 <script>
 var q=document.getElementById('q');
 q.addEventListener('input',function(){{var v=q.value.toLowerCase().trim();
 document.querySelectorAll('a.r').forEach(function(a){{a.hidden=!!v&&a.textContent.toLowerCase().indexOf(v)<0}});
-document.querySelectorAll('section').forEach(function(s){{s.hidden=!s.querySelector('a.r:not([hidden])')}})}});
+document.querySelectorAll('section').forEach(function(s){{if(s.id==='about'){{s.hidden=!!v}}else{{s.hidden=!s.querySelector('a.r:not([hidden])')}}}})}});
 </script>
 </body>
 </html>"""

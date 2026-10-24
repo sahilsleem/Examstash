@@ -3,15 +3,18 @@ body{margin:0;font:17px/1.5 Georgia,"Times New Roman",serif;color:#000;backgroun
 a{color:#000;text-decoration:none}
 a:hover,a:focus-visible{text-decoration:underline}
 main{max-width:640px;margin:0 auto;padding:32px 16px 24px}
-.college{margin:0 0 6px;font:700 15px/1.4 Verdana,sans-serif}
-h1{margin:0 0 16px;font-size:34px;line-height:1.2}
-.bc{margin:0 0 20px;font:13px Verdana,sans-serif}
+.college{margin:0 0 6px;font:700 14px/1.4 Verdana,sans-serif}
+h1{margin:0 0 16px;font-size:24px;line-height:1.2}
+.bc{margin:0 0 20px;font:11px/1.4 Verdana,sans-serif}
 .bc a{text-decoration:underline}
 input{display:block;width:100%;margin-bottom:8px;padding:12px;font:16px Verdana,sans-serif;color:#000;background:#fff;border:1px solid #000;border-radius:0}
-h2{margin:28px 0 2px;font-size:24px;line-height:1.2}
+h2{margin:28px 0 2px;font-size:20px;line-height:1.2}
 .r{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 12px;padding:10px 0;border-bottom:1px solid #ccc}
 .r b{font-weight:400}
 .r i{font:13px Verdana,sans-serif;font-style:normal;white-space:nowrap}
 footer{margin-top:40px;font:13px Verdana,sans-serif}
 footer a{text-decoration:underline}
+.soc{display:flex;gap:16px;margin-top:16px}
+.soc a{display:inline-flex;color:#000;text-decoration:none}
+.soc svg{width:20px;height:20px}
 [hidden]{display:none!important}
