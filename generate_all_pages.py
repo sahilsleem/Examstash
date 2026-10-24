@@ -318,8 +318,8 @@ def main():
 
     home_body = f"""<body>
 <main>
-<p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <h1>ExamStash</h1>
+<p class="college">Islamia College of Science &amp; Commerce, Srinagar</p>
 <input id="q" type="search" aria-label="Search programmes" placeholder="Search programme" autocomplete="off">
 {chr(10).join(sections_html)}
 {about_section_html}
