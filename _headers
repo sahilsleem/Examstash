@@ -5,8 +5,8 @@
   Cache-Control: public, max-age=0, must-revalidate
   Access-Control-Allow-Origin: *
 
-# CSS & Static Fonts/Icons - 1 Day Cache
-/assets/css/*
+# CSS - 1 Day Cache
+/style.css
   Cache-Control: public, max-age=86400
   Access-Control-Allow-Origin: *
 
