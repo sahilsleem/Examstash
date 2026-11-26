@@ -1,0 +1,71 @@
+name: Auto-Add Contributed Paper
+
+on:
+  repository_dispatch:
+    types: [new-paper]
+  workflow_dispatch:
+    inputs:
+      course:
+        description: 'Programme / Course Slug (e.g. bca, bsc-it, bba, bcom)'
+        required: true
+        default: 'bca'
+      semester:
+        description: 'Semester (e.g. semester-1 or 1)'
+        required: true
+        default: 'semester-1'
+      subject:
+        description: 'Subject Name & Exam Year (e.g. Data Structures 2023)'
+        required: true
+      type:
+        description: 'Resource Type (paper or syllabus)'
+        required: true
+        default: 'paper'
+      link:
+        description: 'Google Drive URL or File ID'
+        required: true
+
+jobs:
+  add-paper:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install beautifulsoup4
+
+      - name: Add Submitted Paper
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python add_paper.py --course "${{ github.event.inputs.course }}" --semester "${{ github.event.inputs.semester }}" --subject "${{ github.event.inputs.subject }}" --type "${{ github.event.inputs.type }}" --link "${{ github.event.inputs.link }}"
+          else
+            python add_paper.py --course "${{ github.event.client_payload.course }}" --semester "${{ github.event.client_payload.semester }}" --subject "${{ github.event.client_payload.subject }}" --type "${{ github.event.client_payload.type }}" --link "${{ github.event.client_payload.link }}"
+          fi
+
+      - name: Validate Integrity & Links
+        run: |
+          python validate_site.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "ExamStash Bot"
+          git config user.email "bot@examstash.online"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            SUBJECT="${{ github.event.client_payload.subject || github.event.inputs.subject }}"
+            git commit -m "Auto-add paper: $SUBJECT"
+            git push origin main
+          fi
